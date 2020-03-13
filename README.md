@@ -2,7 +2,7 @@
 
 Repositories focused on discussions and development of the [Reference Data Models](https://docs.swissartresearch.net/instruction/).
 
-With the term Reference Data Models we denote a re-usable template of common descriptors, developed by the [**S**wiss **A**rt **R**esearch **I**nfrastructure project](https://swissartresearch.net), grounded on the analysis of select sources determined to be of relevance to the entity being modelled.  
+With the term Reference Data Models we denote a re-usable, not prescriptive, templates of common descriptors, developed by the [**S**wiss **A**rt **R**esearch **I**nfrastructure project](https://swissartresearch.net), grounded on the analysis of select sources determined to be of relevance to the entity being modelled.  
 
 Each available template is a collection of descriptors for a specific entity, and each descriptor is mapped to the [CIDOC-CRM](http://www.cidoc-crm.org) ontology. The aim is manifold: to provide reference implementations to be used by institutions and projects not familiar with [CIDOC-CRM](http://www.cidoc-crm.org), to create usable guidelines to generate input interfaces for born-CRM semantic data and to guide mapping processes from extant sources into the CRM conformant reference model using tools such as 3M or X3ML. 
 
