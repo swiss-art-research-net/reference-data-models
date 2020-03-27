@@ -134,42 +134,42 @@ The attribution of names and types to bibliographic item, as with other entities
     <th>F24/E33 Publication Expression→ p2→ E55"Bibliographic Item"</th>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Identifier Attribution</td>
     <td>Identifier</td>
     <td>This field is used to indicate an identifier attributed to the documented bibliographic item.</td>
     <td>→ P1→ E42[1]</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Identifier Attribution</td>
     <td>Identifier Type</td>
     <td>This field is used to indicate the type of an identifier attributed to the documented bibliographic item.</td>
     <td>→ P1→ E42[1]→ P2→ E55["Identifier Type"]</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Identifier Attribution</td>
     <td>Identifier Provider</td>
     <td>This field is used to indicate the provider of the identifier attributed to the documented bibliographic item.</td>
     <td>→ P1→ E42[1]→ P37i→ E15[2]→ P14→ E39</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Identifier Attribution</td>
     <td>Identifier Source</td>
     <td>This field is used to indicate the source based on which the identifier was attributed to the bibliographic item.</td>
     <td>→ P1→ E42[1]→ P37i→ E15[2]→ p16→ E73</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>n/a</td>
     <td>Type</td>
     <td>This field is used to indicate the form of the bibliographic item.</td>
     <td>→ p2→ E55</td>
   </tr>
   <tr>
-    <td>IDC</td>
+    
     <td>n/a</td>
     <td>Title</td>
     <td>This field is used to indicate the main name attributed to the documented bibliographic item. No part break down of name is here implied. The full name of an individual is expected here where available.</td>
@@ -177,28 +177,28 @@ The attribution of names and types to bibliographic item, as with other entities
 → P1→ E41[3]→ P2→ E55['Preferred Title']</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>n/a</td>
     <td>Title Language</td>
     <td>This field is used to indicate the language of the name attributed to the bibliographic item.</td>
     <td>→ P1→ E41[3]→ p72→ E56</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>n/a</td>
     <td>Part of Title</td>
     <td>This field is used to indicate a sub part of the title attributed to the documented bibliographic item. It can be used, for example, to documeent a 'subtitle' separately to the whole title.</td>
     <td>→ P1→ E41[3]→ P106→ E41[4]→ P2→ E55['Part of Title']</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>n/a</td>
     <td>Part of Title Language</td>
     <td>This field is used to indicate the language of the part of the title attributed to the bibliographic item.</td>
     <td>→ P1→ E41[3]→ P106→ E41[4]→ p72→ E56</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>n/a</td>
     <td>Language</td>
     <td>This field is used to indicate the language of the documented bibliographic item.</td>
@@ -224,35 +224,35 @@ Bibliographic items, will often have an ‘abstract’ describing them as well a
     <th>F24/E33 Publication Expression→ p2→ E55"Bibliographic Item"</th>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Description</td>
     <td>Description Type</td>
     <td>This field is used to indicate the type of description given of the documented instance of bibliographic item.</td>
     <td>→ P129i→ E73[5]→ P2→ E55</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Description</td>
     <td>Description Author</td>
     <td>This field is used to indicate the author of the description given of the documented instance of bibliographic entity</td>
     <td>→ P129i-→ E73[5]→ P94i→ E65[6]-p14→ E39</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Description</td>
     <td>Description Date - Earliest</td>
     <td>This field is used to indicate the earliest date for the creation of the description of the documented instance of bibliographic item.</td>
     <td>→ P129i-→ E73[5]→ P94i→ E65[6]→ P4→ E52[7]→ P82a→ xsd:dateTime</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Description</td>
     <td>Description Date - Latest</td>
     <td>This field is used to indicate the latest date for the creation of the description of the documented instance of bibliographic item.</td>
     <td>→ P129i-→ E73[5]→ P94i→ E65[6]→ p4→ E52[7]→ P82b→ xsd:dateTime</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Description</td>
     <td>Description</td>
     <td>This field is used to indicate a description of the documented instance of bibliographic item.</td>
@@ -281,7 +281,7 @@ With regards to parthood a simple pattern is modelled here. A bibliographic item
     <th>F24/E33 Publication Expression→ p2→ E55"Bibliographic Item"</th>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>n/a</td>
     <td>Part of</td>
     <td>This field is used to indicate the belonging of the particular bibliographic item to a larger bibliographic unit, such as the relation between a chapter and a book, an article and a journal issue etc.</td>
@@ -306,21 +306,21 @@ The publication period of a bibliographic item helps establish its particular id
     <th>F24/E33 Publication Expression→ p2→ E55"Bibliographic Item"</th>
   </tr>
   <tr>
-    <td>IDC</td>
+    
     <td>Publication</td>
     <td>Publication Place</td>
     <td>This field is used to indicate the place of birth of the documented bibliographic item.</td>
     <td>→ R24i→ F30[9]→ P7→ E53</td>
   </tr>
   <tr>
-    <td>IDC</td>
+    
     <td>Publication</td>
     <td>Publication Date - Earliest</td>
     <td>This field is used to indicate the earliest known date for the birth of the documented bibliographic item.</td>
     <td>→ R24i→ F30[9]→ P4→ E52[10]→ P82a→ xsd:dateTime</td>
   </tr>
   <tr>
-    <td>IDC</td>
+    
     <td>Publication</td>
     <td>Publication Date - Latest</td>
     <td>This field is used to indicate the latest known date for the birth of the documented bibliographic item.</td>
@@ -346,7 +346,7 @@ In this modelling we identify the publisher but also the authors and other contr
     <th>F24/E33 Publication Expression→ p2→ E55"Bibliographic Item"</th>
   </tr>
   <tr>
-    <td>IDC</td>
+    
     <td>Publication</td>
     <td>Publisher</td>
     <td>This field is used to indicate the publisher of the bibliographic item.</td>
@@ -354,14 +354,14 @@ In this modelling we identify the publisher but also the authors and other contr
 → R24i→ F30[7]→ P01→ PC14[11]→ P14.1→ E55"Publisher"</td>
   </tr>
   <tr>
-    <td>IDC</td>
+    
     <td>Authorship</td>
     <td>Author</td>
     <td>This field is used to indicate authors, contributors and other producers of the content of the bibliographic item.</td>
     <td>→ R24i→ F30[9]→ P01→ PC14[11]→ P02→ E39</td>
   </tr>
   <tr>
-    <td>IDC</td>
+    
     <td>Authorship</td>
     <td>Role</td>
     <td>This field is used to indicate the role of the author, conitrbutor and other producers of content of the bibliographic item in creating that content.</td>
@@ -385,7 +385,7 @@ The standard information available with regards to the substance of a bibliograp
     <th>F24/E33 Publication Expression→ p2→ E55"Bibliographic Item"</th>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>n/a</td>
     <td>Number of Pages</td>
     <td>This field is used to indicate the number of pages in a volume using free text.</td>
@@ -410,21 +410,21 @@ The use of the bibliographic item to the researcher lies in its role as an infor
     <th>F24/E33 Publication Expression→ p2→ E55"Bibliographic Item"</th>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>n/a</td>
     <td>Temporal Reference</td>
     <td>This field is used to indicate the temporal coverage associated with the documented bibliographic item. It is meant to capture the temporal area to which this item can be associated as having relevance.</td>
     <td>→ p129→ E4</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>n/a</td>
     <td>Physical Geographic Reference</td>
     <td>This field is used to indicate the geographic coverage associated with the documented bibliographic item. It is meant to capture the geographic area to which this item can be associated as having relevance.</td>
     <td>→ p129→ E53</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>n/a</td>
     <td>Subject Reference</td>
     <td>This field is used to indicate the subject of representation of the documented archival item. It is meant to capture general subject areas, not particular individual items represented.</td>
@@ -448,21 +448,21 @@ The documentation of physical holdings allows the optional tracking of individua
     <th>F24/E33 Publication Expression→ p2→ E55"Bibliographic Item"</th>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>ID</td>
     <td>Item Identifier</td>
     <td>This field is used to indicate the identification number for a library item carrying this bibliographic item.</td>
     <td>→ p128i→ E22[13]→ p1→ E42</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Actor Relation</td>
     <td>Item Owner</td>
     <td>This field is used to indicate the institution possessing the library item carrying this bibliographic item.</td>
     <td>→ p128i→ E22[13]→ p51→ E39</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Location</td>
     <td>Present Item Location - Shelf</td>
     <td>This field is used to indicate the shelf location at which a bibliographic item can be found.</td>
@@ -471,7 +471,7 @@ The documentation of physical holdings allows the optional tracking of individua
 → p128i→ E22[13]→ p53→ E53[14]→ P89→ E53[15]</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Location</td>
     <td>Present Item Location - Institution</td>
     <td>This field is used to document the institution at which the documented artwork is presently located.</td>
@@ -480,7 +480,7 @@ The documentation of physical holdings allows the optional tracking of individua
 → p128i→ E22[13]→ p53→ E53[15]→ P2→ E55"Institutional Location"</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Location</td>
     <td>Present Item Location - Institution Address</td>
     <td>This field is used to document the address of the institution at which the documented artwork is presently located.</td>
@@ -489,7 +489,7 @@ The documentation of physical holdings allows the optional tracking of individua
 → p128i→ E22[13]→ p53→ E53[15]→ P2→ E55"Institutional Location"</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Location</td>
     <td>Present Item Location - Institutionn coordinates</td>
     <td>This field is used to indicate the coordinates for the institution at which the documented is presently located.</td>

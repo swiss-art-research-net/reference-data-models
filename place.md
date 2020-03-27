@@ -104,35 +104,35 @@ The attribution of names and types to  a place, as with other entities, is a bas
     <th>E53 Place</th>
   </tr>
   <tr>
-    <td>IDC</td>
+    
     <td>ID Attribution</td>
     <td>Identifier</td>
     <td>This field is used to indicate an identifier attributed to the documented place.</td>
     <td>->P1->E42[1]</td>
   </tr>
   <tr>
-    <td>IDC</td>
+    
     <td>ID Attribution</td>
     <td>Identifier Type</td>
     <td>This field is used to indicate the type of an identifier attributed to the documented place.</td>
     <td>->P1->E42[1]->P2->E55["Identifier Type"]</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>ID Attribution</td>
     <td>Identifier Provider</td>
     <td>This field is used to indicate the institution providing the documented place it's ID.</td>
     <td>->P1->E42[1]->P37i->E15[2]->P14->E39</td>
   </tr>
   <tr>
-    <td>IDC</td>
+    
     <td>ID Attribution</td>
     <td>Identifier Source</td>
     <td>This field is used to indicate the source based on which the identifier was attributed to the object.</td>
     <td>->P1->E42[1]->P37i->E15[2]->p16->E73</td>
   </tr>
   <tr>
-    <td>IDC</td>
+    
     <td>n/a</td>
     <td>Name</td>
     <td>This field is used to indicate the main name attributed to the documented instance of place.</td>
@@ -140,14 +140,14 @@ The attribution of names and types to  a place, as with other entities, is a bas
 ->P1->E41[3]->P2->E55['Preferred Name']</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>n/a</td>
     <td>Name Language</td>
     <td>This field is used to indicate the language of the name given to the place.</td>
     <td>->p1->E41[3]->p72->E56</td>
   </tr>
   <tr>
-    <td>IDC</td>
+    
     <td>n/a</td>
     <td>Place Type</td>
     <td>This field is used to indicate the formal type of place a documented instance of place is classified as.</td>
@@ -155,7 +155,7 @@ The attribution of names and types to  a place, as with other entities, is a bas
 ->P2->E55[4]->P71->E32</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>n/a</td>
     <td>Place Type Qualifying Description</td>
     <td>This field is used to provide a description of the place type in free text.</td>
@@ -164,63 +164,63 @@ The attribution of names and types to  a place, as with other entities, is a bas
 ->p41i->E17[5]->P129i->E73[6]->p72->E56</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>n/a</td>
     <td>Place Type - Start Date</td>
     <td>This field is used to indicate at what date a place type was specified to hold for a place.</td>
     <td>->p41i->E17[5]->p4->E52[7]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>n/a</td>
     <td>Place Type - End Date</td>
     <td>This field is used to indicate at what date a place type was specified to cease to hold for a place.</td>
     <td>->p41i->E17[155]->p4->E52[7]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Alternate Title</td>
     <td>Alternative Name</td>
     <td>This field is used to indicate additional names under which the documented instance of place is known. This can be linked to the additional name type and earliest and latest date of use of that name.</td>
     <td>->P1->E41[8]</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Alternate Title</td>
     <td>Alternative Name Language</td>
     <td>This field is used to indicate the language of the additional name given to the place.</td>
     <td>->p1->E41[8]->p72->E56</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Alternate Title</td>
     <td>Alternate Name Type</td>
     <td>This field is used to indicate the type of alternate name that is attributed to the documented instance of place.</td>
     <td>v b</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Alternate Title</td>
     <td>Alternate Name Use Period - Earliest</td>
     <td>This field is used to indicate the earliest known date for use of an alternate name for the documented instance of place.</td>
     <td>->P1->E41[8]->R64i->F52[9]>p4->E52[10]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Alternate Title</td>
     <td>Alternate Name Use Period - Latest</td>
     <td>This field is used to indicate the latest known date for use of an alternate name for the documented instance of place.</td>
     <td>->P1->E41[8]->R64i->F52[9]>p4->E52[10]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>n/a</td>
     <td>Alternative Name - Used by</td>
     <td>This field is used to indicate the actor by whom the alternate name attributed to the instance of place is/was used.</td>
     <td>->R63i->F52[9]->P14->E39</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>n/a</td>
     <td>Alternative Name - Attributed by</td>
     <td>This field is used to indicate the organization attributing the instance of name use to the place.</td>
@@ -229,7 +229,7 @@ The attribution of names and types to  a place, as with other entities, is a bas
 ->p141i->E13[11]->p141->F52[9]</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>n/a</td>
     <td>Alternative Name - Source</td>
     <td>This field is used to indicate the source on which the organization attributing the instance of name use based their attribution.</td>
@@ -254,42 +254,42 @@ Places are the subjects of innumerable descriptions that provide a wide range of
     <th>E53 Place</th>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Description</td>
     <td>Description</td>
     <td>This field is used to indicate a description of the documented instance of place.</td>
     <td>->P129i->E73/E33[13]->has:value->Literal</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Description</td>
     <td>Description Language</td>
     <td>This field is used to indicate the language of the description of the documented instance of place.</td>
     <td>->p129i->E73/E33[13]->p72->E56</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Description</td>
     <td>Description Type</td>
     <td>This field is used to indicate the type of description given of the documented instance of place.</td>
     <td>->P129i->E73/E33[13]->P2->E55</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Description</td>
     <td>Description Author</td>
     <td>This field is used to indicate the author of the description given of the documented instance of place.</td>
     <td>->P129i->E73/E33[13]->P94i->E65[14]>-p14->E39</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Description</td>
     <td>Description Date - Earliest</td>
     <td>This field is used to indicate the ealiest date for the creation of the description of the documented instance of place.</td>
     <td>->P129i->E73/E33[13]->P94i->E65[14]->P4->E52[15]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Description</td>
     <td>Description Date - Latest</td>
     <td>This field is used to indicate the latest date for the creation of the description of the documented instance of place.</td>
@@ -322,28 +322,28 @@ The mereo-topological breakdown of places is crucial to understanding the relati
     <th>E53 Place</th>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Current Parthood</td>
     <td>Part of</td>
     <td>This field is used to indicate that the broader geographic place that the documented place falls within.</td>
     <td>->P89->E53</td>
   </tr>
   <tr>
-    <td>IDC</td>
+    
     <td>Current Parthood</td>
     <td>Has Part</td>
     <td>This field is used to indicate individually documented sub places which form part of the documented place.</td>
     <td>->p89i->E53</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Historical Parthood</td>
     <td>Historically Part of Place</td>
     <td>This field is used to indicate the broader geographic place that the documented place falls within.</td>
     <td>->P161i->E4[16]->p166i->E93[E22]->p10i->E4->p161->E53</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Historical Parthood</td>
     <td>Name at Time of Parthood of Place</td>
     <td>This field is used to indicate the name of the place at the time of being part of another historical place.</td>
@@ -352,7 +352,7 @@ The mereo-topological breakdown of places is crucial to understanding the relati
 ->P161i->E4[16]->p166i->E93[20]->-p10i->F52->R64->E41[25]-P1i->E93[20]</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Historical Parthood</td>
     <td>Type at Time of Parthood of Place</td>
     <td>This field is used to indicate the type of the place at the time of being part of another historical place.</td>
@@ -361,56 +361,56 @@ The mereo-topological breakdown of places is crucial to understanding the relati
 ->P161i->E4[16]->p166i->E93[20]->-p10i->E17->P42->E55->P2i->E55</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Historical Parthood</td>
     <td>Historically part of Place - Earliest Date Time</td>
     <td>This field is used to indicate the earliest point during which this instance of place fell within the place that it was historically a part of.</td>
     <td>->P161i->E4[16]->p166i->E93[20]->P160->E52[17]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Historical Parthood</td>
     <td>Historically part of Place - Latest Date Time</td>
     <td>This field is used to indicate the latest point during which this instance of place fell within the place that it was historically a part of.</td>
     <td>->P161i->E4[16]->P166i->E93[20]->P160->E52[17]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Historical Parthood</td>
     <td>Historically Has Part</td>
     <td>This field is used to indicate that the broader geographic place that the documented place falls within.</td>
     <td>->P161i->E4[17]->p10->E4->p161->E53</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Historical Parthood</td>
     <td>Name at Time of Containing Historical Place</td>
     <td>This field is used to indicate the name of the place at the time of containing another historical place.</td>
     <td>->P161i->E4[17]->p1->E41</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Historical Parthood</td>
     <td>Type at Time of Containing Historical Place</td>
     <td>This field is used to indicate the type of the place at the time of containing another historical place.</td>
     <td>->p161i->E4[17]->p2->E55</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Historical Parthood</td>
     <td>Historically Has Part - Earliest Date Time</td>
     <td>This field is used to indicate the earliest point during which this instance of place fell within the place that it was historically a part of.</td>
     <td>->P161i->E4[17]->P160->E52[18]->P82a->xsd:dateTime</td>
   </tr>
   <tr>
-    <td>EP</td>
+    
     <td>Historical Parthood</td>
     <td>Historically Has Part - Latest Date Time</td>
     <td>This field is used to indicate the latest point during which this instance of place fell within the place that it was historically a part of.</td>
     <td>->P161i->E4[17]->P160->E52[18]->P82b->xsd:dateTime</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>Historical Parthood</td>
     <td>Historical Coordinates</td>
     <td>This field is used to indicate the historical coordinates of the geographic place to which the occurrence of the documented instance of place is localized..</td>
@@ -434,7 +434,7 @@ Crucial in the documentation of place is the capturing of geometric estimations 
     <th>E53 Place</th>
   </tr>
   <tr>
-    <td>IDC</td>
+    
     <td>n/a</td>
     <td>Coordinates</td>
     <td>This field is used to indicate the coordinates of the geographic place to which the occurrence of the documented instance of place is localized..</td>
@@ -459,7 +459,7 @@ This information category unites referential information about the documented ev
     <th>E53 Place</th>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>n/a</td>
     <td>Citation</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented instance of place.</td>
@@ -468,7 +468,7 @@ This information category unites referential information about the documented ev
 ->P129i->E73[19]->P67->E73 [from Bibliography Entity Type]</td>
   </tr>
   <tr>
-    <td>SI</td>
+    
     <td>n/a</td>
     <td>Image</td>
     <td>This field is used to indicate bibliographic records that stand as reference documentation for the documented archival item.</td>
