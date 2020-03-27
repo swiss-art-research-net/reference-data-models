@@ -178,6 +178,13 @@ The attribution of names and types to persons is a basic human activity. A chief
     <td> → P1 → E41[2] •   
  → P1 → E41[2] → P2 → E55['Preferred Name']</td>
   </tr>
+    <tr>
+    <td>n/a</td>
+    <td>Name Part</td>
+    <td>This field is used to indicate a type of a specific part of the name attributed to the documented entity.</td>
+    <td> → P1 → E41[2] → P106 → E41[22]→ P2 → E55 </td>
+  </tr>
+
   <tr>
     <td>n/a</td>
     <td>Name Language</td>
