@@ -1,0 +1,6 @@
+﻿Acronym,Source Name,Official Access Point,Schema Documentation,Maintained by
+MARC 21,Marc 21 - Bibliography Heading Fields,http://www.loc.gov/marc/,http://www.loc.gov/marc/bibliographic/,Library of Congress
+CiTO,"CiTO, the Citation Typing Ontology",,https://sparontologies.github.io/cito/current/cito.html,David Shotton Silvio Peroni
+BIBO,Bibliographic-Ontology-BIBO,http://bibliontology.com/,https://github.com/structureddynamics/Bibliographic-Ontology-BIBO/blob/master/bibo.owl,Frédérick Giasson - Structured Dynamics
+BIBFRAME,,http://id.loc.gov/ontologies/bibframe-category.html,,Library of Congress
+ISBD,International Standard Bibliographic Description,https://www.ifla.org/best-practice-for-national-bibliographic-agencies-in-a-digital-age/node/8912,https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf,IFLA

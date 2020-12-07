@@ -1,0 +1,113 @@
+site_name: Semantic Reference Data Models
+site_description: Semantic Reference Data Models
+repo_name: Swiss Art Research Infrastrcture
+repo_url: https://swissartresearch.net
+edit_uri: ""
+
+# Customization
+extra:
+    social:
+      - icon: fontawesome/brands/github-alt
+        link: https://github.com/swiss-art-research-net/reference-data-models
+      - icon: fontawesome/brands/twitter
+        link: https://twitter.com/swissartresearx
+      - icon: fontawesome/solid/globe
+        link: https://swissartresearch.net
+
+# extra:
+#  social:
+#    - type: fontawesome/brands/github-alt
+#      link: https://swissartresearch.net
+
+use_directory_urls: true
+# pagination  
+nav:
+  - Home: index.md
+  - News: news.md
+  - How To: instruction.md
+  - Person: et/persons.md
+  - Artwork: et/artwork.md
+  - Group: et/group.md
+  - Built Work: et/built_work.md
+  - Event: et/event.md
+  - Digital Object: et/do.md
+  - Bibliographic item: et/bibliographic_item.md
+  - Place: et/place.md
+
+
+theme:
+    name: 'material'
+    logo: 'images/logo.png'
+    favicon: 'images/favicon.ico'
+    icon:
+        repo: fontawesome/solid/globe
+    font:
+        text: 'Source Sans Pro'
+        code: 'IBM Plex Mono'
+    custom_dir: 'theme/'
+    features:
+      - navigation.instant
+    palette:
+        primary: 'white'
+        
+
+#plugins 
+plugins:
+  - table-reader
+  - git-revision-date-localized
+#  - tooltipster-links
+#  - mermaid2
+#  - pheasant
+#  - macros
+#  - mkdocs-versioning:
+#        version: 1.0.0
+  - search:
+        separator: '[\s\-\.]+'
+        lang:
+          - en
+          - fr
+          - it
+          - de
+
+markdown_extensions:
+  - pymdownx.smartsymbols
+  - lightgallery
+  - pymdownx.mark
+  - markdown.extensions.attr_list
+  - pymdownx.superfences
+      # make exceptions to highlighting of code:
+#      custom_fences:
+#        - name: mermaid
+#          class: mermaid
+#          format: !!python/name:mermaid2.fence_mermaid
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.escapeall
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - toc:
+        permalink: true
+  - codehilite:
+        linenums: true
+  - meta
+#  - ocxmd:
+#     context: '"@context": "http://schema.org"'
+  - footnotes
+  - admonition
+  
+
+extra_css:
+#  - https://unpkg.com/mermaid@8.5.1/dist/mermaid.css
+#  - 'stylesheets/extra.css'
+  - 'css/lightgallery.min.css'
+  - 'css/tooltipster.bundle.min.css'
+  - 'css/extra_tooltip.css'
+  - 'css/tooltipster-sideTip-light.min.css'
+  - 'css/extra.css'
+
+extra_javascript:
+  - 'js/lightgallery.min.js'
+  - 'js/lightgallery_extra.js'
+  - 'js/tooltipster.bundle.js'  
+#  - https://unpkg.com/mermaid@8.5.1/dist/mermaid.min.js

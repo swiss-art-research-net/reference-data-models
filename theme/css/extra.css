@@ -1,0 +1,13 @@
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+td:first-child {
+  border-left: none;
+  width: 1em;
+  min-width: 1em;
+  max-width: 1em;
+  word-wrap: break-word;
+}
+
