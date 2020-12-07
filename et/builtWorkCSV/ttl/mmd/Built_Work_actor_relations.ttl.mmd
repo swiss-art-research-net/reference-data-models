@@ -13,12 +13,12 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-0["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P140i_was_attributed_by| 8["crm:E13_Attribute_Assignment"]:::Temporal_Entity
-0["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P108i_was_produced_by| 6["crm:E12_Production"]:::Temporal_Entity
-0["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P52_has_current_owner| 2["crm:E39_Actor"]:::Actor
-15["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 11["crm:E39_Actor"]:::Actor
-8["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P2_has_type| 4["crm:E55_Type"]:::Type
-6["crm:E12_Production"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 15["crm:PC14_carried_out_by"]:::PC_Classes
-0["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 16["crm:E55_type"]:::Default
-15["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 9["crm:E55_Type"]:::Type
-8["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P141_assigned| 17["crm:E74_Group"]:::Actor
+2["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P141_assigned| 3["crm:E74_Group"]:::Actor
+6["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P140i_was_attributed_by| 2["crm:E13_Attribute_Assignment"]:::Temporal_Entity
+6["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 4["crm:E55_type"]:::Default
+6["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P52_has_current_owner| 0["crm:E39_Actor"]:::Actor
+7["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 11["crm:E39_Actor"]:::Actor
+7["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 9["crm:E55_Type"]:::Type
+14["crm:E12_Production"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 7["crm:PC14_carried_out_by"]:::PC_Classes
+2["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P2_has_type| 15["crm:E55_Type"]:::Type
+6["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P108i_was_produced_by| 14["crm:E12_Production"]:::Temporal_Entity
