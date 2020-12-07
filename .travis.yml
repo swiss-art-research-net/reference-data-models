@@ -1,5 +1,6 @@
 language: python
-branches: main
+branches: master
+
 services:
 - docker
 before_install:
@@ -50,6 +51,8 @@ after_script:
 - git remote add gh-token "https://${GITHUB_TOKEN}@github.com/swiss-art-research-net/reference-data-models.git";
 - git fetch gh-token && git fetch gh-token gh-pages:gh-pages;
 - mkdocs gh-deploy -v --clean --remote-name gh-token;
+
+
 
 env:
   global:
