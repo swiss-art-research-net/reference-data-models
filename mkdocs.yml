@@ -91,8 +91,6 @@ markdown_extensions:
   - codehilite:
         linenums: true
   - meta
-#  - ocxmd:
-#     context: '"@context": "http://schema.org"'
   - footnotes
   - admonition
   
