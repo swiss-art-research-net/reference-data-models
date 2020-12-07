@@ -1,0 +1,31 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.srdm.org/physical_object/E22> a crm:E22_Human-Made_Object ;
+    crm:P129i_is_subject_of <https://www.srdm.org/conceptual_object/fie_188_1> ;
+    crm:P2_has_type <http://www.srdm.org/type/artwork> .
+
+<http://www.srdm.org/type/artwork> a crm:E55_type .
+
+<https://www.srdm.org/actor/fie_191_2> a crm:E39_Actor .
+
+<https://www.srdm.org/conceptual_object/fie_188_1> a crm:E33_Linguistic_Object ;
+    crm:P190_has_symbolic_content "content" ;
+    crm:P2_has_type <https://www.srdm.org/type/fie_190_1> ;
+    crm:P72_has_language <https://www.srdm.org/type/fie_189_1> ;
+    crm:P94i_was_created_by <https://www.srdm.org/event/fie_191_1> .
+
+<https://www.srdm.org/conceptual_object/fie_194_1> a crm:E73_Information_Object .
+
+<https://www.srdm.org/event/fie_191_1> a crm:E65_Creation ;
+    crm:P14_carried_out_by <https://www.srdm.org/actor/fie_191_2> ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_192_1> ;
+    crm:P63_used_specific_object <https://www.srdm.org/conceptual_object/fie_194_1> .
+
+<https://www.srdm.org/time_span/fie_192_1> a crm:E52_Time-span ;
+    crm:P81a_begin_of_the_begin "content" ;
+    crm:P81b_end_of_the_end "content" .
+
+<https://www.srdm.org/type/fie_189_1> a crm:E56_Language .
+
+<https://www.srdm.org/type/fie_190_1> a crm:E55_Type .
+

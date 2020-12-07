@@ -1,0 +1,3 @@
+identifier,Model Specific Name,Description,CRM Path,used by
+builtwork_177_location_-_institution_address,Location - Institution Address,This field is used to record the address at which the documented instance of physical object is located.,"--> P53 --> E53[177_1] --> P1 --> E41 [177_2]<br><br>P53 --> E53[177_1] --> P1 --> E41 [177_2]--> P2 --> E55 ""Address"" [177_3]",Swiss Art Research Infrastructure
+builtwork_178_location_-_coordinates,Location - coordinates,This field is used to record the coordinates at which the documented instance of physical object is presently located.,--> P53 --> E53[177_1] --> P168 --> geo:wktLiteral,Swiss Art Research Infrastructure

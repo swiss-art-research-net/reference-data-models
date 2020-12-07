@@ -1,0 +1,10 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.srdm.org/actor/E74> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <https://www.srdm.org/actor/fie_33_1> ;
+    crm:P107i_is_current_or_former_member_of <https://www.srdm.org/actor/fie_34_1> .
+
+<https://www.srdm.org/actor/fie_33_1> a crm:E39_Actor .
+
+<https://www.srdm.org/actor/fie_34_1> a crm:E74_Group .
+

@@ -1,0 +1,3 @@
+identifier,Model Specific Name,Description,CRM Path,used by
+event_98_subject_list,Subject List,"This field is used to record the subject matter(s) with which the event was intended to deal, at a categorical level.",--> P17 --> E55 [98_1],Swiss Art Research Infrastructure
+event_99_subject_description,Subject Description,"This field is used to record a description of the subject of an event in a free text form, when the data for that event has not been sorted into categorized lists.",--> P129i --> E73 [99_1],Swiss Art Research Infrastructure

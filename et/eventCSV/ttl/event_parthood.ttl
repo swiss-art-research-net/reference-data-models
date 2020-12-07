@@ -1,0 +1,10 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.srdm.org/event/E7> a crm:E7_Activity ;
+    crm:p10_falls_within <https://www.srdm.org/event/fie_24_1> ;
+    crm:p10i_contains <https://www.srdm.org/event/fie_23_1> .
+
+<https://www.srdm.org/event/fie_23_1> a crm:E5_Event .
+
+<https://www.srdm.org/event/fie_24_1> a crm:E5_Event .
+

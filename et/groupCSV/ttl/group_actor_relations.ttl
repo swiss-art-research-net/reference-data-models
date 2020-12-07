@@ -1,0 +1,53 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.srdm.org/actor/E74> a crm:E74_Group ;
+    crm:P01i_is_domain_of <https://www.srdm.org/property/fie_148_1> ;
+    crm:P107i_is_current_or_former_member_of <https://www.srdm.org/actor/fie_145_1> ;
+    crm:P146i_lost_member_by <https://www.srdm.org/event/fie_152_1> ;
+    crm:P95i_was_formed_by <https://www.srdm.org/event/fie_147_1> .
+
+<https://www.srdm.org/actor/fie_145_1> a crm:E74_Group ;
+    crm:P2_has_type <https://www.srdm.org/type/fie_145_2> .
+
+<https://www.srdm.org/actor/fie_147_4> a crm:E39_Actor .
+
+<https://www.srdm.org/event/fie_147_1> a crm:E66_Formation ;
+    crm:P01i_is_domain_of <https://www.srdm.org/property/fie_147_2> .
+
+<https://www.srdm.org/event/fie_148_2> a crm:E85_Joining ;
+    crm:P143_joined <https://www.srdm.org/actor/fie_148_3> ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_150_1> .
+
+<https://www.srdm.org/event/fie_152_1> a crm:E86_Leaving ;
+    crm:P145_separated <https://www.srdm.org/actor/fie_148_3> .
+
+<https://www.srdm.org/property/fie_147_2> a crm:PC14_carried_out_by ;
+    crm:P02_has_range <https://www.srdm.org/actor/fie_147_4> ;
+    crm:P14.1_in_the_role_of <https://www.srdm.org/type/fie_147_3> .
+
+<https://www.srdm.org/property/fie_148_1> a crm:PC144_joined_with ;
+    crm:P02_has_range <https://www.srdm.org/event/fie_148_2> ;
+    crm:P14.1_in_the_role_of <https://www.srdm.org/type/fie_149_1> .
+
+<https://www.srdm.org/time_span/fie_150_1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
+    crm:P82b_end_of_the_end ""^^xsd:dateTime .
+
+<https://www.srdm.org/time_span/fie_152_2> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
+    crm:P82b_end_of_the_end ""^^xsd:dateTime .
+
+<https://www.srdm.org/type/fie_145_2> a crm:E55_Type ;
+    rdfs:label "Nationality" .
+
+<https://www.srdm.org/type/fie_147_3> a crm:E55_Type ;
+    rdfs:label "Founding Member" .
+
+<https://www.srdm.org/type/fie_149_1> a crm:E55_Type ;
+    rdfs:label "Position" .
+
+<https://www.srdm.org/actor/fie_148_3> a crm:E21_Person ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_152_2> .
+

@@ -1,0 +1,6 @@
+identifier,Model Specific Name,Description,CRM Path,used by
+event_188_description,Description,This field is used to record a description in free text of the documented object.,--> P129i-> E33[188_1] --> P190->rdf:Literal,Swiss Art Research Infrastructure
+event_190_description_type,Description Type,This field is used to record the type of description given of the documented object.,--> P129i--> E33[188_1] --> P2--> E55 [190_1],Swiss Art Research Infrastructure
+event_191_description_author,Description Author,This field is used to record the author of the description given of the documented object.,--> P129i-->E33[188_1] --> P94i-->E65[191_1]>-P14-->E39 [191_2],Swiss Art Research Infrastructure
+event_192_description_date_-_earliest,Description Date - Earliest,This field is used to record the earliest possible date for the creation of the description of the documented object.,--> P129i-->E33[188_1] --> P94i-->E65[191_1] --> P4-->E52[191_2] --> P82a --> xsd:dateTime,Swiss Art Research Infrastructure
+event_193_description_date_-_latest,Description Date - Latest,This field is used to record the latest possible date for the creation of the description of the documented object.,--> P129i-->E33[188_1] --> P94i-->E65[191_1] --> P4-->E52[191_2] --> P82b —> xsd:dateTime,Swiss Art Research Infrastructure

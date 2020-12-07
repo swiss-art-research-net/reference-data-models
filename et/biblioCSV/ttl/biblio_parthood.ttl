@@ -1,0 +1,11 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+
+<http://www.srdm.org/conceptual_object/F24> a frbroo:F24_Publication_Expression ;
+    crm:p106_forms_part_of <https://www.srdm.org/conceptual_object/fie_32_1> ;
+    crm:p106_is_composed_of <https://www.srdm.org/conceptual_object/fie_31_1> .
+
+<https://www.srdm.org/conceptual_object/fie_31_1> a frbroo:F24_Publication_Expression .
+
+<https://www.srdm.org/conceptual_object/fie_32_1> a frbroo:F24_Publication_Expression .
+

@@ -1,0 +1,36 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.srdm.org/physical_object/E22> a crm:E22_Human-Made_Object ;
+    crm:P108i_was_produced_by <https://www.srdm.org/event/fie_58_1> ;
+    crm:P13i_was_destroyed_by <https://www.srdm.org/event/fie_62_1> ;
+    crm:P2_has_type <http://www.srdm.org/type/builtwork> .
+
+<http://www.srdm.org/type/builtwork> a crm:E55_type .
+
+<https://www.srdm.org/event/fie_58_1> a crm:E12_Production ;
+    crm:P10_falls_within <https://www.srdm.org/event/fie_61_1> ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_58_2> ;
+    crm:P7_took_place_at <https://www.srdm.org/place/fie_60_1> .
+
+<https://www.srdm.org/event/fie_61_1> a crm:E4_Period .
+
+<https://www.srdm.org/event/fie_62_1> a crm:E6_Destruction ;
+    crm:P10_falls_within <https://www.srdm.org/event/fie_65_1> ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_62_2> ;
+    crm:P7_took_place_at <https://www.srdm.org/place/fie_64_1> .
+
+<https://www.srdm.org/event/fie_65_1> a crm:E4_Period .
+
+<https://www.srdm.org/place/fie_60_1> a crm:E53_Place .
+
+<https://www.srdm.org/place/fie_64_1> a crm:E53_Place .
+
+<https://www.srdm.org/time_span/fie_58_2> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
+    crm:P82b_end_of_the_end ""^^xsd:dateTime .
+
+<https://www.srdm.org/time_span/fie_62_2> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
+    crm:P82b_end_of_the_end ""^^xsd:dateTime .
+

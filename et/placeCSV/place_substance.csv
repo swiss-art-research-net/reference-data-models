@@ -1,0 +1,2 @@
+identifier,Model Specific Name,Description,CRM Path,used by
+place_92_coordinates,Coordinates,This field is used to record a set of geographic coordinates which have been attributed the documented place enabling its localization in a reference space.,--> P168 → geo:wkt,Swiss Art Research Infrastructure

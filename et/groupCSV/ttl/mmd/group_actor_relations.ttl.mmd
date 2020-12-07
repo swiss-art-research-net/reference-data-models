@@ -1,0 +1,33 @@
+graph TD
+classDef Literal fill:#f2f2f2,stroke:#000000;
+classDef CRM_Entity fill:#FFFFFF,stroke:#000000;
+classDef Temporal_Entity fill:#00C9E6, stroke:#000000;
+classDef Type fill:#E18312, stroke:#000000;
+classDef Time-Span fill:#2C9C91, stroke:#000000;
+classDef Appellation fill:#FFEB7F, stroke:#000000;
+classDef Place fill:#008836, stroke:#000000;
+classDef Persistent_Item fill:#B266B2, stroke:#000000;
+classDef Conceptual_Object fill:#FFD700, stroke:#000000;
+classDef Physical_Thing fill:#D2B48C, stroke:#000000;
+classDef Actor fill:#f58aad, stroke:#000000;
+classDef PC_Classes fill:#4ce600, stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+
+0["crm:E66_Formation"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 1["crm:PC14_carried_out_by"]:::PC_Classes
+2["crm:E85_Joining"]:::Temporal_Entity -->|crm:P4_has_time-span| 3["crm:E52_Time-Span"]:::Time-Span
+2["crm:E85_Joining"]:::Temporal_Entity -->|crm:P143_joined| 6["crm:E21_Person"]:::Actor
+11["crm:E74_Group"]:::Actor -->|crm:P95i_was_formed_by| 0["crm:E66_Formation"]:::Temporal_Entity
+12["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 13[xsd:dateTime]:::Literal
+11["crm:E74_Group"]:::Actor -->|crm:P146i_lost_member_by| 15["crm:E86_Leaving"]:::Temporal_Entity
+16["crm:E74_Group"]:::Actor -->|crm:P2_has_type| 17["crm:E55_Type"]:::Type
+1["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 4["crm:E39_Actor"]:::Actor
+1["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 19["crm:E55_Type"]:::Type
+15["crm:E86_Leaving"]:::Temporal_Entity -->|crm:P145_separated| 6["crm:E21_Person"]:::Actor
+6["crm:E21_Person"]:::Actor -->|crm:P4_has_time-span| 12["crm:E52_Time-Span"]:::Time-Span
+11["crm:E74_Group"]:::Actor -->|crm:P01i_is_domain_of| 23["crm:PC144_joined_with"]:::PC_Classes
+12["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 25[xsd:dateTime]:::Literal
+23["crm:PC144_joined_with"]:::PC_Classes -->|crm:P02_has_range| 2["crm:E85_Joining"]:::Temporal_Entity
+3["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 31[xsd:dateTime]:::Literal
+23["crm:PC144_joined_with"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 8["crm:E55_Type"]:::Type
+11["crm:E74_Group"]:::Actor -->|crm:P107i_is_current_or_former_member_of| 16["crm:E74_Group"]:::Actor
+3["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 34[xsd:dateTime]:::Literal

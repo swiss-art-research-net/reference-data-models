@@ -1,0 +1,72 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sari: <http://w3id.org/sari#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.srdm.org/actor/E21> a crm:E21_Person ;
+    crm:P01_has_domain <https://www.srdm.org/social/fie_156_1> ;
+    crm:P107i_is_current_or_former_member_of <https://www.srdm.org/actor/fie_145_1>,
+        <https://www.srdm.org/actor/fie_146_1> ;
+    crm:P11i_participated_in <https://www.srdm.org/event/fie_164_1> ;
+    crm:P143i_was_joined_by <https://www.srdm.org/event/fie_158_1> ;
+    crm:P145i_left_by <https://www.srdm.org/event/fie_162_1> ;
+    crm:P98i_was_born <https://www.srdm.org/event/fie_73_1> .
+
+<https://www.srdm.org/actor/fie_145_1> a crm:E74_Group ;
+    crm:P2_has_type <https://www.srdm.org/type/fie_145_2> .
+
+<https://www.srdm.org/actor/fie_146_1> a crm:E74_Group ;
+    crm:P2_has_type <https://www.srdm.org/type/fie_146_2> .
+
+<https://www.srdm.org/actor/fie_154_1> a crm:E21_Person .
+
+<https://www.srdm.org/actor/fie_155_1> a crm:E21_Person .
+
+<https://www.srdm.org/actor/fie_156_1> a crm:E21_Person .
+
+<https://www.srdm.org/actor/fie_164_2> a crm:E21_Person .
+
+<https://www.srdm.org/event/fie_158_1> a crm:E85_Joining ;
+    crm:P01i_is_domain_of <https://www.srdm.org/property/fie_158_2> ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_160_1> .
+
+<https://www.srdm.org/event/fie_162_1> a crm:E86_Leaving ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_162_2> ;
+    crm:p146_separated_from <https://www.srdm.org/actor/fie_158_3> .
+
+<https://www.srdm.org/event/fie_164_1> a crm:E5_Event ;
+    crm:P11_had_participant <https://www.srdm.org/actor/fie_164_2> .
+
+<https://www.srdm.org/event/fie_73_1> a crm:E67_Birth ;
+    crm:P97_by_motherr <https://www.srdm.org/actor/fie_155_1> ;
+    crm:P97_from_father <https://www.srdm.org/actor/fie_154_1> .
+
+<https://www.srdm.org/property/fie_158_2> a crm:PC144_joined_with ;
+    crm:P02_has_range <https://www.srdm.org/actor/fie_158_3> ;
+    crm:P144_1_kind_of_member <https://www.srdm.org/type/fie_159_1> .
+
+<https://www.srdm.org/social/fie_156_1> a sari:SRPC3_in_social_relation ;
+    crm:P02_has_range <https://www.srdm.org/actor/fie_156_1> ;
+    crm:P2_has_type <https://www.srdm.org/type/fie_157_1> .
+
+<https://www.srdm.org/time_span/fie_160_1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
+    crm:P82b_end_of_the_end ""^^xsd:dateTime .
+
+<https://www.srdm.org/time_span/fie_162_2> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
+    crm:P82b_end_of_the_end ""^^xsd:dateTime .
+
+<https://www.srdm.org/type/fie_145_2> a crm:E55_Type ;
+    rdfs:label "Nationality" .
+
+<https://www.srdm.org/type/fie_146_2> a crm:E55_Type ;
+    rdfs:label "Cultural Group" .
+
+<https://www.srdm.org/type/fie_157_1> a crm:E55_Type .
+
+<https://www.srdm.org/type/fie_159_1> a crm:E55_Type ;
+    rdfs:label "Position" .
+
+<https://www.srdm.org/actor/fie_158_3> a crm:E74_Group .
+

@@ -1,0 +1,17 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+
+<http://www.srdm.org/conceptual_object/D1> a crmdig:D1_Digital_Object ;
+    crm:P104_is_subject_to <https://www.srdm.org/conceptual_object/fie_171_1> .
+
+<https://www.srdm.org/actor/fie_171_2> a crm:E39_Actor .
+
+<https://www.srdm.org/conceptual_object/fie_171_1> a crm:E30_Right ;
+    crm:P105_right_held_by <https://www.srdm.org/actor/fie_171_2> ;
+    crm:P129i_is_subject_of <https://www.srdm.org/conceptual_object/fie_173_1> ;
+    crm:P2_has_type <https://www.srdm.org/type/fie_172_1> .
+
+<https://www.srdm.org/conceptual_object/fie_173_1> a crm:E73_Information_Object .
+
+<https://www.srdm.org/type/fie_172_1> a crm:E55_Type .
+

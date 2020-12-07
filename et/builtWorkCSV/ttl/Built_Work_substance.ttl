@@ -1,0 +1,32 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.srdm.org/physical_object/E22> a crm:E22_Human-Made_Object ;
+    crm:108i_was_produced_by <https://www.srdm.org/event/fie_58_1> ;
+    crm:P2_has_type <http://www.srdm.org/type/builtwork> ;
+    crm:P39i_was_measured_by <https://www.srdm.org/event/fie_86_1> ;
+    crm:P45_consists_of <https://www.srdm.org/type/material/fie_90_1> .
+
+<http://www.srdm.org/type/builtwork> a crm:E55_type .
+
+<https://www.srdm.org/actor/fie_89_1> a crm:E39_Actor .
+
+<https://www.srdm.org/dimension/fie_86_2> a crm:E54_Dimension ;
+    crm:P2_has_type <https://www.srdm.org/type/fie_86_3> ;
+    crm:P90_has_value "content" ;
+    crm:P91_has_unit <https://www.srdm.org/type/fie_88_1> .
+
+<https://www.srdm.org/event/fie_58_1> a crm:E12_Production ;
+    crm:P32_used_general_technique <https://www.srdm.org/type/fie_91_1> .
+
+<https://www.srdm.org/event/fie_86_1> a crm:E16_Measurement ;
+    crm:P14_carried_out_by <https://www.srdm.org/actor/fie_89_1> ;
+    crm:P40_observed_dimension <https://www.srdm.org/dimension/fie_86_2> .
+
+<https://www.srdm.org/type/fie_86_3> a crm:E55_Type .
+
+<https://www.srdm.org/type/fie_88_1> a crm:E58_Measurement_unit .
+
+<https://www.srdm.org/type/fie_91_1> a crm:E55_Type .
+
+<https://www.srdm.org/type/material/fie_90_1> a crm:E57_Material .
+

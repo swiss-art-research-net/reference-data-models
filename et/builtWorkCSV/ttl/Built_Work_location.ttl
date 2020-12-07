@@ -1,0 +1,20 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.srdm.org/physical_object/E22> a crm:E22_Human-Made_Object ;
+    crm:P2_has_type <http://www.srdm.org/type/builtwork> ;
+    crm:P53_has_former_or_current_location <https://www.srdm.org/place/fie_177_1> .
+
+<http://www.srdm.org/type/builtwork> a crm:E55_type .
+
+<https://www.srdm.org/name/fie_177_2> a crm:E41_Appellation ;
+    crm:p2_has_type <https://www.srdm.org/type/fie_177_3> .
+
+<https://www.srdm.org/place/fie_177_1> a crm:E53_Place ;
+    crm:P168_place_is_defined_by ""^^geo:wkt ;
+    crm:P1_is_identified_by <https://www.srdm.org/name/fie_177_2> .
+
+<https://www.srdm.org/type/fie_177_3> a crm:E55_Type ;
+    rdfs:label "Address" .
+

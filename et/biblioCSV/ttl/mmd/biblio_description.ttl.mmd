@@ -1,0 +1,25 @@
+graph TD
+classDef Literal fill:#f2f2f2,stroke:#000000;
+classDef CRM_Entity fill:#FFFFFF,stroke:#000000;
+classDef Temporal_Entity fill:#00C9E6, stroke:#000000;
+classDef Type fill:#E18312, stroke:#000000;
+classDef Time-Span fill:#2C9C91, stroke:#000000;
+classDef Appellation fill:#FFEB7F, stroke:#000000;
+classDef Place fill:#008836, stroke:#000000;
+classDef Persistent_Item fill:#B266B2, stroke:#000000;
+classDef Conceptual_Object fill:#FFD700, stroke:#000000;
+classDef Physical_Thing fill:#D2B48C, stroke:#000000;
+classDef Actor fill:#f58aad, stroke:#000000;
+classDef PC_Classes fill:#4ce600, stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+
+0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P72_has_language| 1["crm:E56_Language"]:::Type
+0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P2_has_type| 6["crm:E55_Type"]:::Type
+7["crm:E52_Time-span"]:::Default -->|crm:P81b_end_of_the_end| 8[rdfs:Literal]:::Literal
+10["crm:E65_Creation"]:::Temporal_Entity -->|crm:P63_used_specific_object| 3["crm:E73_Information_Object"]:::Conceptual_Object
+0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 11[rdfs:Literal]:::Literal
+10["crm:E65_Creation"]:::Temporal_Entity -->|crm:P14_carried_out_by| 12["crm:E39_Actor"]:::Actor
+15["frbroo:F24_Publication_Expression"]:::Conceptual_Object -->|crm:P129i_is_subject_of| 0["crm:E33_Linguistic_Object"]:::Conceptual_Object
+10["crm:E65_Creation"]:::Temporal_Entity -->|crm:P4_has_time-span| 7["crm:E52_Time-span"]:::Default
+0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P94i_was_created_by| 10["crm:E65_Creation"]:::Temporal_Entity
+7["crm:E52_Time-span"]:::Default -->|crm:P81a_begin_of_the_begin| 18[rdfs:Literal]:::Literal

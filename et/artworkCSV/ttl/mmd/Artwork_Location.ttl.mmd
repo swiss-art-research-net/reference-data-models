@@ -1,0 +1,24 @@
+graph TD
+classDef Literal fill:#f2f2f2,stroke:#000000;
+classDef CRM_Entity fill:#FFFFFF,stroke:#000000;
+classDef Temporal_Entity fill:#00C9E6, stroke:#000000;
+classDef Type fill:#E18312, stroke:#000000;
+classDef Time-Span fill:#2C9C91, stroke:#000000;
+classDef Appellation fill:#FFEB7F, stroke:#000000;
+classDef Place fill:#008836, stroke:#000000;
+classDef Persistent_Item fill:#B266B2, stroke:#000000;
+classDef Conceptual_Object fill:#FFD700, stroke:#000000;
+classDef Physical_Thing fill:#D2B48C, stroke:#000000;
+classDef Actor fill:#f58aad, stroke:#000000;
+classDef PC_Classes fill:#4ce600, stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+
+2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P53_has_former_or_current_location| 3["crm:E53_Place"]:::Place
+3["crm:E53_Place"]:::Place -->|crm:P74i_is_current_or_former_residence_of| 8["crm:E74_Group"]:::Actor
+9["crm:E53_Place"]:::Place -->|crm:P168_place_is_defined_by| 10[rdfs:Literal]:::Literal
+2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P53_has_former_or_current_location| 9["crm:E53_Place"]:::Place
+2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 4["crm:E55_type"]:::Default
+3["crm:E53_Place"]:::Place -->|crm:P2_has_type| 0["crm:E55_Type"]:::Type
+8["crm:E74_Group"]:::Actor -->|crm:P2_has_type| 6["crm:E55_Type"]:::Type
+9["crm:E53_Place"]:::Place -->|crm:P1_is_identified_by| 16["crm:E41_Appellation"]:::Appellation
+16["crm:E41_Appellation"]:::Appellation -->|crm:p2_has_type| 11["crm:E55_Type"]:::Type

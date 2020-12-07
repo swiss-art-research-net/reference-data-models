@@ -1,0 +1,10 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.srdm.org/physical_object/E22> a crm:E22_Human-Made_Object ;
+    crm:P2_has_type <http://www.srdm.org/type/builtwork> ;
+    crm:P62_depicts <https://www.srdm.org/entity/fie_100_1> .
+
+<http://www.srdm.org/type/builtwork> a crm:E55_type .
+
+<https://www.srdm.org/entity/fie_100_1> a crm:E1_CRM_Entity .
+

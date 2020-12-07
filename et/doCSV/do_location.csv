@@ -1,0 +1,4 @@
+identifier,Model Specific Name,Description,CRM Path,used by
+digital object_180_locator,Locator,This field is used to record a locator identifier indicating a digital access point from which the digital object can be retrieved.,--> P1 --> E42[180_1],Swiss Art Research Infrastructure
+digital object_181_locator_type,Locator Type,This field is used to record the kind of locator used to described the digital location of the documented digital object.,--> P1 --> E42[180_1] --> P2 --> E55 [180_2],Swiss Art Research Infrastructure
+digital object_182_stored_on,Stored on,This field is used to record a physical storage mechanism on which the digital object can be found.,--> L19i --> D13 [182_1],Swiss Art Research Infrastructure

@@ -1,0 +1,15 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+
+<http://www.srdm.org/event/E7> a crm:E7_Activity ;
+    crm:P7_took_place_at <https://www.srdm.org/place/fie_174_1> .
+
+<https://www.srdm.org/name/fie_174_2> a crm:E41_Appellation .
+
+<https://www.srdm.org/place/fie_174_1> a crm:E53_Place ;
+    crm:P168_place_is_defined_by ""^^geo:wkt ;
+    crm:P1_is_identified_by <https://www.srdm.org/name/fie_174_2> ;
+    crm:P2_has_type <https://www.srdm.org/type/fie_175_1> .
+
+<https://www.srdm.org/type/fie_175_1> a crm:E55_Type .
+

@@ -1,0 +1,3 @@
+identifier,Model Specific Name,Description,CRM Path,used by
+digital object_143_creator,Creator,This field is used to record the creator of the documented digital object.,"--> L11i --> D7[66_1] --> P14 --> E39 --> L11i --> D7[66_2] --> P2 --> E55 ""Creation"" [143_1]",Swiss Art Research Infrastructure
+digital object_144_last_modifier,Last Modifier,This field is used to record a modifier of the documented digital object.,"--> L11i --> D7[66_1] --> P14 --> E39 --> L11i --> D7[4] --> P2 --> E55 ""Modification""",Swiss Art Research Infrastructure

@@ -1,0 +1,28 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.srdm.org/conceptual_object/F24> a frbroo:F24_Publication_Expression ;
+    frbroo:R24i_was_created_through <https://www.srdm.org/event/fie_140_1> .
+
+<https://www.srdm.org/actor/fie_140_3> a crm:E39_Actor .
+
+<https://www.srdm.org/actor/fie_142_3> a crm:E39_Actor .
+
+<https://www.srdm.org/event/fie_140_1> a frbroo:F30_Publication_Event ;
+    crm:P01i_is_domain_of <https://www.srdm.org/property/fie_140_2>,
+        <https://www.srdm.org/property/fie_142_1> .
+
+<https://www.srdm.org/property/fie_140_2> a crm:PC14_carried_out_by ;
+    crm:P02_has_range <https://www.srdm.org/actor/fie_140_3> ;
+    crm:P14.1_in_the_role_of <https://www.srdm.org/type/fie_141_1> .
+
+<https://www.srdm.org/property/fie_142_1> a crm:PC14_carried_out_by ;
+    crm:P02_has_range <https://www.srdm.org/actor/fie_142_3> ;
+    crm:P14.1_in_the_role_of <https://www.srdm.org/type/fie_142_2> .
+
+<https://www.srdm.org/type/fie_141_1> a crm:E55_Type .
+
+<https://www.srdm.org/type/fie_142_2> a crm:E55_Type ;
+    rdfs:label "content" .
+

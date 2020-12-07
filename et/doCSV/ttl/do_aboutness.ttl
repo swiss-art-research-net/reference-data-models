@@ -1,0 +1,8 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+
+<http://www.srdm.org/conceptual_object/D1> a crmdig:D1_Digital_Object ;
+    crm:P129_is_about <https://www.srdm.org/type/fie_103_1> .
+
+<https://www.srdm.org/type/fie_103_1> a crm:E55_Type .
+

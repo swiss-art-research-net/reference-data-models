@@ -1,0 +1,20 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.srdm.org/actor/E74> a crm:E74_Group ;
+    crm:P74_has_current_or_former_residence <https://www.srdm.org/place/fie_183_1> .
+
+<https://www.srdm.org/name/fie_183_2> a crm:E41_Appellation ;
+    rdfs:label "content" ;
+    crm:p2_has_type <https://www.srdm.org/type/fie_184_1> .
+
+<https://www.srdm.org/place/fie_183_1> a crm:E53_Place ;
+    crm:P168_place_is_defined_by ""^^geo:wkt ;
+    crm:P1_is_identified_by <https://www.srdm.org/name/fie_183_2> ;
+    crm:p2_has_type <https://www.srdm.org/type/fie_186_1> .
+
+<https://www.srdm.org/type/fie_184_1> a crm:E55_Type .
+
+<https://www.srdm.org/type/fie_186_1> a crm:E55_Type .
+

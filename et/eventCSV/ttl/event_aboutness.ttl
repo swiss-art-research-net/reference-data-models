@@ -1,0 +1,10 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.srdm.org/event/E7> a crm:E7_Activity ;
+    <http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of > <https://www.srdm.org/conceptual_object/fie_99_1> ;
+    crm:P17_was_motivated_by <https://www.srdm.org/type/fie_98_1> .
+
+<https://www.srdm.org/conceptual_object/fie_99_1> a crm:E33_Linguistic_Object .
+
+<https://www.srdm.org/type/fie_98_1> a crm:E55_Type .
+

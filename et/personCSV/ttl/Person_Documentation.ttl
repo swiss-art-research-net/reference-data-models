@@ -1,0 +1,35 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.srdm.org/actor/E21> a crm:E21_Person ;
+    crm:P129i_is_subject_of <https://www.srdm.org/conceptual_object/fie_196_1>,
+        <https://www.srdm.org/conceptual_object/fie_198_1> ;
+    crm:P138i_has_representation <https://www.srdm.org/conceptual_object/fie_195_1> ;
+    crmdig:L54_is_same-as <https://www.srdm.org/entity/fie_204_1> .
+
+<https://www.srdm.org/conceptual_object/fie_195_1> a crm:E36_Visual_Item,
+        crmdig:D9_Data_Object .
+
+<https://www.srdm.org/conceptual_object/fie_196_1> a crm:E33_Linguistic_Object ;
+    crm:P106i_forms_part_of <https://www.srdm.org/conceptual_object/fie_197_1> ;
+    crm:P190_has_symbolic_content "content" ;
+    crm:p2_has_type <https://www.srdm.org/type/fie_196_1> .
+
+<https://www.srdm.org/conceptual_object/fie_197_1> a crm:E33_Linguistic_Object .
+
+<https://www.srdm.org/conceptual_object/fie_198_1> a crm:E73_Information_Object ;
+    crm:P190_has_symbolic_content "content" ;
+    crm:P2_has_type <https://www.srdm.org/type/fie_198_1> ;
+    crm:P72_has_language <https://www.srdm.org/type/fie_198_2> .
+
+<https://www.srdm.org/entity/fie_204_1> a crm:E1_CRM_Entity .
+
+<https://www.srdm.org/type/fie_196_1> a crm:E55_Type ;
+    rdfs:label "Citation" .
+
+<https://www.srdm.org/type/fie_198_1> a crm:E55_Type ;
+    crm:P190_has_symbolic_content "Biography" .
+
+<https://www.srdm.org/type/fie_198_2> a crm:E56_Language .
+

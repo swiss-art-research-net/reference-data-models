@@ -1,0 +1,21 @@
+graph TD
+classDef Literal fill:#f2f2f2,stroke:#000000;
+classDef CRM_Entity fill:#FFFFFF,stroke:#000000;
+classDef Temporal_Entity fill:#00C9E6, stroke:#000000;
+classDef Type fill:#E18312, stroke:#000000;
+classDef Time-Span fill:#2C9C91, stroke:#000000;
+classDef Appellation fill:#FFEB7F, stroke:#000000;
+classDef Place fill:#008836, stroke:#000000;
+classDef Persistent_Item fill:#B266B2, stroke:#000000;
+classDef Conceptual_Object fill:#FFD700, stroke:#000000;
+classDef Physical_Thing fill:#D2B48C, stroke:#000000;
+classDef Actor fill:#f58aad, stroke:#000000;
+classDef PC_Classes fill:#4ce600, stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+
+7["crmdig:D7_Digital_Machine_Event"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 8["crm:PC14_carried_out_by"]:::PC_Classes
+7["crmdig:D7_Digital_Machine_Event"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 9["crm:PC14_carried_out_by"]:::PC_Classes
+3["crmdig:D1_Digital_Object"]:::Conceptual_Object -->|crmdig:L11i_was_output_of| 7["crmdig:D7_Digital_Machine_Event"]:::Temporal_Entity
+7["crmdig:D7_Digital_Machine_Event"]:::Temporal_Entity -->|crm:P2_has_type| 0["crm:E55_Type"]:::Type
+9["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 13["crm:E39_Actor"]:::Actor
+8["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 5["crm:E39_Actor"]:::Actor

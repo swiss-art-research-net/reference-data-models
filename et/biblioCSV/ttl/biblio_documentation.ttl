@@ -1,0 +1,9 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+
+<http://www.srdm.org/conceptual_object/F24> a frbroo:F24_Publication_Expression ;
+    crmdig:L54_is_same-as <https://www.srdm.org/entity/fie_204_1> .
+
+<https://www.srdm.org/entity/fie_204_1> a crm:E1_CRM_Entity .
+

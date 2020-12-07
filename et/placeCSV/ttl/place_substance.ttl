@@ -1,0 +1,6 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+
+<http://www.srdm.org/place/E53> a crm:E53_Place ;
+    crm:P168_place_is_defined_by ""^^geo:wkt .
+

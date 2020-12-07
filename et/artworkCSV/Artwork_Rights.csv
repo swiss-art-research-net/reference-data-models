@@ -1,0 +1,4 @@
+identifier,Model Specific Name,Model Specific Description,CRM Path,used by
+artwork_171_right_holder,Right Holder,This field is used to indicate the right holder for the documented artwork.,--> P104 --> E30[171_1] --> P105 --> E39 [171_2],Swiss Art Research Infrastructure
+artwork_172_right_type,Right Type,This field is used to indicate the type of right which the right holder holds over the documented artwork.,--> P104 --> E30[171_1] --> P2 --> E55 [172_1],Swiss Art Research Infrastructure
+artwork_173_right_description,Right Description,This field is used to provide a free text description of the right which the right holder holds over the documented artwork.,--> P104 --> E30[171_1] --> P129i --> E73[173_1],Swiss Art Research Infrastructure

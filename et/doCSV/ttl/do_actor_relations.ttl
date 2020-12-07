@@ -1,0 +1,26 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.srdm.org/conceptual_object/D1> a crmdig:D1_Digital_Object ;
+    crmdig:L11i_was_output_of <https://www.srdm.org/event/fie_66_1> .
+
+<https://www.srdm.org/actor/fie_143_2> a crm:E39_Actor .
+
+<https://www.srdm.org/actor/fie_144_2> a crm:E39_Actor .
+
+<https://www.srdm.org/event/fie_66_1> a crmdig:D7_Digital_Machine_Event ;
+    crm:P01i_is_domain_of <https://www.srdm.org/property/fie_143_1>,
+        <https://www.srdm.org/property/fie_144_1> ;
+    crm:P2_has_type <https://www.srdm.org/type/fie_66_2> .
+
+<https://www.srdm.org/property/fie_143_1> a crm:PC14_carried_out_by ;
+    crm:P02_has_range <https://www.srdm.org/actor/fie_143_2> .
+
+<https://www.srdm.org/property/fie_144_1> a crm:PC14_carried_out_by ;
+    crm:P02_has_range <https://www.srdm.org/actor/fie_144_2> .
+
+<https://www.srdm.org/type/fie_66_2> a crm:E55_Type ;
+    rdfs:label "Creation",
+        "Modification" .
+

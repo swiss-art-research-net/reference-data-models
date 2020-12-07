@@ -1,0 +1,65 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.srdm.org/physical_object/E22> a crm:E22_Human-Made_Object ;
+    crm:P12i_was_present_at <https://www.srdm.org/event/fie_104_1> ;
+    crm:P24i_changed_ownership_through <https://www.srdm.org/event/fie_113_1>,
+        <https://www.srdm.org/event/fie_116_1> ;
+    crm:P2_has_type <http://www.srdm.org/type/builtwork> ;
+    crm:P31i_was_modified_by <https://www.srdm.org/event/fie_107_1> .
+
+<http://www.srdm.org/type/builtwork> a crm:E55_type .
+
+<https://www.srdm.org/actor/fie_111_1> a crm:E21_Person .
+
+<https://www.srdm.org/actor/fie_115_1> a crm:E39_Actor .
+
+<https://www.srdm.org/actor/fie_118_1> a crm:E39_Actor .
+
+<https://www.srdm.org/conceptual_Object/fie_112_1> a crm:E73_Linguistic_Object .
+
+<https://www.srdm.org/conceptual_object/fie_119_1> a crm:E33_Linguistic_Object .
+
+<https://www.srdm.org/event/fie_104_1> a crm:E5_Event ;
+    crm:P2_has_type <https://www.srdm.org/type/fie_104_2> ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_105_1> .
+
+<https://www.srdm.org/event/fie_107_1> a crm:E11_Modification ;
+    crm:P119i_is_subject_of <https://www.srdm.org/conceptual_Object/fie_112_1> ;
+    crm:P14_carried_out_by <https://www.srdm.org/actor/fie_111_1> ;
+    crm:P2_has_type <https://www.srdm.org/type/fie_107_2> ;
+    crm:P32_used_general_technique <https://www.srdm.org/type/fie_110_1> ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_108_1> .
+
+<https://www.srdm.org/event/fie_113_1> a crm:E8_Acquisition ;
+    crm:P115i_is_finished_by <https://www.srdm.org/event/fie_116_1> ;
+    crm:P129i_is_subject_of <https://www.srdm.org/conceptual_object/fie_119_1> ;
+    crm:P22_transferred_title_to <https://www.srdm.org/actor/fie_115_1> ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_113_2> .
+
+<https://www.srdm.org/time_span/fie_105_1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
+    crm:P82a_end_of_the_end ""^^xsd:dateTime .
+
+<https://www.srdm.org/time_span/fie_108_1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
+    crm:P82b_end_of_the_end ""^^xsd:dateTime .
+
+<https://www.srdm.org/time_span/fie_113_2> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
+    crm:P82a_end_of_the_end ""^^xsd:dateTime .
+
+<https://www.srdm.org/time_span/fie_116_2> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
+    crm:P82a_end_of_the_end ""^^xsd:dateTime .
+
+<https://www.srdm.org/type/fie_104_2> a crm:E55_Type .
+
+<https://www.srdm.org/type/fie_107_2> a crm:E55_Type .
+
+<https://www.srdm.org/type/fie_110_1> a crm:E55_Type .
+
+<https://www.srdm.org/event/fie_116_1> a crm:E8_Acquisition ;
+    crm:P23_transferred_title_from <https://www.srdm.org/actor/fie_118_1> ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_116_2> .
+

@@ -1,0 +1,32 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.srdm.org/event/E7> a crm:E7_Activity ;
+    crm:P20i_was_purpose_of <https://www.srdm.org/time_span/fie_57_1> ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_48_1> .
+
+<https://www.srdm.org/conceptual_object/fie_56_1> a crm:E33_Linguistic_Object .
+
+<https://www.srdm.org/dimension/fie_52_1> a crm:E54_Dimension ;
+    crm:P90_has_value "content" ;
+    crm:P91_has_unit <https://www.srdm.org/type/fie_53_1> .
+
+<https://www.srdm.org/dimension/fie_54_1> a crm:E54_Dimension ;
+    crm:P90_has_value "content" ;
+    crm:P91_has_unit <https://www.srdm.org/type/fie_55_1> .
+
+<https://www.srdm.org/time_span/fie_48_1> a crm:E52_Time-Span ;
+    crm:P129i_is_subject_of <https://www.srdm.org/conceptual_object/fie_56_1> ;
+    crm:P81a_end_of_the_begin ""^^xsd:dateTime ;
+    crm:P81b_begin_of_the_end ""^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
+    crm:P82b_end_of_the_end ""^^xsd:dateTime ;
+    crm:P83_had_at_least_duration <https://www.srdm.org/dimension/fie_54_1> ;
+    crm:P84_had_at_most_duration <https://www.srdm.org/dimension/fie_52_1> .
+
+<https://www.srdm.org/time_span/fie_57_1> a crm:E5_Event .
+
+<https://www.srdm.org/type/fie_53_1> a crm:E58_Measurement_Unit .
+
+<https://www.srdm.org/type/fie_55_1> a crm:E58_Measurement_Unit .
+

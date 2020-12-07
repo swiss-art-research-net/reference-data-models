@@ -1,0 +1,14 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+
+<http://www.srdm.org/conceptual_object/F24> a frbroo:F24_Publication_Expression ;
+    crm:P129_is_about <https://www.srdm.org/event/fie_101_1>,
+        <https://www.srdm.org/place/fie_102_1>,
+        <https://www.srdm.org/type/fie_103_1> .
+
+<https://www.srdm.org/event/fie_101_1> a crm:E4_Period .
+
+<https://www.srdm.org/place/fie_102_1> a crm:E53_Place .
+
+<https://www.srdm.org/type/fie_103_1> a crm:E55_Type .
+

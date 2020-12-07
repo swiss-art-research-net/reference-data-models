@@ -1,0 +1,30 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.srdm.org/actor/E74> a crm:E74_Group ;
+    crm:P95i_was_formed_by <https://www.srdm.org/event/fie_79_1> ;
+    crm:P99i_was_dissolved_by <https://www.srdm.org/event/fie_83_1> .
+
+<https://www.srdm.org/actor/fie_82_1> a crm:E39_Actor .
+
+<https://www.srdm.org/event/fie_79_1> a crm:E66_Formation ;
+    crm:P151_was_formed_from <https://www.srdm.org/actor/fie_82_1> ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_79_2> ;
+    crm:P7_took_place_at <https://www.srdm.org/place/fie_81_1> .
+
+<https://www.srdm.org/event/fie_83_1> a crm:E68_Dissolution ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_83_2> ;
+    crm:P7_took_place_at <https://www.srdm.org/place/fie_85_1> .
+
+<https://www.srdm.org/place/fie_81_1> a crm:E53_Place .
+
+<https://www.srdm.org/place/fie_85_1> a crm:E53_Place .
+
+<https://www.srdm.org/time_span/fie_79_2> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_being ""^^xsd:dateTime ;
+    crm:P82b_end_of_the_end ""^^xsd:dateTime .
+
+<https://www.srdm.org/time_span/fie_83_2> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_being ""^^xsd:dateTime ;
+    crm:P82b_end_of_the_end ""^^xsd:dateTime .
+

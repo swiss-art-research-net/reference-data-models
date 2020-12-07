@@ -1,0 +1,5 @@
+identifier,Model Specific Name,Description,CRM Path,used by
+group_183_address,Address,This field is used to record an address of the documented actor.,--> P74 --> E53[183_1] --> P1 --> E41[183_2],Swiss Art Research Infrastructure
+group_184_address_type,Address Type,This field is used to record the type of the address of the documented actor.,--> P74 --> E53[183_1] --> P1 --> E41[183_2] --> P2 --> E55 [184_1],Swiss Art Research Infrastructure
+group_185_address_coordinates,address Coordinates,This field is used to record coordinates are meant to provide a geographic reference for the location of the documented actor in a reference space.,--> P74 --> E53[183_1] --> P168 --> geo:wktLiteral,Swiss Art Research Infrastructure
+group_186_location_type,Group Location Type,This field is used to record the type of the location that is documented with regards to the address. Groups may have many different locations. This descriptor enables the differentiation of the groups's different locales.,--> P74 --> E53[183_1] --> P2 --> E55 [186_1],Swiss Art Research Infrastructure

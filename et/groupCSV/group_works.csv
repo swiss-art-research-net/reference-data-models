@@ -1,0 +1,2 @@
+identifier,Model Specific Name,Description,CRM Path,used by
+group_165_publications,Publications,This field is used to record well known publications that an actor has authored.,--> P14i --> E65 [165_1] --> P94 --> E73 [165_2],Swiss Art Research Infrastructure

@@ -1,0 +1,28 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.srdm.org/event/E7> a crm:E7_Activity ;
+    crm:P01i_is_domain_of <https://www.srdm.org/property/fie_129_1> ;
+    crm:P16_used_specific_object <https://www.srdm.org/conceptual_object/fie_132_1>,
+        <https://www.srdm.org/physical_object/fie_131_1> ;
+    crm:P17_was_motivated_by <https://www.srdm.org/event/fie_134_1> ;
+    crm:P33_used_specific_technique <https://www.srdm.org/conceptual_object/fie_133_1> .
+
+<https://www.srdm.org/actor/fie_129_2> a crm:E39_Actor .
+
+<https://www.srdm.org/conceptual_object/fie_132_1> a crm:E73_Information_Object .
+
+<https://www.srdm.org/conceptual_object/fie_133_1> a crm:E29_Design_or_Procedure .
+
+<https://www.srdm.org/conceptual_object/fie_134_2> a crm:E73_Information_Object .
+
+<https://www.srdm.org/event/fie_134_1> a crm:E65_Creation ;
+    crm:P94_has_created <https://www.srdm.org/conceptual_object/fie_134_2> .
+
+<https://www.srdm.org/physical_object/fie_131_1> a crm:E18_Physical_Thing .
+
+<https://www.srdm.org/property/fie_129_1> a crm:PC14_carried_out_by ;
+    crm:P02_has_range <https://www.srdm.org/actor/fie_129_2> ;
+    crm:P14.1_in_the_role_of <https://www.srdm.org/type/fie_130_1> .
+
+<https://www.srdm.org/type/fie_130_1> a crm:E55_Type .
+

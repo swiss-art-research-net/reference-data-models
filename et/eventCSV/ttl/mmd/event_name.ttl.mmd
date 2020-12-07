@@ -1,0 +1,37 @@
+graph TD
+classDef Literal fill:#f2f2f2,stroke:#000000;
+classDef CRM_Entity fill:#FFFFFF,stroke:#000000;
+classDef Temporal_Entity fill:#00C9E6, stroke:#000000;
+classDef Type fill:#E18312, stroke:#000000;
+classDef Time-Span fill:#2C9C91, stroke:#000000;
+classDef Appellation fill:#FFEB7F, stroke:#000000;
+classDef Place fill:#008836, stroke:#000000;
+classDef Persistent_Item fill:#B266B2, stroke:#000000;
+classDef Conceptual_Object fill:#FFD700, stroke:#000000;
+classDef Physical_Thing fill:#D2B48C, stroke:#000000;
+classDef Actor fill:#f58aad, stroke:#000000;
+classDef PC_Classes fill:#4ce600, stroke:#000000;
+classDef Multi fill:#cccccc,stroke:#000000;
+
+2["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P14_carried_out_by| 3["crm:E39_Actor"]:::Actor
+4["crm:E7_Activity"]:::Temporal_Entity -->|crm:P1_is_identified_by| 5["crm:E33_E41_Linguistic_Appellation"]:::Default
+8["crm:E15_Identifier_Assignment"]:::Temporal_Entity -->|crm:P14_carried_out_by| 9["crm:E39_Actor"]:::Actor
+14["crm:E33_E41_Linguistic_Appellation"]:::Default -->|crm:p72_has_language| 10["crm:E56_Language"]:::Type
+2["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P16_used_specific_object| 16["crm:E73_Information_Object"]:::Conceptual_Object
+5["crm:E33_E41_Linguistic_Appellation"]:::Default -->|crm:P190_has_symbolic_content| 18[rdfs:Literal]:::Literal
+4["crm:E7_Activity"]:::Temporal_Entity -->|crm:P1_is_identified_by| 14["crm:E33_E41_Linguistic_Appellation"]:::Default
+14["crm:E33_E41_Linguistic_Appellation"]:::Default -->|crm:p2_has_type| 21["crm:E55_Type"]:::Type
+0["frbroo:F52_Name_Use_Activity"]:::Temporal_Entity -->|crm:P4_has_time-span| 22["crm:E52_Time-Span"]:::Time-Span
+8["crm:E15_Identifier_Assignment"]:::Temporal_Entity -->|crm:P16_used_specific_object| 23["crm:E73_Information_Object"]:::Conceptual_Object
+5["crm:E33_E41_Linguistic_Appellation"]:::Default -->|crm:p2_has_type| 6["crm:E55_Type"]:::Type
+14["crm:E33_E41_Linguistic_Appellation"]:::Default -->|crm:P190_has_symbolic_content| 25[rdfs:Literal]:::Literal
+5["crm:E33_E41_Linguistic_Appellation"]:::Default -->|crm:p72_has_language| 30["crm:E56_Language"]:::Type
+12["crm:E42_Identifier"]:::Appellation -->|crm:P190_has_symbolic_content| 32[rdfs:Literal]:::Literal
+12["crm:E42_Identifier"]:::Appellation -->|crm:P37i_was_assigned_by| 8["crm:E15_Identifier_Assignment"]:::Temporal_Entity
+4["crm:E7_Activity"]:::Temporal_Entity -->|crm:P2_has_type| 19["crm:E55_Type"]:::Type
+12["crm:E42_Identifier"]:::Appellation -->|crm:P2_has_type| 28["crm:E55_Type"]:::Type
+22["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 38[xsd:dateTime]:::Literal
+22["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 39[xsd:dateTime]:::Literal
+14["crm:E33_E41_Linguistic_Appellation"]:::Default -->|crm:P141i_was_assigned_by| 2["crm:E13_Attribute_Assignment"]:::Temporal_Entity
+4["crm:E7_Activity"]:::Temporal_Entity -->|crm:P1_is_identified_by| 12["crm:E42_Identifier"]:::Appellation
+14["crm:E33_E41_Linguistic_Appellation"]:::Default -->|frbroo:R64i_was_name_used_by| 0["frbroo:F52_Name_Use_Activity"]:::Temporal_Entity

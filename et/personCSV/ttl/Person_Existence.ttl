@@ -1,0 +1,27 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.srdm.org/actor/E21> a crm:E21_Person ;
+    crm:P100i_died_in <https://www.srdm.org/event/fie_76_1> ;
+    crm:P98i_was_born <https://www.srdm.org/event/fie_73_1> .
+
+<https://www.srdm.org/event/fie_73_1> a crm:E67_Birth ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_73_2> ;
+    crm:P7_took_place_at <https://www.srdm.org/place/fie_75_1> .
+
+<https://www.srdm.org/event/fie_76_1> a crm:E69_Death ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_76_2> ;
+    crm:P7_took_place_at <https://www.srdm.org/place/fie_78_1> .
+
+<https://www.srdm.org/place/fie_75_1> a crm:E53_Place .
+
+<https://www.srdm.org/place/fie_78_1> a crm:E53_Place .
+
+<https://www.srdm.org/time_span/fie_73_2> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_being ""^^xsd:dateTime ;
+    crm:P82b_end_of_the_end ""^^xsd:dateTime .
+
+<https://www.srdm.org/time_span/fie_76_2> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_being ""^^xsd:dateTime ;
+    crm:P82b_end_of_the_end ""^^xsd:dateTime .
+

@@ -1,0 +1,10 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://www.srdm.org/actor/E74> a crm:E74_Group ;
+    crm:P14i_performed <https://www.srdm.org/event/fie_165_1> .
+
+<https://www.srdm.org/event/fie_165_1> a crm:E65_Creation ;
+    crm:P94_has_created <https://www.srdm.org/physical_object/fie_165_2> .
+
+<https://www.srdm.org/physical_object/fie_165_2> a crm:E73_Information_Object .
+

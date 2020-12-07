@@ -1,0 +1,4 @@
+identifier,Model Specific Name,Model Specific Description,CRM Path,used by
+artwork_25_has_part,Has Part,This field is used to indicate parts of the documented artwork.,--> P46 --> E22 [25_1],Swiss Art Research Infrastructure
+artwork_26_has_part_type,Has Part Type,This field is used to indicate part types for the documented artwork.,--> P46 --> E22[25_1] --> P2 --> E55 [26_1],Swiss Art Research Infrastructure
+artwork_27_part_count,Part Count,This field is use to indicate part counts for the documented part types.,--> P57 --> rdf:literal,Swiss Art Research Infrastructure

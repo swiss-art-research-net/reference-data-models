@@ -1,0 +1,8 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+
+<http://www.srdm.org/conceptual_object/F24> a frbroo:F24_Publication_Expression ;
+    crm:P128i_is_carried_by <https://www.srdm.org/physical_object/fie_187_1> .
+
+<https://www.srdm.org/physical_object/fie_187_1> a crm:E22_Man-Made_Object .
+

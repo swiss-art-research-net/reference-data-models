@@ -1,0 +1,25 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+
+<http://www.srdm.org/conceptual_object/D1> a crmdig:D1_Digital_Object ;
+    crm:P190_has_symbolic_content "content" ;
+    crm:P39i_was_measured_by <https://www.srdm.org/event/fie_86_1> ;
+    crmdig:L11i_was_output_of <https://www.srdm.org/event/fie_66_1> .
+
+<https://www.srdm.org/dimension/fie_86_2> a crm:E54_Dimension ;
+    crm:P2_has_type <https://www.srdm.org/type/fie_86_3> ;
+    crm:P90_has_value "content" ;
+    crm:P91_has_unit <https://www.srdm.org/type/fie_88_1> .
+
+<https://www.srdm.org/event/fie_66_1> a crmdig:D7_Digital_Machine_Event ;
+    crm:P33_used_specific_technique <https://www.srdm.org/type/fie_95_1> .
+
+<https://www.srdm.org/event/fie_86_1> a crm:E16_Measurement ;
+    crm:P40_observed_dimension <https://www.srdm.org/dimension/fie_86_2> .
+
+<https://www.srdm.org/type/fie_86_3> a crm:E55_Type .
+
+<https://www.srdm.org/type/fie_88_1> a crm:E58_Measurement_unit .
+
+<https://www.srdm.org/type/fie_95_1> a crm:E29_Design_or_Procedure .
+

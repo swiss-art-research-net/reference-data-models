@@ -1,0 +1,43 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.srdm.org/actor/E74> a crm:E74_Group ;
+    crm:P11i_participated_in <https://www.srdm.org/event/fie_120_1> ;
+    crm:P14i_performed <https://www.srdm.org/event/fie_121_1>,
+        <https://www.srdm.org/event/fie_124_1> .
+
+<https://www.srdm.org/event/fie_120_1> a crm:E7_Activity .
+
+<https://www.srdm.org/event/fie_121_1> a frbroo:F51_Pursuit ;
+    crm:P2_has_type <https://www.srdm.org/type/fie_121_2> ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_121_3> ;
+    crm:P7_took_place_at <https://www.srdm.org/place/fie_123_1> .
+
+<https://www.srdm.org/event/fie_124_1> a frbroo:F51_Pursuit ;
+    frbroo:R59_had_typical_subject <https://www.srdm.org/type/fie_124_3> ;
+    crm:P2_has_type <https://www.srdm.org/type/fie_124_2> ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_125_1> ;
+    crm:P7_took_place_at <https://www.srdm.org/place/fie_127_1> .
+
+<https://www.srdm.org/place/fie_123_1> a crm:E53_Place .
+
+<https://www.srdm.org/place/fie_127_1> a crm:E53_Place .
+
+<https://www.srdm.org/time_span/fie_121_3> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
+    crm:P82b_end_of_the_end ""^^xsd:dateTime .
+
+<https://www.srdm.org/time_span/fie_125_1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
+    crm:P82b_end_of_the_end ""^^xsd:dateTime .
+
+<https://www.srdm.org/type/fie_121_2> a crm:E55_Type ;
+    rdfs:label "Floruit" .
+
+<https://www.srdm.org/type/fie_124_2> a crm:E55_Type ;
+    rdfs:label "Field of Activity" .
+
+<https://www.srdm.org/type/fie_124_3> a crm:E55_Type .
+

@@ -1,0 +1,8 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix sari: <http://w3id.org/sari#> .
+
+<http://www.srdm.org/actor/E21> a crm:E21_Person ;
+    sari:SRP1_used_language <https://www.srdm.org/language/fie_97_1> .
+
+<https://www.srdm.org/language/fie_97_1> a crm:E56_Language .
+

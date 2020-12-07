@@ -1,0 +1,50 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.srdm.org/place/E53> a crm:E53_Place ;
+    crm:P161i_is_spatial_projection_of <https://www.srdm.org/event/fie_42_1> ;
+    crm:P89_falls_within <https://www.srdm.org/place/fie_36_1> ;
+    crm:P89i_contains <https://www.srdm.org/place/fie_35_1> .
+
+<https://www.srdm.org/event/fie_43_1> a frbroo:F52_Name_Use_Activity ;
+    frbroo:R64_used_name <https://www.srdm.org/name/fie_43_2> ;
+    crm:P140_assigned_attribute_to <https://www.srdm.org/event/fie_42_1> .
+
+<https://www.srdm.org/event/fie_44_1> a crm:E17_Type_Assignment ;
+    crm:P41_classified <https://www.srdm.org/event/fie_42_1> ;
+    crm:P42_assigned <https://www.srdm.org/type/fie_44_2> .
+
+<https://www.srdm.org/name/fie_43_2> a crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "content" .
+
+<https://www.srdm.org/place/fie_35_1> a crm:E53_Place .
+
+<https://www.srdm.org/place/fie_36_1> a crm:E53_Place .
+
+<https://www.srdm.org/place/fie_42_3> a crm:E4_Period ;
+    crm:P161_has_spatial_projection <https://www.srdm.org/place/fie_42_4> .
+
+<https://www.srdm.org/place/fie_42_4> a crm:E53_Place ;
+    crm:P168_place_is_defined_by ""^^geo:wkt .
+
+<https://www.srdm.org/stv/fie_42_2> a crm:E93_Presence ;
+    crm:P10_falls_within <https://www.srdm.org/place/fie_42_3> ;
+    crm:P161i_is_spatial_projection_of <https://www.srdm.org/stv/fie_47_1> ;
+    crm:P164_is_temporally_specified_by <https://www.srdm.org/time_span/fie_45_1> ;
+    crm:p10i_contains <https://www.srdm.org/event/fie_43_1>,
+        <https://www.srdm.org/event/fie_44_1> .
+
+<https://www.srdm.org/stv/fie_47_1> a crm:E53_Place ;
+    crm:P168_place_is_defined_by ""^^geo:wkt .
+
+<https://www.srdm.org/time_span/fie_45_1> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
+    crm:P82b_end_of_the_end ""^^xsd:dateTime .
+
+<https://www.srdm.org/type/fie_44_2> a crm:E55_Type .
+
+<https://www.srdm.org/event/fie_42_1> a crm:E4_Period ;
+    crm:P166i_had_presence <https://www.srdm.org/stv/fie_42_2> .
+

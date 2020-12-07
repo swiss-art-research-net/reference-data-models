@@ -1,0 +1,4 @@
+identifier,Model Specific Name,Description,CRM Path,used by
+event_174_place_name,Place Name,This field is used to record the place at which the documented event occurred.,--> P7 --> E53[174_1] --> P1 --> E41 [174_2],Swiss Art Research Infrastructure
+event_175_place_type,Place Type,This field is used to record the type of place at which the documented event occurred.,--> P7 --> E53[174_1] --> P2 --> E55 [175_1],Swiss Art Research Infrastructure
+event_176_place__coordinates,Place - coordinates,This field is used to record the coordinates of the place at which the documented event occurred.,--> P7 --> E53[174_1] --> P168 --> geo:wktLiteral,Swiss Art Research Infrastructure
