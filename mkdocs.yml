@@ -1,7 +1,7 @@
 site_name: Semantic Reference Data Models
 site_description: Semantic Reference Data Models
-repo_name: Swiss Art Research Infrastrcture
-repo_url: https://swissartresearch.net
+repo_name: Reference Data Models
+repo_url: http://github.com/swiss-art-research-net/reference-data-models/
 edit_uri: ""
 
 # Customization
@@ -25,14 +25,14 @@ nav:
   - Home: index.md
   - News: news.md
   - How To: instruction.md
-  - Person: et/persons.md
-  - Artwork: et/artwork.md
-  - Group: et/group.md
-  - Built Work: et/built_work.md
-  - Event: et/event.md
-  - Digital Object: et/do.md
-  - Bibliographic item: et/bibliographic_item.md
-  - Place: et/place.md
+  - Person Model: et/persons.md
+  - Artwork Model: et/artwork.md
+  - Group Model: et/group.md
+  - Built Work Model: et/built_work.md
+  - Event Model: et/event.md
+  - Digital Object Model: et/do.md
+  - Bibliographic item Model: et/bibliographic_item.md
+  - Place Model: et/place.md
 
 
 theme:
@@ -42,13 +42,14 @@ theme:
     icon:
         repo: fontawesome/solid/globe
     font:
-        text: 'Source Sans Pro'
+#        text: 'Source Sans Pro'
         code: 'IBM Plex Mono'
     custom_dir: 'theme/'
     features:
       - navigation.instant
     palette:
-        primary: 'white'
+        primary: 'indigo'
+#        scheme: preference
         
 
 #plugins 
