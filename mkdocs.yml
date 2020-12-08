@@ -37,10 +37,10 @@ nav:
 
 theme:
     name: 'material'
-    logo: 'images/logo.png'
     favicon: 'images/favicon.ico'
     icon:
         repo: fontawesome/solid/globe
+        logo: fontawesome/solid/home
     font:
 #        text: 'Source Sans Pro'
         code: 'IBM Plex Mono'
