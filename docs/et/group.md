@@ -2,7 +2,7 @@
 
 **Author**: George Bruseker, Nicola Carboni
 
-**Version**: 1.0
+**Version**: 2.0
 
 The group reference data model provides a list of standard descriptors (fields) that are typically present in the description of a group or institution in cultural heritage data systems. The intention of this reference model is to provide a consolidated, high-level formal structure comprising the most commonly reused descriptors for a group and, further, to provide for these a set of semantic mapping to the CIDOC CRM. Moreover, each field is marked with respect to its potential functionality with regards to instance matching between overlapping datasets. This reference data model aims to serve a number of functions including: 
 

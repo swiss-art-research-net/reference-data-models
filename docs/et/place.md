@@ -2,7 +2,7 @@
 
 **Author**: George Bruseker, Nicola Carboni
 
-**Version**: 1.0
+**Version**: 2.0
 
 The place reference data model provides a list of standard fields that are often found present in the general description of a place. Place here is interpreted as a geometric extent used for locating entities relative to a reference space. The scope of entities that this reference model aims to cover are places as typically documented in gazetteers. Examples of places would be Edmonton (the inhabited city), Alberta (the administrative district), Canada (the country). The aim of this reference model is to cover basic descriptors that are typically employed in the documentation of a place, usually by a gazetteer. This reference model aims to remain at a general level description, providing a consolidated, high-level reference data model of most commonly reused descriptors for a place as such and to provide for these, in turn, a set of standard semantic mappings to the CIDOC CRM. Moreover, each field is marked with regards to its potential functionality with regards to instance matching between overlapping datasets. This level of modelling is seen as a necessary basic reference point on which to build more complex documentation. This reference data model aims to serve a number of functions including: 
 

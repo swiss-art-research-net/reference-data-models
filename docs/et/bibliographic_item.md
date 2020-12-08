@@ -2,7 +2,7 @@
 
 **Author**: George Bruseker, Nicola Carboni
 
-**Version**: 1.0
+**Version**: 2.0
 
 The bibliographic item reference data model provides a list of standard fields that are often found present in the general description of a bibliographic item. The scope of this reference model is the bibliographic item as information object and pointer to real world instances of the publication; this model aims to provide a streamlined list of common descriptors for a bibliographic item and not a complete representation of all aspects of a real bibliographic record. Rather, we are interested here in representing the types of information that are typically gathered by scholars relative to a publication in their creation of bibliographies for use in scholarship and used as the basis for citations. This reference model aims to remain at a general level description, providing a consolidated, high level reference data model of most commonly reused descriptors for a bibliographic item as such and to provide for these in turn a set of standard semantic mappings to the CIDOC CRM. Moreover, each field is marked with regards to its potential functionality with regards to instance matching between overlapping datasets. This level of modelling is seen as a necessary basic reference point on which to build more complex documentation. This reference data model aims to serve a number of functions including: 
 

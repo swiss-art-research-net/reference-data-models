@@ -2,7 +2,7 @@
 
 **Author**: George Bruseker, Nicola Carboni
 
-**Version**: 1.0
+**Version**: 2.0
 
 The digital object reference data model provides a list of standard fields that are typically present in the general description of a digital object in a cultural heritage data system. A digital object is meant in the sense of a digitally encoded information object represented as bit sequences that have been encoded with a particular format and can be digitally decoded and represented to an end user of a digital information system. Digital objects are often stored as reference or documentation objects relative to cultural heritage items such as textual descriptions stored as PDFs, documentary images, 3D representations and so on. Digital Objects can also form cultural heritage objects in their own right, though this model does not aim to represent this potential aspect of the digital object. Because of the choice to model, the digital object in its role as a secondary documentary resource, the reference data model has been kept as light as possible. This reference model intends to remain at a general level description, providing a consolidated, high-level reference data model of most commonly reused descriptors for a digital object and to provide for these, in turn, a set of standard semantic mappings to the CIDOC CRM. Moreover, each field is marked with regards to its potential functionality with regards to instance matching between overlapping datasets. This reference data model aims to serve a number of functions including: 
 

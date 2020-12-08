@@ -39,7 +39,7 @@ theme:
     name: 'material'
     favicon: 'images/favicon.ico'
     icon:
-        repo: fontawesome/solid/globe
+        repo: fontawesome/brand/github-alt
         logo: fontawesome/solid/home
     font:
 #        text: 'Source Sans Pro'

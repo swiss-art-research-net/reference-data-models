@@ -2,7 +2,7 @@
 
 **Author**: George Bruseker, Nicola Carboni
 
-**Version**: 1.0
+**Version**: 2.0
 
 The built work reference data model provides a list of standard fields that are generally present in the general description of a built work in a national built heritage data register. Built work is taken here in the sense of a - typically - immovable building, or significant individual part thereof, made for some human use-function such as habitation. The fuller documentation of a built work would establish the relation of the physical work to the series of intellectual and social processes related to the production of such works, such as architectural plans, meetings, construction episodes, detailed use and modification history, specific topological relations and so on. This reference model does not intend to cover such specificities but to remain at a more general level, providing a consolidated, high-level reference data model of most commonly used descriptors for a built work and to provide for these, in turn, a set of standard semantic mappings to the CIDOC CRM. This level of modelling is seen as a necessary basic reference point on which to build more complex documentation. This reference data model aims to serve a number of functions including: 
 
