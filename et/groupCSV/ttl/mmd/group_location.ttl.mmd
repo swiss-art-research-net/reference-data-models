@@ -14,7 +14,7 @@ classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
 0["crm:E41_Appellation"]:::Appellation -->|crm:p2_has_type| 1["crm:E55_Type"]:::Type
-3["crm:E74_Group"]:::Actor -->|crm:P74_has_current_or_former_residence| 4["crm:E53_Place"]:::Place
-4["crm:E53_Place"]:::Place -->|crm:P1_is_identified_by| 0["crm:E41_Appellation"]:::Appellation
-4["crm:E53_Place"]:::Place -->|crm:p2_has_type| 8["crm:E55_Type"]:::Type
-4["crm:E53_Place"]:::Place -->|crm:P168_place_is_defined_by| 11[rdfs:Literal]:::Literal
+2["crm:E53_Place"]:::Place -->|crm:P1_is_identified_by| 0["crm:E41_Appellation"]:::Appellation
+2["crm:E53_Place"]:::Place -->|crm:P168_place_is_defined_by| 6[rdfs:Literal]:::Literal
+2["crm:E53_Place"]:::Place -->|crm:p2_has_type| 8["crm:E55_Type"]:::Type
+4["crm:E74_Group"]:::Actor -->|crm:P74_has_current_or_former_residence| 2["crm:E53_Place"]:::Place
