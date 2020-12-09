@@ -1,2 +1,2 @@
 identifier,Model Specific Name,Description,CRM Path,used by
-bibliographic entity_94_number_of_pages,Number of Pages,This field is used to record the number of pages in a bibliographic item using free text.,"--> P43--> E54 [94_1] --> P129i--> E73[94_2] → p190--> rdfs:Literal<br><br>--> P43--> E54 [94_1] --> P2--> E55[94_3]""Page Numbers""",Swiss Art Research Infrastructure
+bibliographic entity_94_number_of_pages,Number of Pages,This field is used to record the number of pages in a bibliographic item using free text.,"--> P43 --> E54[94_1] --> P129i --> E73[94_2] --> P190 --> rdfs:Literal<br><br> --> P43 --> E54[94_1] --> P2 --> E55[94_3]""Page Numbers""",Swiss Art Research Infrastructure

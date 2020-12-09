@@ -16,7 +16,7 @@
 <https://www.srdm.org/conceptual_object/fie_196_1> a crm:E33_Linguistic_Object ;
     crm:P106i_forms_part_of <https://www.srdm.org/conceptual_object/fie_197_1> ;
     crm:P190_has_symbolic_content "content" ;
-    crm:p2_has_type <https://www.srdm.org/type/fie_196_1> .
+    crm:P2_has_type <https://www.srdm.org/type/fie_196_1> .
 
 <https://www.srdm.org/conceptual_object/fie_197_1> a crm:E33_Linguistic_Object .
 

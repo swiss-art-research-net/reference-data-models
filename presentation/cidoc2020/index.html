@@ -1,0 +1,507 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cidoc2020</title>
+    <link rel="stylesheet" href="base.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="web.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="white.css" type="text/css" media="screen">
+</head>
+<body>
+
+    <h1>CIDOC Conference 2020</h1>
+    <h2>Semantic Reference Data Models</h2>
+
+<h3>Abstract</h3>
+<p>The recording and documentation of information about an artistic creation relies on stable and correct reference data. These information points are not only essential for enriching our records with standard referents but are also key to search, access and retrieval of objects of scholarly analysis. 
+The traditional means for generating useful and reusable reference data has relied on a strategy of limiting the semantics around the referent, constraining them under a specific terminological regime in order to ensure consistent results. While such regimes enable the production of useful primary data, the proliferation of such standards and the demand for open reusability based on a common schema entails the need for the development of flexible new methods. 
+In contribution to this goal, the Swiss Art Research Infrastructure (SARI) project proposes and introduces a new method to transform and/or generate interoperable reference data, based on formal ontologies and the Semantic Web: the Reference Data Models (RDM). The RDMs are a series of reference data templates aimed at representing common descriptors deployed in traditional models across the heritage data spectrum and map them as ontological patterns to be used for a semantic representation. Each available template is a collection of descriptors aimed for a specific entity, where each descriptor is mapped to CIDOC-CRM, an ISO standard ontology for recording cultural heritage data. 
+Aim of this contribution is to introduce the Reference Data Models and examine how diverse projects can benefits from using and extending these ontological patterns templates.
+</p>
+    <div class="slides">
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.042.jpg" srcset="images/images.042-hg.jpg 1200w, images/images.042-lg.jpg 984w, images/images.042-md.jpg 728w, images/images.042-sm.jpg 375w" sizes="100vw" alt="Image of slide number 1" />
+            </div>
+            <div class="slide-notes">
+                      <p>Hello everyone, we are here to present you our paper on Semantic Reference Data model, part of the ongoing work on Semantic Reference Data by the Swiss Art Research Infrastructure at the University of Zurich. This work, developed by me, Nicola Carboni  and George Bruseker, started from a very simple question </p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.040.jpg" srcset="images/images.040-hg.jpg 1200w, images/images.040-lg.jpg 984w, images/images.040-md.jpg 728w, images/images.040-sm.jpg 375w" sizes="100vw" alt="Image of slide number 2" />
+            </div>
+            <div class="slide-notes">
+                      <p>How can we facilitate the integration of information in the domain of digital humanities and art history? How we can facilitate the work of art historian with </p>
+
+      <p>Current research methods have many bottlenecks, time consuming activities which are shared and repeated across the community. For many of us, the bottlenecks are linked with diverse types of reference data. We do find ourselves dealing with different types of information about a series of basic entities that populate our databases. Description of Persons, Places, Artworks and their basic characteristics are the backbone of digital research and integration. However, their constant presence signal also the incapacity of current method to help us easily retrieve and integrate this reference data. SARI has extensively worked on the problem and with this work we would like to present an integrative solutions, which we call Semantic Reference Data Models.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.041.jpg" srcset="images/images.041-hg.jpg 1200w, images/images.041-lg.jpg 984w, images/images.041-md.jpg 728w, images/images.041-sm.jpg 375w" sizes="100vw" alt="Image of slide number 3" />
+            </div>
+            <div class="slide-notes">
+                      <p>Our solution to the questions is better integration. we see that one of the major problem in the community is not to transcribe information, but to find easy methods to integrate and query such information.  The problem is intrinsic of the interactions between humans and computers. We do use software to record our knowledge about a topic in the form of structured information which we normally store in excel files, database or just simple notes. </p>
+
+      <p>Such information are structured in respect of a series of needs, and rely on human contextual understanding in order to assign to such information the appropriate semantic value. This is not a new problem, and many domains have developed their own solutions, creating information structure to be followed in order to make the data compatible or at least researchable. All of us most probably have seen the rise of at least one new standards to be followed.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.032.jpg" srcset="images/images.032-hg.jpg 1200w, images/images.032-lg.jpg 984w, images/images.032-md.jpg 728w, images/images.032-sm.jpg 375w" sizes="100vw" alt="Image of slide number 4" />
+            </div>
+            <div class="slide-notes">
+                      <p>If we look at a simple facet of domain, we can see however, that we talk about multiple standards and not a single standard. Each community has developed, for their own needs, a specific set of information to describe a facets of their material or resources. If we think about describing a person, we can easily notice that in the GLAM sectors we have developed a quite large number of standards, some of them are dataset specific, while some of them are large agreements between institutions and agents.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.026.jpg" srcset="images/images.026-hg.jpg 1200w, images/images.026-lg.jpg 984w, images/images.026-md.jpg 728w, images/images.026-sm.jpg 375w" sizes="100vw" alt="Image of slide number 5" />
+            </div>
+            <div class="slide-notes">
+                      <p>The problem, as usual, it is not a new one. Everyone who travelled across Europe has seen how the multiplicity of standards affected their capacity to use electricity. If we travel across the world the problem is even more evident. Same things can be said to anyone who ever owned a PC or a Mac ever. </p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.027.jpg" srcset="images/images.027-hg.jpg 1200w, images/images.027-lg.jpg 984w, images/images.027-md.jpg 728w, images/images.027-sm.jpg 375w" sizes="100vw" alt="Image of slide number 6" />
+            </div>
+            <div class="slide-notes">
+                      <p>However, while trying to insert a plug into a socket can only lead to success or failure, the integration of information from diverse sources have more complex output. We have of course a complete failure. The underlying grammar of the data could be incompatible, of course. More often than not, however, the problem lies in the failure to integrate, collect and retrieve. The data could even appear to be there, but their retrieval would be an extremely difficult operation that would drive anyone insane. </p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.033.jpg" srcset="images/images.033-hg.jpg 1200w, images/images.033-lg.jpg 984w, images/images.033-md.jpg 728w, images/images.033-sm.jpg 375w" sizes="100vw" alt="Image of slide number 7" />
+            </div>
+            <div class="slide-notes">
+                      <p>An elegant solution to the problem is to translate the data into a common shared information structure, able to characterise the diverse nuances of the recorded information. This solution, which could appear magical to many, is nothing else than an information artefact able to provide a layer across the dataset and create bridges between the recorded information, assigning precise value to each recorded element thanks to a larger structure and a logical grounding. This information artefact, this shared layer is nothing else than an ontology.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.019.jpg" srcset="images/images.019-hg.jpg 1200w, images/images.019-lg.jpg 984w, images/images.019-md.jpg 728w, images/images.019-sm.jpg 375w" sizes="100vw" alt="Image of slide number 8" />
+            </div>
+            <div class="slide-notes">
+                      <p>Within the cultural heritage domain, CIDOC-CRM has been used as a standard ontology for the integration of diverse datasets and has been proven itself to be robust, reliable, and able to take into account the dynamicity of the data recorded by the community.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.025.jpg" srcset="images/images.025-hg.jpg 1200w, images/images.025-lg.jpg 984w, images/images.025-md.jpg 728w, images/images.025-sm.jpg 375w" sizes="100vw" alt="Image of slide number 9" />
+            </div>
+            <div class="slide-notes">
+                      <p>Ontologies, in respect to tradition Knowledge Organisation Systems, provide better tools for integration, enable a plurarity of views over the recorded information, and being logic grounded are able to be used by computational reasoning tools to enhance the data with new information. They provide moreover a lot of flexibility to accomodate diverse uses and perspectives. However,</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.031.jpg" srcset="images/images.031-hg.jpg 1200w, images/images.031-lg.jpg 984w, images/images.031-md.jpg 728w, images/images.031-sm.jpg 375w" sizes="100vw" alt="Image of slide number 10" />
+            </div>
+            <div class="slide-notes">
+                      <p>ontologies require specialised knowledge, and they are not simple tools to be used by everyone. Not as much as vocabularies and taxonomies, instruments we are surely more familiar with.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.030.jpg" srcset="images/images.030-hg.jpg 1200w, images/images.030-lg.jpg 984w, images/images.030-md.jpg 728w, images/images.030-sm.jpg 375w" sizes="100vw" alt="Image of slide number 11" />
+            </div>
+            <div class="slide-notes">
+                      <p>The problem of ontological complexity is twofold. From one side it is necessary, given a piece of information which embrace two different entities, to find</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.024.jpg" srcset="images/images.024-hg.jpg 1200w, images/images.024-lg.jpg 984w, images/images.024-md.jpg 728w, images/images.024-sm.jpg 375w" sizes="100vw" alt="Image of slide number 12" />
+            </div>
+            <div class="slide-notes">
+                      <p>the connections between the two. This is conceptual exercise that require us to define the semantic value we want to express and determine the corresponding path between the two entities. This path is a chain of properties and classes ( which are the main building block of an ontology), that taking into account the constraints of the ontology reflects the meaning we initially determined.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.018.jpg" srcset="images/images.018-hg.jpg 1200w, images/images.018-lg.jpg 984w, images/images.018-md.jpg 728w, images/images.018-sm.jpg 375w" sizes="100vw" alt="Image of slide number 13" />
+            </div>
+            <div class="slide-notes">
+                      <p>However, as I mentioned before the problem is twofold. There can be more than one path to connect the two entities. While two paths can be semantically the same (but not syntactically) there can be other paths which is similar enough to confuse us.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.020.jpg" srcset="images/images.020-hg.jpg 1200w, images/images.020-lg.jpg 984w, images/images.020-md.jpg 728w, images/images.020-sm.jpg 375w" sizes="100vw" alt="Image of slide number 14" />
+            </div>
+            <div class="slide-notes">
+                      <p>We thought necessary to find a way to identify and document this chains, as a single identifiable pattern, which connect information together.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.034.jpg" srcset="images/images.034-hg.jpg 1200w, images/images.034-lg.jpg 984w, images/images.034-md.jpg 728w, images/images.034-sm.jpg 375w" sizes="100vw" alt="Image of slide number 15" />
+            </div>
+            <div class="slide-notes">
+                      <p>That is as its essence what Semantic Reference Data Models are about, a solution to overcome the complexity of ontologies by providing to the users identifiable and documentable patterns to be used in their project.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.008.jpg" srcset="images/images.008-hg.jpg 1200w, images/images.008-lg.jpg 984w, images/images.008-md.jpg 728w, images/images.008-sm.jpg 375w" sizes="100vw" alt="Image of slide number 16" />
+            </div>
+            <div class="slide-notes">
+                      <p>Of course we known, we cannot list and provide solutions to every problem. It is beyond our possibility. However, we want to solve the simple semantic problems, creating templates that you can use to produce completely new data or just map your old one to CIDOC-CRM.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.009.jpg" srcset="images/images.009-hg.jpg 1200w, images/images.009-lg.jpg 984w, images/images.009-md.jpg 728w, images/images.009-sm.jpg 375w" sizes="100vw" alt="Image of slide number 17" />
+            </div>
+            <div class="slide-notes">
+                      <p>In order to achieve this aim we selected eight entity type which are present in many of our datasets: Person, Artwork, Built Works, Places, Group, Digital Objects, Events and last but not least, Bibliographic items. For each of</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.035.jpg" srcset="images/images.035-hg.jpg 1200w, images/images.035-lg.jpg 984w, images/images.035-md.jpg 728w, images/images.035-sm.jpg 375w" sizes="100vw" alt="Image of slide number 18" />
+            </div>
+            <div class="slide-notes">
+                      <p>these entity types, we selected and analysed a series of standard reference resources used by the community to encode and record information about that entity. In the case of person, for example, </p>
+
+      <p>we select attributes from Agregol, an ontology for GND, SIKART, MARC, VIAF, ULAN, CDWA, CCO, VRA, Schema.</p>
+
+      <p>For each of these standard we selected the prescribed  and optional attributes. </p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.021.jpg" srcset="images/images.021-hg.jpg 1200w, images/images.021-lg.jpg 984w, images/images.021-md.jpg 728w, images/images.021-sm.jpg 375w" sizes="100vw" alt="Image of slide number 19" />
+            </div>
+            <div class="slide-notes">
+                      <p>23 is the total number of sources consulted and analysed. Each of them has been used for one or more entity type. <a href="http://schema.org" target="_blank">schema.org</a> , for example, has been used across diverse entities. Geographical description of places saw the analysis of the schema used in geonames, and tgn. Application profiles, such as CARARE has been also used. </p>
+
+      <p>As you notice, we had a took into account a large wide view of sources</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.037.jpg" srcset="images/images.037-hg.jpg 1200w, images/images.037-lg.jpg 984w, images/images.037-md.jpg 728w, images/images.037-sm.jpg 375w" sizes="100vw" alt="Image of slide number 20" />
+            </div>
+            <div class="slide-notes">
+                      <p>which are fairly distributed across the documented entity types, from 9 sources for person to 3 sources to Events.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.023.jpg" srcset="images/images.023-hg.jpg 1200w, images/images.023-lg.jpg 984w, images/images.023-md.jpg 728w, images/images.023-sm.jpg 375w" sizes="100vw" alt="Image of slide number 21" />
+            </div>
+            <div class="slide-notes">
+                      <p>As I mentioned before, the first step is the selection of elements from a source. Each selected element is then defined and mapped to CIDOC-CRM.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.022.jpg" srcset="images/images.022-hg.jpg 1200w, images/images.022-lg.jpg 984w, images/images.022-md.jpg 728w, images/images.022-sm.jpg 375w" sizes="100vw" alt="Image of slide number 22" />
+            </div>
+            <div class="slide-notes">
+                      <p>The result is a series of CIDOC-CRM patterns for recording basic and complex information about an entity.  In order to make everything readable and browsable we aggregated these patterns by entity type (as we see before) as well as by function. For example, in the description of a Person we will be able to find a series of patterns about identification, existence and documentation, all aggregated in respect of their function. The purpose is to provide a searchable and easy to use (specifically for beginners) system.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.036.jpg" srcset="images/images.036-hg.jpg 1200w, images/images.036-lg.jpg 984w, images/images.036-md.jpg 728w, images/images.036-sm.jpg 375w" sizes="100vw" alt="Image of slide number 23" />
+            </div>
+            <div class="slide-notes">
+                      <p>Let’s just see a very basic example. Let’s take “Ferdinand Hodler”. We can express it very differently, in MARC, <a href="http://schema.org" target="_blank">schema.org</a> and maybe an XML schema used for CCO. In the Reference Data model, we instead have a more complex schema, which distinguish person, appellation and value of the appellation.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.013.jpg" srcset="images/images.013-hg.jpg 1200w, images/images.013-lg.jpg 984w, images/images.013-md.jpg 728w, images/images.013-sm.jpg 375w" sizes="100vw" alt="Image of slide number 24" />
+            </div>
+            <div class="slide-notes">
+                      <p>the pattern are modular and allow to express more and more about a specific entity, for example the birth date</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.007.jpg" srcset="images/images.007-hg.jpg 1200w, images/images.007-lg.jpg 984w, images/images.007-md.jpg 728w, images/images.007-sm.jpg 375w" sizes="100vw" alt="Image of slide number 25" />
+            </div>
+            <div class="slide-notes">
+                      <p>or the birth place</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.006.jpg" srcset="images/images.006-hg.jpg 1200w, images/images.006-lg.jpg 984w, images/images.006-md.jpg 728w, images/images.006-sm.jpg 375w" sizes="100vw" alt="Image of slide number 26" />
+            </div>
+            <div class="slide-notes">
+                      <p>we also provide the turtle encoding of a specific pattern or collection of.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.012.jpg" srcset="images/images.012-hg.jpg 1200w, images/images.012-lg.jpg 984w, images/images.012-md.jpg 728w, images/images.012-sm.jpg 375w" sizes="100vw" alt="Image of slide number 27" />
+            </div>
+            <div class="slide-notes">
+                      <p>it is important to notice that we do not prescribe vocabularies, leaving the choice of formalisation of a specific term, in a specific language to the users.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.038.jpg" srcset="images/images.038-hg.jpg 1200w, images/images.038-lg.jpg 984w, images/images.038-md.jpg 728w, images/images.038-sm.jpg 375w" sizes="100vw" alt="Image of slide number 28" />
+            </div>
+            <div class="slide-notes">
+                      <p>If we think about expressing the gender of a person, for example we could</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.004.jpg" srcset="images/images.004-hg.jpg 1200w, images/images.004-lg.jpg 984w, images/images.004-md.jpg 728w, images/images.004-sm.jpg 375w" sizes="100vw" alt="Image of slide number 29" />
+            </div>
+            <div class="slide-notes">
+                      <p>use Getty AAT, stating that someone is recognised to be a man, or maybe we can use homosaurus to mention that he was cisgender.  The Semantic Reference Data Models distant themselves from a schema because we focus on expressing semantic possibilities.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.010.jpg" srcset="images/images.010-hg.jpg 1200w, images/images.010-lg.jpg 984w, images/images.010-md.jpg 728w, images/images.010-sm.jpg 375w" sizes="100vw" alt="Image of slide number 30" />
+            </div>
+            <div class="slide-notes">
+                      <p>Each of the patterns is provided both as text and as a graphical overview. We did selected and constructed patterns which would be used to guide users mapping or creating both basic and complex information. A basic pattern could, for example, display how to encode appellations and identifiers, record their uses in time as well the process of the assignment by an institution of the identifier.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.011.jpg" srcset="images/images.011-hg.jpg 1200w, images/images.011-lg.jpg 984w, images/images.011-md.jpg 728w, images/images.011-sm.jpg 375w" sizes="100vw" alt="Image of slide number 31" />
+            </div>
+            <div class="slide-notes">
+                      <p>A more complex pattern would provide instructions for encoding an historical place in CRM, displaying how to link it with a specific spatiotemporal extent as well as with old toponyms used to identify it.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.005.jpg" srcset="images/images.005-hg.jpg 1200w, images/images.005-lg.jpg 984w, images/images.005-md.jpg 728w, images/images.005-sm.jpg 375w" sizes="100vw" alt="Image of slide number 32" />
+            </div>
+            <div class="slide-notes">
+                      <p>The result is a series of pattern of different level of granularity, that provide researcher with appropriate description and labels to identify the meaning, and developer with an appropriate description of the class-properties chain needed to implement such information. </p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.039.jpg" srcset="images/images.039-hg.jpg 1200w, images/images.039-lg.jpg 984w, images/images.039-md.jpg 728w, images/images.039-sm.jpg 375w" sizes="100vw" alt="Image of slide number 33" />
+            </div>
+            <div class="slide-notes">
+                      <p>We developed a long list of patterns covering a wide amount of information recording needs about these eight entity types</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.001.jpg" srcset="images/images.001-hg.jpg 1200w, images/images.001-lg.jpg 984w, images/images.001-md.jpg 728w, images/images.001-sm.jpg 375w" sizes="100vw" alt="Image of slide number 34" />
+            </div>
+            <div class="slide-notes">
+                      <p>We counted a minimum of 36 patterns for a simple expression of bibliographic item, to 72 for a built work.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.015.jpg" srcset="images/images.015-hg.jpg 1200w, images/images.015-lg.jpg 984w, images/images.015-md.jpg 728w, images/images.015-sm.jpg 375w" sizes="100vw" alt="Image of slide number 35" />
+            </div>
+            <div class="slide-notes">
+                      <p>We found ourselves working with the Reference Data Models at all time. We use it internally to map our data, and to keep the mapping and query between datasets consistent. </p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.029.jpg" srcset="images/images.029-hg.jpg 1200w, images/images.029-lg.jpg 984w, images/images.029-md.jpg 728w, images/images.029-sm.jpg 375w" sizes="100vw" alt="Image of slide number 36" />
+            </div>
+            <div class="slide-notes">
+                      <p>Having such type of documentation has also proven to be extremely useful when we reason about the possibilities of integration within the diverse entity-type we do work with, because a pattern list make apparent the overlaps and possibilities.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.028.jpg" srcset="images/images.028-hg.jpg 1200w, images/images.028-lg.jpg 984w, images/images.028-md.jpg 728w, images/images.028-sm.jpg 375w" sizes="100vw" alt="Image of slide number 37" />
+            </div>
+            <div class="slide-notes">
+                      <p>We saw what the Semantic Reference Model are, but it is important to state that our main target group for this project are the domain specialist and software developers. The former, more often than not, do not have specialised knowledge about ontological patterns, but they have an extensive knowledge of the domain, and using the Semantic Reference Data Models, they can already visualise and plan basic data integration tasks, and why not, trying them themselves. Software Developer or implementers instead do know very well data transformation and engineering tasks, knowledge graph creation as well as querying, but sometimes they do lack understanding of the underlying semantic of the data. Using the Reference Data Models they have in their hand a practical cookbook to use for their transformation.</p>
+
+      <p>The Semantic Reference Data Models can also be the discussion ground, where domain specialist and software developer can meet and understand, together, how to proceed and construct a system that satisfy the requirements of both.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.014.jpg" srcset="images/images.014-hg.jpg 1200w, images/images.014-lg.jpg 984w, images/images.014-md.jpg 728w, images/images.014-sm.jpg 375w" sizes="100vw" alt="Image of slide number 38" />
+            </div>
+            <div class="slide-notes">
+                      <p>When starting with the Reference Data Models, we use the latest version of CIDOC-CRM, but with the new version 7.0 coming along, we updated the mapping in order to respect new modelling choices.</p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.016.jpg" srcset="images/images.016-hg.jpg 1200w, images/images.016-lg.jpg 984w, images/images.016-md.jpg 728w, images/images.016-sm.jpg 375w" sizes="100vw" alt="Image of slide number 39" />
+            </div>
+            <div class="slide-notes">
+                      <p>Following the update to version 7, we also decided to continue working on new entity-type in order to provide even more possibilities to researchers working across the heritage domain. A new photo/Image model is soon to be released, and it will comprise several new patterns specifically describing the conceptual and physical nature of images. </p>
+
+      <p>Many more are planned, so stay tuned. </p>
+
+
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.002.jpg" srcset="images/images.002-hg.jpg 1200w, images/images.002-lg.jpg 984w, images/images.002-md.jpg 728w, images/images.002-sm.jpg 375w" sizes="100vw" alt="Image of slide number 40" />
+            </div>
+            <div class="slide-notes">
+                
+            </div>
+        </div>
+        
+        <div class="slide slide--bordered">
+            <div class="slide-image">
+                <img src="images/images.003.jpg" srcset="images/images.003-hg.jpg 1200w, images/images.003-lg.jpg 984w, images/images.003-md.jpg 728w, images/images.003-sm.jpg 375w" sizes="100vw" alt="Image of slide number 41" />
+            </div>
+            <div class="slide-notes">
+                
+            </div>
+        </div>
+        
+        
+        </div>
+        
+    </div>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+<script>
+  $(function() {
+  $('img').each(function(index) {
+    var img = this;
+    var order = (index+1).toString().padStart(3, "0");
+    img.src="image/image."+order+".jpg";
+    img.srcset="images/images."+order+"-hg.jpg 1200w, images/images."+order+"-lg.jpg 984w, images/images."+order+"-md.jpg 728w, images/images."+order+"-sm.jpg 375w";
+  })
+});
+</script>
+</body>
+</html>

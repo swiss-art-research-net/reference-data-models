@@ -1,4 +1,4 @@
 identifier,Model Specific Name,Description,CRM Path,used by
-builtwork_25_has_part,Has Part,This field is used to record individually documented parts of the documented physical thing.,--> P46 --> E22 [25_1],Swiss Art Research Infrastructure
-builtwork_26_has_part_type,Has Part Type,This field is used to record part types for the documented physical thing.,--> P46 --> E22[25_1] --> P2 --> E55 [26_1],Swiss Art Research Infrastructure
-builtwork_27_part_count,Part Count,This field is use to record a part count for the documented physical thing.,--> P57 --> rdf:literal,Swiss Art Research Infrastructure
+builtwork_25_has_part,Has Part,This field is used to record individually documented parts of the documented physical thing.,--> P46 --> E22[25_1],Swiss Art Research Infrastructure
+builtwork_26_has_part_type,Has Part Type,This field is used to record part types for the documented physical thing.,--> P46 --> E22[25_1] --> P2 --> E55[26_1],Swiss Art Research Infrastructure
+builtwork_27_part_count,Part Count,This field is use to record a part count for the documented physical thing.,--> P57 --> rdfs:Literal,Swiss Art Research Infrastructure

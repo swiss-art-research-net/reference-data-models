@@ -31,8 +31,8 @@
     crm:P4_has_time-span <https://www.srdm.org/time_span/fie_160_1> .
 
 <https://www.srdm.org/event/fie_162_1> a crm:E86_Leaving ;
-    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_162_2> ;
-    crm:p146_separated_from <https://www.srdm.org/actor/fie_158_3> .
+    crm:P146_separated_from <https://www.srdm.org/actor/fie_158_3> ;
+    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_162_2> .
 
 <https://www.srdm.org/event/fie_164_1> a crm:E5_Event ;
     crm:P11_had_participant <https://www.srdm.org/actor/fie_164_2> .

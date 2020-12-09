@@ -37,8 +37,8 @@
     frbroo:R64i_was_name_used_by <https://www.srdm.org/event/fie_13_1> ;
     crm:P141i_was_assigned_by <https://www.srdm.org/event/fie_15_1> ;
     crm:P190_has_symbolic_content "content" ;
-    crm:p2_has_type <https://www.srdm.org/type/fie_11_1> ;
-    crm:p72_has_language <https://www.srdm.org/name/fie_12_1> .
+    crm:P2_has_type <https://www.srdm.org/type/fie_11_1> ;
+    crm:P72_has_language <https://www.srdm.org/name/fie_12_1> .
 
 <https://www.srdm.org/name/fie_12_1> a crm:E56_Language .
 
@@ -49,8 +49,8 @@
 
 <https://www.srdm.org/name/fie_5_1> a crm:E33_E41_Linguistic_Appellation ;
     crm:P190_has_symbolic_content "content" ;
-    crm:p2_has_type <http://vocab.getty.edu/page/aat/300404670> ;
-    crm:p72_has_language <https://www.srdm.org/name/fie_6_1> .
+    crm:P2_has_type <http://vocab.getty.edu/page/aat/300404670> ;
+    crm:P72_has_language <https://www.srdm.org/name/fie_6_1> .
 
 <https://www.srdm.org/name/fie_6_1> a crm:E56_Language .
 

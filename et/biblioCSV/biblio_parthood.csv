@@ -1,3 +1,3 @@
 identifier,Model Specific Name,Description,CRM Path,used by
-bibliographic entity_31_has_part,Has Part,This field is used to record publications which forms part of the documented publication.,--> P106--> F24 [31_1],Swiss Art Research Infrastructure
-bibliographic entity_32_is_part_of,Is Part Of,"This field is used to record a publication of which the documented publication is a part such as the relation between a chapter and a book, an article and a journal issue etc.",--> P106i--> F24[32_1],Swiss Art Research Infrastructure
+bibliographic entity_31_has_part,Has Part,This field is used to record publications which forms part of the documented publication.,--> P106 --> F24[31_1],Swiss Art Research Infrastructure
+bibliographic entity_32_is_part_of,Is Part Of,"This field is used to record a publication of which the documented publication is a part such as the relation between a chapter and a book, an article and a journal issue etc.",--> P106i --> F24[32_1],Swiss Art Research Infrastructure

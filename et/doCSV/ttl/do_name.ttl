@@ -18,7 +18,7 @@
 
 <https://www.srdm.org/name/fie_5_1> a crm:E33_E41_Linguistic_Appellation ;
     crm:P190_has_symbolic_content "content" ;
-    crm:p2_has_type <http://vocab.getty.edu/page/aat/300404670> .
+    crm:P2_has_type <http://vocab.getty.edu/page/aat/300404670> .
 
 <https://www.srdm.org/type/fie_17_1> a crm:E55_Type .
 

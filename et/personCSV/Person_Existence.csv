@@ -1,7 +1,7 @@
 identifier,Model Specific Name,Description,CRM Path,used by
 person_73_birth_date_-_earliest,Birth Date - Earliest,This field is used to record the earliest possible date for the birth of the documented person.,--> P98i --> E67[73_1] --> P4 --> E52[73_2] --> P82a --> xsd:dateTime,Swiss Art Research Infrastructure
 person_74_birth_date_-_latest,Birth Date - Latest,This field is used to record the latest possible date for the birth of the documented person.,--> P98i --> E67[73_1] --> P4 --> E52[73_2] --> P82b --> xsd:dateTime,Swiss Art Research Infrastructure
-person_75_birth_location,Birth Location,This field is used to record the place of birth of the documented person.,--> P98i --> E67[73_1] --> P7 --> E53 [75_1],Swiss Art Research Infrastructure
+person_75_birth_location,Birth Location,This field is used to record the place of birth of the documented person.,--> P98i --> E67[73_1] --> P7 --> E53[75_1],Swiss Art Research Infrastructure
 person_76_death_date_-_earliest,Death Date - Earliest,This field is used to record the earliest possible date for the death of the documented person.,--> P100i --> E69[76_1] --> P4 --> E52[76_2] --> P82a --> xsd:dateTime,Swiss Art Research Infrastructure
 person_77_death_date_-_latest,Death Date - Latest,This field is used to record the latest possible date for the death of the documented person.,--> P100i --> E69[76_1] --> P4 --> E52[76_2] --> P82b --> xsd:dateTime,Swiss Art Research Infrastructure
-person_78_death_location,Death Location,This field is used to record the place of death of the documented person.,--> P100i --> E69[76_1] --> P7 --> E53 [78_1],Swiss Art Research Infrastructure
+person_78_death_location,Death Location,This field is used to record the place of death of the documented person.,--> P100i --> E69[76_1] --> P7 --> E53[78_1],Swiss Art Research Infrastructure

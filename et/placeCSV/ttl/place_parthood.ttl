@@ -31,10 +31,10 @@
 
 <https://www.srdm.org/stv/fie_42_2> a crm:E93_Presence ;
     crm:P10_falls_within <https://www.srdm.org/place/fie_42_3> ;
+    crm:P10i_contains <https://www.srdm.org/event/fie_43_1>,
+        <https://www.srdm.org/event/fie_44_1> ;
     crm:P161i_is_spatial_projection_of <https://www.srdm.org/stv/fie_47_1> ;
-    crm:P164_is_temporally_specified_by <https://www.srdm.org/time_span/fie_45_1> ;
-    crm:p10i_contains <https://www.srdm.org/event/fie_43_1>,
-        <https://www.srdm.org/event/fie_44_1> .
+    crm:P164_is_temporally_specified_by <https://www.srdm.org/time_span/fie_45_1> .
 
 <https://www.srdm.org/stv/fie_47_1> a crm:E53_Place ;
     crm:P168_place_is_defined_by ""^^geo:wkt .

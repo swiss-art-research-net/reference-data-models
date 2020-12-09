@@ -1,7 +1,7 @@
 identifier,Model Specific Name,Description,CRM Path,used by
-event_129_participant,Participant,This field is used to record actors involved in the documented event.,--> P01-->PC14  [129_1]-->P02--> E39 [129_2],Swiss Art Research Infrastructure
-event_130_participant_role,Participant Role,This field is used to record the role played by the actors involved in the documented event.,--> P01--> PC14  [129_1] --> P14 --> P14.1 [130_1] --> E55 ,Swiss Art Research Infrastructure
-event_131_objects_employed,Objects Employed,This field is used to record objects known to have been used in the execution/performance of the documented event.,--> P16 --> E18 [131_1],Swiss Art Research Infrastructure
-event_132_documents_employed,Documents Employed,This field is used to record information objects that are known to have been used during the event. ,--> P16 --> E73 [132_1],Swiss Art Research Infrastructure
-event_134_documents_created,Documents Created,This field is used to record documents that were generated as the result of an event.,--> P17 --> E65 [134_1]--> P94 --> E73 [134_2],Swiss Art Research Infrastructure
-event_133_event_plans_employed,Event Plans Employed,"This field is use to record any documented documents which describe the intended plan for execution of the event, as used in the event for coordinating its execution.",--> P33 --> E29 [133_1],Swiss Art Research Infrastructure
+event_129_participant,Participant,This field is used to record actors involved in the documented event.,--> P01 --> PC14 [129_1] --> P02 --> E39[129_2],Swiss Art Research Infrastructure
+event_130_participant_role,Participant Role,This field is used to record the role played by the actors involved in the documented event.,--> P01 --> PC14 [129_1] --> P14 --> P14.1[130_1] --> E55 ,Swiss Art Research Infrastructure
+event_131_objects_employed,Objects Employed,This field is used to record objects known to have been used in the execution/performance of the documented event.,--> P16 --> E18[131_1],Swiss Art Research Infrastructure
+event_132_documents_employed,Documents Employed,This field is used to record information objects that are known to have been used during the event. ,--> P16 --> E73[132_1],Swiss Art Research Infrastructure
+event_134_documents_created,Documents Created,This field is used to record documents that were generated as the result of an event.,--> P17 --> E65[134_1] --> P94 --> E73[134_2],Swiss Art Research Infrastructure
+event_133_event_plans_employed,Event Plans Employed,"This field is use to record any documented documents which describe the intended plan for execution of the event, as used in the event for coordinating its execution.",--> P33 --> E29[133_1],Swiss Art Research Infrastructure

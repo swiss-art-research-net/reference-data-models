@@ -688,14 +688,14 @@
 <td align="left">digital object_1_identifier</td>
 <td align="left">Identifier</td>
 <td align="left">This field is used to record an identifier attributed to the documented entity.</td>
-<td align="left">&rarr; P1 &rarr; E42[1_1] &rarr; P190 &rarr; rdf:literal</td>
+<td align="left">&rarr; P1 &rarr; E42[1_1] &rarr; P190 &rarr; rdfs:Literal</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 <tr>
 <td align="left">digital object_5_name</td>
 <td align="left">Name</td>
 <td align="left">This field is used to record the main name attributed to the documented entity.</td>
-<td align="left">&rarr; P1&rarr; E33_E41[5_1] &rarr; P190 &rarr; rdf:literal<br><br>&rarr; P1&rarr; E33_E41[5_1] &rarr; P2&rarr; E55[5_2]{'preferred terms'}</td>
+<td align="left">&rarr; P1 &rarr; E33_E41[5_1] &rarr; P190 &rarr; rdfs:Literal<br><br> &rarr; P1 &rarr; E33_E41[5_1] &rarr; P2 &rarr; E55[5_2]{'preferred terms'}</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 <tr>
@@ -716,14 +716,14 @@
 <td align="left">digital object_1_identifier</td>
 <td align="left">Identifier</td>
 <td align="left">This field is used to record an identifier attributed to the documented entity.</td>
-<td align="left">&rarr; P1 &rarr; E42[1_1] &rarr; P190 &rarr; rdf:literal</td>
+<td align="left">&rarr; P1 &rarr; E42[1_1] &rarr; P190 &rarr; rdfs:Literal</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 <tr>
 <td align="left">digital object_2_identifier_type</td>
 <td align="left">Identifier Type</td>
 <td align="left">This field is used to record the type of the identifier attributed to the documented entity.</td>
-<td align="left">&rarr; P1&rarr; E42[1_1] &rarr; P2&rarr; E55[2_1]</td>
+<td align="left">&rarr; P1 &rarr; E42[1_1] &rarr; P2 &rarr; E55[2_1]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 </tbody>
@@ -749,7 +749,7 @@
 
 <span class="nv">&lt;https://www.srdm.org/name/fie_5_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E33_E41_Linguistic_Appellation</span> <span class="p">;</span>
     <span class="nn">crm</span><span class="p">:</span><span class="nt">P190_has_symbolic_content</span> <span class="s">&quot;content&quot;</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">p2_has_type</span> <span class="nv">&lt;http://vocab.getty.edu/page/aat/300404670&gt;</span> <span class="p">.</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;http://vocab.getty.edu/page/aat/300404670&gt;</span> <span class="p">.</span>
 
 <span class="nv">&lt;https://www.srdm.org/type/fie_17_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">.</span>
 </code></pre></div>
@@ -772,14 +772,14 @@
 <td align="left">digital object_29_has_part</td>
 <td align="left">Has Part</td>
 <td align="left">This field is used to record parts of the documented digital object.</td>
-<td align="left">&rarr; P106 &rarr; D1 [29_1]</td>
+<td align="left">&rarr; P106 &rarr; D1[29_1]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 <tr>
 <td align="left">digital object_30_is_part_of</td>
 <td align="left">Is Part Of</td>
 <td align="left">This field is used to record a digital object of which the documented digital object is a part..</td>
-<td align="left">&rarr; P106i &rarr; D1 [30_1]</td>
+<td align="left">&rarr; P106i &rarr; D1[30_1]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 </tbody>
@@ -789,8 +789,8 @@
 <span class="k">@prefix</span><span class="w"> </span><span class="nn">crmdig:</span><span class="w"> </span><span class="nv">&lt;http://www.ics.forth.gr/isl/CRMdig/&gt;</span><span class="w"> </span><span class="p">.</span>
 
 <span class="nv">&lt;http://www.srdm.org/conceptual_object/D1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D1_Digital_Object</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">p106_is_composed_of</span> <span class="nv">&lt;https://www.srdm.org/conceptual_object/fie_29_1&gt;</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">p106i_forms_part_of</span> <span class="nv">&lt;https://www.srdm.org/conceptual_object/fie_30_1&gt;</span> <span class="p">.</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P106_is_composed_of</span> <span class="nv">&lt;https://www.srdm.org/conceptual_object/fie_29_1&gt;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P106i_forms_part_of</span> <span class="nv">&lt;https://www.srdm.org/conceptual_object/fie_30_1&gt;</span> <span class="p">.</span>
 
 <span class="nv">&lt;https://www.srdm.org/conceptual_object/fie_29_1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D1_Digital_Object</span> <span class="p">.</span>
 
@@ -814,28 +814,28 @@
 <td align="left">digital object_66_creation_date_-_early</td>
 <td align="left">Creation Date - Early</td>
 <td align="left">This field is used to record the earliest possible date for the creation of the documented digital object.</td>
-<td align="left">&rarr; L11i &rarr; D7[66_1] &rarr; P4 &rarr; E52[66_2] &rarr; P81a &rarr; xsd:dateTime<br><br>&rarr; L11i &rarr; D7[66_1] &rarr; P2 &rarr; E55 "Creation" [66_3]</td>
+<td align="left">&rarr; L11i &rarr; D7[66_1] &rarr; P4 &rarr; E52[66_2] &rarr; P81a &rarr; xsd:dateTime<br><br> &rarr; L11i &rarr; D7[66_1] &rarr; P2 &rarr; E55 "Creation"[66_3]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 <tr>
 <td align="left">digital object_67_creation_date_-_late</td>
 <td align="left">Creation Date - Late</td>
 <td align="left">This field is used to record the latest possible date for the creation of the documented digital object.</td>
-<td align="left">&rarr; L11i &rarr; D7[66_1] &rarr; P4 &rarr; E52[66_2] &rarr; P81b &rarr; xsd:dateTime<br><br>&rarr; L11i &rarr; D7[66_1] &rarr; P2 &rarr; E55 "Creation" [66_3]</td>
+<td align="left">&rarr; L11i &rarr; D7[66_1] &rarr; P4 &rarr; E52[66_2] &rarr; P81b &rarr; xsd:dateTime<br><br> &rarr; L11i &rarr; D7[66_1] &rarr; P2 &rarr; E55 "Creation"[66_3]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 <tr>
 <td align="left">digital object_68_modification_date_-_early</td>
 <td align="left">Modification Date - Early</td>
 <td align="left">This field is used to record the earliest possible date for the modification of the documented digital object.</td>
-<td align="left">&rarr; L11i &rarr; D7[68_1] &rarr; P4 &rarr; E52[68_2] &rarr; P81a &rarr; xsd:dateTime<br><br>&rarr; L11i &rarr; D7[68_1] &rarr; P2 &rarr; E55 "Modification" [68_3]</td>
+<td align="left">&rarr; L11i &rarr; D7[68_1] &rarr; P4 &rarr; E52[68_2] &rarr; P81a &rarr; xsd:dateTime<br><br> &rarr; L11i &rarr; D7[68_1] &rarr; P2 &rarr; E55 "Modification"[68_3]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 <tr>
 <td align="left">digital object_69_modification_date_-_late</td>
 <td align="left">Modification Date - Late</td>
 <td align="left">This field is used to record the latest possible date for the modification of the documented digital object.</td>
-<td align="left">&rarr; L11i &rarr; D7[68_1] &rarr; P4 &rarr; E52[68_2] &rarr; P81b &rarr; xsd:dateTime<br><br>&rarr; L11i &rarr; D7[68_1] &rarr; P2 &rarr; E55 "Modification" [68_3]</td>
+<td align="left">&rarr; L11i &rarr; D7[68_1] &rarr; P4 &rarr; E52[68_2] &rarr; P81b &rarr; xsd:dateTime<br><br> &rarr; L11i &rarr; D7[68_1] &rarr; P2 &rarr; E55 "Modification"[68_3]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 </tbody>
@@ -894,7 +894,7 @@
 <td align="left">digital object_143_creator</td>
 <td align="left">Creator</td>
 <td align="left">This field is used to record the creator of the documented digital object.</td>
-<td align="left">&rarr; L11i &rarr; D7[66_1] &rarr; P14 &rarr; E39 &rarr; L11i &rarr; D7[66_2] &rarr; P2 &rarr; E55 "Creation" [143_1]</td>
+<td align="left">&rarr; L11i &rarr; D7[66_1] &rarr; P14 &rarr; E39 &rarr; L11i &rarr; D7[66_2] &rarr; P2 &rarr; E55 "Creation"[143_1]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 <tr>
@@ -951,21 +951,21 @@
 <td align="left">digital object_86_dimension_type</td>
 <td align="left">Dimension Type</td>
 <td align="left">This field is used to record the type of measurement that the dimension of the documented object represents.</td>
-<td align="left">&rarr; P39i &rarr; E16 [86_1]&rarr; P40 &rarr; E54 [86_2] &rarr; P2 &rarr; E55 [86_3]</td>
+<td align="left">&rarr; P39i &rarr; E16[86_1] &rarr; P40 &rarr; E54[86_2] &rarr; P2 &rarr; E55[86_3]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 <tr>
 <td align="left">digital object_87_dimension_value</td>
 <td align="left">Dimension Value</td>
 <td align="left">This field is used to record the value of the measured dimension of the documented object.</td>
-<td align="left">&rarr; P39i &rarr; E16 [86_1]&rarr; P40 &rarr; E54 [86_2]&rarr; P90 &rarr; xsd:decimal</td>
+<td align="left">&rarr; P39i &rarr; E16[86_1] &rarr; P40 &rarr; E54[86_2] &rarr; P90 &rarr; xsd:decimal</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 <tr>
 <td align="left">digital object_88_dimension_unit</td>
 <td align="left">Dimension Unit</td>
 <td align="left">This field is used to record the unit of the measured dimension of the documented object.</td>
-<td align="left">&rarr; P39i &rarr; E16 [86_1]&rarr; P40 &rarr; E54 [86_2]&rarr; P91 &rarr; E58 [88_1]</td>
+<td align="left">&rarr; P39i &rarr; E16[86_1] &rarr; P40 &rarr; E54[86_2] &rarr; P91 &rarr; E58[88_1]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 <tr>
@@ -979,7 +979,7 @@
 <td align="left">digital object_95_conforms_to</td>
 <td align="left">Conforms to</td>
 <td align="left">This field is used to record a formal standard which was used in the creation of the digital object to which it should in principle conform.</td>
-<td align="left">&rarr; L11i &rarr; D7[66_1] &rarr; P32 &rarr; E29/D1 [95_1]</td>
+<td align="left">&rarr; L11i &rarr; D7[66_1] &rarr; P32 &rarr; E29/D1[95_1]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 </tbody>
@@ -1028,7 +1028,7 @@
 <td align="left">digital object_103_subject_reference</td>
 <td align="left">Subject Reference</td>
 <td align="left">This field is used to record the subject of representation of the documented propositional item. It is meant to capture general subject areas, not particular individual items represented.</td>
-<td align="left">&rarr; P129&rarr; E55 [103_1]</td>
+<td align="left">&rarr; P129 &rarr; E55[103_1]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 </tbody>
@@ -1060,14 +1060,14 @@
 <td align="left">digital object_171_right_holder</td>
 <td align="left">Right Holder</td>
 <td align="left">This field is used to record the right holder for the documented legal object.</td>
-<td align="left">&rarr; P104 &rarr; E30[171_1] &rarr; P105 &rarr; E39 [171_2]</td>
+<td align="left">&rarr; P104 &rarr; E30[171_1] &rarr; P105 &rarr; E39[171_2]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 <tr>
 <td align="left">digital object_172_right_type</td>
 <td align="left">Right Type</td>
 <td align="left">This field is used to record the type of right which the right holder holds over the documented legal object.</td>
-<td align="left">&rarr; P104 &rarr; E30[171_1] &rarr; P2 &rarr; E55 [172_1]</td>
+<td align="left">&rarr; P104 &rarr; E30[171_1] &rarr; P2 &rarr; E55[172_1]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 <tr>
@@ -1122,14 +1122,14 @@
 <td align="left">digital object_181_locator_type</td>
 <td align="left">Locator Type</td>
 <td align="left">This field is used to record the kind of locator used to described the digital location of the documented digital object.</td>
-<td align="left">&rarr; P1 &rarr; E42[180_1] &rarr; P2 &rarr; E55 [180_2]</td>
+<td align="left">&rarr; P1 &rarr; E42[180_1] &rarr; P2 &rarr; E55[180_2]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 <tr>
 <td align="left">digital object_182_stored_on</td>
 <td align="left">Stored on</td>
 <td align="left">This field is used to record a physical storage mechanism on which the digital object can be found.</td>
-<td align="left">&rarr; L19i &rarr; D13 [182_1]</td>
+<td align="left">&rarr; L19i &rarr; D13[182_1]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 </tbody>
@@ -1143,7 +1143,7 @@
     <span class="nn">crmdig</span><span class="p">:</span><span class="nt">L19i_is_stored_on</span> <span class="nv">&lt;https://www.srdm.org/physical_object/fie_182_1&gt;</span> <span class="p">.</span>
 
 <span class="nv">&lt;https://www.srdm.org/name/fie_180_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E42_Identifier</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">p2_has_type</span> <span class="nv">&lt;https://www.srdm.org/type/fie_181_1&gt;</span> <span class="p">.</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://www.srdm.org/type/fie_181_1&gt;</span> <span class="p">.</span>
 
 <span class="nv">&lt;https://www.srdm.org/physical_object/fie_182_1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D13_Digital_Information_Carrier</span> <span class="p">.</span>
 
@@ -1167,7 +1167,7 @@
 <td align="left">digital object_204_same_as</td>
 <td align="left">Same As</td>
 <td align="left">The field is used to record the sameness between the entity described and an external authority</td>
-<td align="left">&rarr; L54 &rarr; E1 [204_1]</td>
+<td align="left">&rarr; L54 &rarr; E1[204_1]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 </tbody>

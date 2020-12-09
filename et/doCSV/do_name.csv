@@ -1,7 +1,7 @@
 identifier,Model Specific Name,Description,CRM Path,used by
-digital object_1_identifier,Identifier,This field is used to record an identifier attributed to the documented entity.,--> P1 --> E42[1_1] --> P190 --> rdf:literal,Swiss Art Research Infrastructure
-digital object_5_name,Name,This field is used to record the main name attributed to the documented entity.,--> P1--> E33_E41[5_1] --> P190 --> rdf:literal<br><br>--> P1--> E33_E41[5_1] --> P2--> E55[5_2]{'preferred terms'},Swiss Art Research Infrastructure
+digital object_1_identifier,Identifier,This field is used to record an identifier attributed to the documented entity.,--> P1 --> E42[1_1] --> P190 --> rdfs:Literal,Swiss Art Research Infrastructure
+digital object_5_name,Name,This field is used to record the main name attributed to the documented entity.,--> P1 --> E33_E41[5_1] --> P190 --> rdfs:Literal<br><br> --> P1 --> E33_E41[5_1] --> P2 --> E55[5_2]{'preferred terms'},Swiss Art Research Infrastructure
 digital object_17_type,Type,This field is used to record the formal type of the documented object.,--> P2 --> E55[17_1],Swiss Art Research Infrastructure
 digital object_17_type,Type,This field is used to record the formal type of the documented object.,--> P2 --> E55[17_1],Swiss Art Research Infrastructure
-digital object_1_identifier,Identifier,This field is used to record an identifier attributed to the documented entity.,--> P1 --> E42[1_1] --> P190 --> rdf:literal,Swiss Art Research Infrastructure
-digital object_2_identifier_type,Identifier Type,This field is used to record the type of the identifier attributed to the documented entity.,--> P1--> E42[1_1] --> P2--> E55[2_1],Swiss Art Research Infrastructure
+digital object_1_identifier,Identifier,This field is used to record an identifier attributed to the documented entity.,--> P1 --> E42[1_1] --> P190 --> rdfs:Literal,Swiss Art Research Infrastructure
+digital object_2_identifier_type,Identifier Type,This field is used to record the type of the identifier attributed to the documented entity.,--> P1 --> E42[1_1] --> P2 --> E55[2_1],Swiss Art Research Infrastructure

@@ -9,7 +9,7 @@
 <http://www.srdm.org/type/builtwork> a crm:E55_type .
 
 <https://www.srdm.org/name/fie_177_2> a crm:E41_Appellation ;
-    crm:p2_has_type <https://www.srdm.org/type/fie_177_3> .
+    crm:P2_has_type <https://www.srdm.org/type/fie_177_3> .
 
 <https://www.srdm.org/place/fie_177_1> a crm:E53_Place ;
     crm:P168_place_is_defined_by ""^^geo:wkt ;
