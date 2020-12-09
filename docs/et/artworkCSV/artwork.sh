@@ -19,7 +19,7 @@ cp ../scripts/criteria.sh .
 cp ../scripts/turtle.sh .
 cp ../scripts/rename_png.sh .
 cp ../scripts/rename_csv.sh .
-cp -R ../scripts/src/ .
+cp -R ../scripts/src/ src/
 
 
 python ../airscraper/airscraper/airscraper/airscraper.py https://airtable.com/shrPgJopfdzS8TRjU > Artwork_Name.csv ;
