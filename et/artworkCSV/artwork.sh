@@ -12,8 +12,15 @@ rm -rf turtle.sh ;
 rm -rf ttl/ ;
 rm -rf *.csv ;
 
-unzip -q script.zip
-rm -rf __MACOSX
+cp ../scripts/prefixes.txt .
+cp ../scripts/csvcut.sh .
+cp ../scripts/mmd.sh .
+cp ../scripts/criteria.sh .
+cp ../scripts/turtle.sh .
+cp ../scripts/rename_png.sh .
+cp ../scripts/rename_csv.sh .
+cp -R ../scripts/src/ .
+
 
 python ../airscraper/airscraper/airscraper/airscraper.py https://airtable.com/shrPgJopfdzS8TRjU > Artwork_Name.csv ;
 python ../airscraper/airscraper/airscraper/airscraper.py https://airtable.com/shr1BUAc0k7CMGOPR > Artwork_Parthood.csv ;
