@@ -22,4 +22,5 @@ The Semantic Reference Data Model are produced by the Swiss Art Research Infrast
 
 ## Contributions and issues
 
-The SRDM are not a fixed entity, but they can be updated with new **fields**. Please open an issue here on Github to request new **fields**, or to indicate problems with the current ones.
+The SRDM are not a fixed entity, but they can be updated with new **fields**. Please open an issue here on Github to request new **fields**, or to indicate problems with the current ones.  
+
