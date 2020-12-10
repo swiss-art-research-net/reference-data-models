@@ -1,6 +1,6 @@
 # Reference Data Models
 
-Repository focused on the discussions and development of the [Reference Data Models](https://docs.swissartresearch.net/).
+This repository is used to collect and discuss the development of the [Reference Data Models](https://docs.swissartresearch.net/).
 
 This website record and collect the Semantic Reference Data Models. With the term Semantic Reference Data Model (SRDM) we denote a set of data patterns (**fields**) useful for the semantic description of a specific entity type. 
 
