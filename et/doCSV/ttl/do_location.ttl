@@ -2,13 +2,13 @@
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
 
 <http://www.srdm.org/conceptual_object/D1> a crmdig:D1_Digital_Object ;
-    crm:P1_is_identified_by <https://www.srdm.org/name/fie_180_1> ;
-    crmdig:L19i_is_stored_on <https://www.srdm.org/physical_object/fie_182_1> .
+    crm:P1_is_identified_by <https://example.org/name/fie_180_1> ;
+    crmdig:L19i_is_stored_on <https://example.org/physical_object/fie_182_1> .
 
-<https://www.srdm.org/name/fie_180_1> a crm:E42_Identifier ;
-    crm:P2_has_type <https://www.srdm.org/type/fie_181_1> .
+<https://example.org/name/fie_180_1> a crm:E42_Identifier ;
+    crm:P2_has_type <https://example.org/type/fie_181_1> .
 
-<https://www.srdm.org/physical_object/fie_182_1> a crmdig:D13_Digital_Information_Carrier .
+<https://example.org/physical_object/fie_182_1> a crmdig:D13_Digital_Information_Carrier .
 
-<https://www.srdm.org/type/fie_181_1> a crm:E55_Type .
+<https://example.org/type/fie_181_1> a crm:E55_Type .
 

@@ -734,24 +734,24 @@
 <span class="k">@prefix</span><span class="w"> </span><span class="nn">rdfs:</span><span class="w"> </span><span class="nv">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span><span class="w"> </span><span class="p">.</span>
 
 <span class="nv">&lt;http://www.srdm.org/conceptual_object/D1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D1_Digital_Object</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P1_is_identified_by</span> <span class="nv">&lt;https://www.srdm.org/name/fie_1_1&gt;</span><span class="p">,</span>
-        <span class="nv">&lt;https://www.srdm.org/name/fie_5_1&gt;</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://www.srdm.org/type/fie_17_1&gt;</span> <span class="p">.</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P1_is_identified_by</span> <span class="nv">&lt;https://example.org/name/fie_1_1&gt;</span><span class="p">,</span>
+        <span class="nv">&lt;https://example.org/name/fie_5_1&gt;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://example.org/type/fie_17_1&gt;</span> <span class="p">.</span>
 
 <span class="nv">&lt;http://vocab.getty.edu/page/aat/300404670&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">;</span>
     <span class="nn">rdfs</span><span class="p">:</span><span class="nt">label</span> <span class="s">&quot;preferred terms&quot;</span> <span class="p">.</span>
 
 <span class="nv">&lt;http://www.srdm.org/type/fie_2_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/name/fie_1_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E42_Identifier</span> <span class="p">;</span>
+<span class="nv">&lt;https://example.org/name/fie_1_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E42_Identifier</span> <span class="p">;</span>
     <span class="nn">crm</span><span class="p">:</span><span class="nt">P190_has_symbolic_content</span> <span class="s">&quot;content&quot;</span> <span class="p">;</span>
     <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;http://www.srdm.org/type/fie_2_1&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/name/fie_5_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E33_E41_Linguistic_Appellation</span> <span class="p">;</span>
+<span class="nv">&lt;https://example.org/name/fie_5_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E33_E41_Linguistic_Appellation</span> <span class="p">;</span>
     <span class="nn">crm</span><span class="p">:</span><span class="nt">P190_has_symbolic_content</span> <span class="s">&quot;content&quot;</span> <span class="p">;</span>
     <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;http://vocab.getty.edu/page/aat/300404670&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/type/fie_17_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/type/fie_17_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">.</span>
 </code></pre></div>
 </details>
 <p>The model provides means for tracking identifiers, titles, and various classifies that enable the identification, retrieval, verification and display/decoding of the digital object.</p>
@@ -789,12 +789,12 @@
 <span class="k">@prefix</span><span class="w"> </span><span class="nn">crmdig:</span><span class="w"> </span><span class="nv">&lt;http://www.ics.forth.gr/isl/CRMdig/&gt;</span><span class="w"> </span><span class="p">.</span>
 
 <span class="nv">&lt;http://www.srdm.org/conceptual_object/D1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D1_Digital_Object</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P106_is_composed_of</span> <span class="nv">&lt;https://www.srdm.org/conceptual_object/fie_29_1&gt;</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P106i_forms_part_of</span> <span class="nv">&lt;https://www.srdm.org/conceptual_object/fie_30_1&gt;</span> <span class="p">.</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P106_is_composed_of</span> <span class="nv">&lt;https://example.org/conceptual_object/fie_29_1&gt;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P106i_forms_part_of</span> <span class="nv">&lt;https://example.org/conceptual_object/fie_30_1&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/conceptual_object/fie_29_1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D1_Digital_Object</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/conceptual_object/fie_29_1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D1_Digital_Object</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/conceptual_object/fie_30_1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D1_Digital_Object</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/conceptual_object/fie_30_1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D1_Digital_Object</span> <span class="p">.</span>
 </code></pre></div>
 </details>
 <h3 id="existence">Existence<a class="headerlink" href="#existence" title="Permanent link">&para;</a></h3>
@@ -847,33 +847,33 @@
 <span class="k">@prefix</span><span class="w"> </span><span class="nn">xsd:</span><span class="w"> </span><span class="nv">&lt;http://www.w3.org/2001/XMLSchema#&gt;</span><span class="w"> </span><span class="p">.</span>
 
 <span class="nv">&lt;http://www.srdm.org/conceptual_object/D1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D1_Digital_Object</span> <span class="p">;</span>
-    <span class="nn">crmdig</span><span class="p">:</span><span class="nt">L11i_was_output_of</span> <span class="nv">&lt;https://www.srdm.org/event/fie_66_1&gt;</span><span class="p">,</span>
-        <span class="nv">&lt;https://www.srdm.org/event/fie_68_1&gt;</span> <span class="p">.</span>
+    <span class="nn">crmdig</span><span class="p">:</span><span class="nt">L11i_was_output_of</span> <span class="nv">&lt;https://example.org/event/fie_66_1&gt;</span><span class="p">,</span>
+        <span class="nv">&lt;https://example.org/event/fie_68_1&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/event/fie_66_1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D7_Digital_Machine_Event</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://www.srdm.org/type/fie_66_3&gt;</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P4_has_time-span</span> <span class="nv">&lt;https://www.srdm.org/time_span/fie_66_2&gt;</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/event/fie_66_1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D7_Digital_Machine_Event</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://example.org/type/fie_66_3&gt;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P4_has_time-span</span> <span class="nv">&lt;https://example.org/time_span/fie_66_2&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/event/fie_68_1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D7_Digital_Machine_Event</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://www.srdm.org/type/fie_68_23&gt;</span><span class="p">,</span>
-        <span class="nv">&lt;https://www.srdm.org/type/fie_68_3&gt;</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P4_has_time-span</span> <span class="nv">&lt;https://www.srdm.org/time_span/fie_68_2&gt;</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/event/fie_68_1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D7_Digital_Machine_Event</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://example.org/type/fie_68_23&gt;</span><span class="p">,</span>
+        <span class="nv">&lt;https://example.org/type/fie_68_3&gt;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P4_has_time-span</span> <span class="nv">&lt;https://example.org/time_span/fie_68_2&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/time_span/fie_66_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E52_Time-Span</span> <span class="p">;</span>
+<span class="nv">&lt;https://example.org/time_span/fie_66_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E52_Time-Span</span> <span class="p">;</span>
     <span class="nn">crm</span><span class="p">:</span><span class="nt">P82a_begin_of_the_begin</span> <span class="s">&quot;&quot;</span><span class="p">^^</span><span class="nn">xsd</span><span class="p">:</span><span class="nt">dateTime</span> <span class="p">;</span>
     <span class="nn">crm</span><span class="p">:</span><span class="nt">P82b_end_of_the_end</span> <span class="s">&quot;&quot;</span><span class="p">^^</span><span class="nn">xsd</span><span class="p">:</span><span class="nt">dateTime</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/time_span/fie_68_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E52_Time-Span</span> <span class="p">;</span>
+<span class="nv">&lt;https://example.org/time_span/fie_68_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E52_Time-Span</span> <span class="p">;</span>
     <span class="nn">crm</span><span class="p">:</span><span class="nt">P82a_begin_of_the_begin</span> <span class="s">&quot;&quot;</span><span class="p">^^</span><span class="nn">xsd</span><span class="p">:</span><span class="nt">dateTime</span> <span class="p">;</span>
     <span class="nn">crm</span><span class="p">:</span><span class="nt">P82b_end_of_the_end</span> <span class="s">&quot;&quot;</span><span class="p">^^</span><span class="nn">xsd</span><span class="p">:</span><span class="nt">dateTime</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/type/fie_66_3&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">;</span>
+<span class="nv">&lt;https://example.org/type/fie_66_3&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">;</span>
     <span class="nn">rdfs</span><span class="p">:</span><span class="nt">label</span> <span class="s">&quot;Creation&quot;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/type/fie_68_23&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">;</span>
+<span class="nv">&lt;https://example.org/type/fie_68_23&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">;</span>
     <span class="nn">rdfs</span><span class="p">:</span><span class="nt">label</span> <span class="s">&quot;Modification&quot;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/type/fie_68_3&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">;</span>
+<span class="nv">&lt;https://example.org/type/fie_68_3&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">;</span>
     <span class="nn">rdfs</span><span class="p">:</span><span class="nt">label</span> <span class="s">&quot;Modification&quot;</span> <span class="p">.</span>
 </code></pre></div>
 </details>
@@ -912,24 +912,24 @@
 <span class="k">@prefix</span><span class="w"> </span><span class="nn">rdfs:</span><span class="w"> </span><span class="nv">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span><span class="w"> </span><span class="p">.</span>
 
 <span class="nv">&lt;http://www.srdm.org/conceptual_object/D1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D1_Digital_Object</span> <span class="p">;</span>
-    <span class="nn">crmdig</span><span class="p">:</span><span class="nt">L11i_was_output_of</span> <span class="nv">&lt;https://www.srdm.org/event/fie_66_1&gt;</span> <span class="p">.</span>
+    <span class="nn">crmdig</span><span class="p">:</span><span class="nt">L11i_was_output_of</span> <span class="nv">&lt;https://example.org/event/fie_66_1&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/actor/fie_143_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E39_Actor</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/actor/fie_143_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E39_Actor</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/actor/fie_144_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E39_Actor</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/actor/fie_144_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E39_Actor</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/event/fie_66_1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D7_Digital_Machine_Event</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P01i_is_domain_of</span> <span class="nv">&lt;https://www.srdm.org/property/fie_143_1&gt;</span><span class="p">,</span>
-        <span class="nv">&lt;https://www.srdm.org/property/fie_144_1&gt;</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://www.srdm.org/type/fie_66_2&gt;</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/event/fie_66_1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D7_Digital_Machine_Event</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P01i_is_domain_of</span> <span class="nv">&lt;https://example.org/property/fie_143_1&gt;</span><span class="p">,</span>
+        <span class="nv">&lt;https://example.org/property/fie_144_1&gt;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://example.org/type/fie_66_2&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/property/fie_143_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">PC14_carried_out_by</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P02_has_range</span> <span class="nv">&lt;https://www.srdm.org/actor/fie_143_2&gt;</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/property/fie_143_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">PC14_carried_out_by</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P02_has_range</span> <span class="nv">&lt;https://example.org/actor/fie_143_2&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/property/fie_144_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">PC14_carried_out_by</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P02_has_range</span> <span class="nv">&lt;https://www.srdm.org/actor/fie_144_2&gt;</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/property/fie_144_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">PC14_carried_out_by</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P02_has_range</span> <span class="nv">&lt;https://example.org/actor/fie_144_2&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/type/fie_66_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">;</span>
+<span class="nv">&lt;https://example.org/type/fie_66_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">;</span>
     <span class="nn">rdfs</span><span class="p">:</span><span class="nt">label</span> <span class="s">&quot;Creation&quot;</span><span class="p">,</span>
         <span class="s">&quot;Modification&quot;</span> <span class="p">.</span>
 </code></pre></div>
@@ -990,25 +990,25 @@
 
 <span class="nv">&lt;http://www.srdm.org/conceptual_object/D1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D1_Digital_Object</span> <span class="p">;</span>
     <span class="nn">crm</span><span class="p">:</span><span class="nt">P190_has_symbolic_content</span> <span class="s">&quot;content&quot;</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P39i_was_measured_by</span> <span class="nv">&lt;https://www.srdm.org/event/fie_86_1&gt;</span> <span class="p">;</span>
-    <span class="nn">crmdig</span><span class="p">:</span><span class="nt">L11i_was_output_of</span> <span class="nv">&lt;https://www.srdm.org/event/fie_66_1&gt;</span> <span class="p">.</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P39i_was_measured_by</span> <span class="nv">&lt;https://example.org/event/fie_86_1&gt;</span> <span class="p">;</span>
+    <span class="nn">crmdig</span><span class="p">:</span><span class="nt">L11i_was_output_of</span> <span class="nv">&lt;https://example.org/event/fie_66_1&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/dimension/fie_86_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E54_Dimension</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://www.srdm.org/type/fie_86_3&gt;</span> <span class="p">;</span>
+<span class="nv">&lt;https://example.org/dimension/fie_86_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E54_Dimension</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://example.org/type/fie_86_3&gt;</span> <span class="p">;</span>
     <span class="nn">crm</span><span class="p">:</span><span class="nt">P90_has_value</span> <span class="s">&quot;content&quot;</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P91_has_unit</span> <span class="nv">&lt;https://www.srdm.org/type/fie_88_1&gt;</span> <span class="p">.</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P91_has_unit</span> <span class="nv">&lt;https://example.org/type/fie_88_1&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/event/fie_66_1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D7_Digital_Machine_Event</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P33_used_specific_technique</span> <span class="nv">&lt;https://www.srdm.org/type/fie_95_1&gt;</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/event/fie_66_1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D7_Digital_Machine_Event</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P33_used_specific_technique</span> <span class="nv">&lt;https://example.org/type/fie_95_1&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/event/fie_86_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E16_Measurement</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P40_observed_dimension</span> <span class="nv">&lt;https://www.srdm.org/dimension/fie_86_2&gt;</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/event/fie_86_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E16_Measurement</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P40_observed_dimension</span> <span class="nv">&lt;https://example.org/dimension/fie_86_2&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/type/fie_86_3&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/type/fie_86_3&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/type/fie_88_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E58_Measurement_unit</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/type/fie_88_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E58_Measurement_unit</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/type/fie_95_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E29_Design_or_Procedure</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/type/fie_95_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E29_Design_or_Procedure</span> <span class="p">.</span>
 </code></pre></div>
 </details>
 <h3 id="representation">Representation<a class="headerlink" href="#representation" title="Permanent link">&para;</a></h3>
@@ -1038,9 +1038,9 @@
 <span class="k">@prefix</span><span class="w"> </span><span class="nn">crmdig:</span><span class="w"> </span><span class="nv">&lt;http://www.ics.forth.gr/isl/CRMdig/&gt;</span><span class="w"> </span><span class="p">.</span>
 
 <span class="nv">&lt;http://www.srdm.org/conceptual_object/D1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D1_Digital_Object</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P129_is_about</span> <span class="nv">&lt;https://www.srdm.org/type/fie_103_1&gt;</span> <span class="p">.</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P129_is_about</span> <span class="nv">&lt;https://example.org/type/fie_103_1&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/type/fie_103_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/type/fie_103_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">.</span>
 </code></pre></div>
 </details>
 <h3 id="rights">Rights<a class="headerlink" href="#rights" title="Permanent link">&para;</a></h3>
@@ -1084,18 +1084,18 @@
 <span class="k">@prefix</span><span class="w"> </span><span class="nn">crmdig:</span><span class="w"> </span><span class="nv">&lt;http://www.ics.forth.gr/isl/CRMdig/&gt;</span><span class="w"> </span><span class="p">.</span>
 
 <span class="nv">&lt;http://www.srdm.org/conceptual_object/D1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D1_Digital_Object</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P104_is_subject_to</span> <span class="nv">&lt;https://www.srdm.org/conceptual_object/fie_171_1&gt;</span> <span class="p">.</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P104_is_subject_to</span> <span class="nv">&lt;https://example.org/conceptual_object/fie_171_1&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/actor/fie_171_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E39_Actor</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/actor/fie_171_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E39_Actor</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/conceptual_object/fie_171_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E30_Right</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P105_right_held_by</span> <span class="nv">&lt;https://www.srdm.org/actor/fie_171_2&gt;</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P129i_is_subject_of</span> <span class="nv">&lt;https://www.srdm.org/conceptual_object/fie_173_1&gt;</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://www.srdm.org/type/fie_172_1&gt;</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/conceptual_object/fie_171_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E30_Right</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P105_right_held_by</span> <span class="nv">&lt;https://example.org/actor/fie_171_2&gt;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P129i_is_subject_of</span> <span class="nv">&lt;https://example.org/conceptual_object/fie_173_1&gt;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://example.org/type/fie_172_1&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/conceptual_object/fie_173_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E73_Information_Object</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/conceptual_object/fie_173_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E73_Information_Object</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/type/fie_172_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/type/fie_172_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">.</span>
 </code></pre></div>
 </details>
 <h3 id="location">Location<a class="headerlink" href="#location" title="Permanent link">&para;</a></h3>
@@ -1139,15 +1139,15 @@
 <span class="k">@prefix</span><span class="w"> </span><span class="nn">crmdig:</span><span class="w"> </span><span class="nv">&lt;http://www.ics.forth.gr/isl/CRMdig/&gt;</span><span class="w"> </span><span class="p">.</span>
 
 <span class="nv">&lt;http://www.srdm.org/conceptual_object/D1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D1_Digital_Object</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P1_is_identified_by</span> <span class="nv">&lt;https://www.srdm.org/name/fie_180_1&gt;</span> <span class="p">;</span>
-    <span class="nn">crmdig</span><span class="p">:</span><span class="nt">L19i_is_stored_on</span> <span class="nv">&lt;https://www.srdm.org/physical_object/fie_182_1&gt;</span> <span class="p">.</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P1_is_identified_by</span> <span class="nv">&lt;https://example.org/name/fie_180_1&gt;</span> <span class="p">;</span>
+    <span class="nn">crmdig</span><span class="p">:</span><span class="nt">L19i_is_stored_on</span> <span class="nv">&lt;https://example.org/physical_object/fie_182_1&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/name/fie_180_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E42_Identifier</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://www.srdm.org/type/fie_181_1&gt;</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/name/fie_180_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E42_Identifier</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://example.org/type/fie_181_1&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/physical_object/fie_182_1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D13_Digital_Information_Carrier</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/physical_object/fie_182_1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D13_Digital_Information_Carrier</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/type/fie_181_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/type/fie_181_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">.</span>
 </code></pre></div>
 </details>
 <h3 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">&para;</a></h3>
@@ -1177,9 +1177,9 @@
 <span class="k">@prefix</span><span class="w"> </span><span class="nn">crmdig:</span><span class="w"> </span><span class="nv">&lt;http://www.ics.forth.gr/isl/CRMdig/&gt;</span><span class="w"> </span><span class="p">.</span>
 
 <span class="nv">&lt;http://www.srdm.org/conceptual_object/D1&gt;</span> <span class="kt">a</span> <span class="nn">crmdig</span><span class="p">:</span><span class="nt">D1_Digital_Object</span> <span class="p">;</span>
-    <span class="nn">crmdig</span><span class="p">:</span><span class="nt">L54_is_same-as</span> <span class="nv">&lt;https://www.srdm.org/entity/fie_204_1&gt;</span> <span class="p">.</span>
+    <span class="nn">crmdig</span><span class="p">:</span><span class="nt">L54_is_same-as</span> <span class="nv">&lt;https://example.org/entity/fie_204_1&gt;</span> <span class="p">.</span>
 
-<span class="nv">&lt;https://www.srdm.org/entity/fie_204_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E1_CRM_Entity</span> <span class="p">.</span>
+<span class="nv">&lt;https://example.org/entity/fie_204_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E1_CRM_Entity</span> <span class="p">.</span>
 </code></pre></div>
 </details>
                 

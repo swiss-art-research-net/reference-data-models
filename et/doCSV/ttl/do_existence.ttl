@@ -4,32 +4,32 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://www.srdm.org/conceptual_object/D1> a crmdig:D1_Digital_Object ;
-    crmdig:L11i_was_output_of <https://www.srdm.org/event/fie_66_1>,
-        <https://www.srdm.org/event/fie_68_1> .
+    crmdig:L11i_was_output_of <https://example.org/event/fie_66_1>,
+        <https://example.org/event/fie_68_1> .
 
-<https://www.srdm.org/event/fie_66_1> a crmdig:D7_Digital_Machine_Event ;
-    crm:P2_has_type <https://www.srdm.org/type/fie_66_3> ;
-    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_66_2> .
+<https://example.org/event/fie_66_1> a crmdig:D7_Digital_Machine_Event ;
+    crm:P2_has_type <https://example.org/type/fie_66_3> ;
+    crm:P4_has_time-span <https://example.org/time_span/fie_66_2> .
 
-<https://www.srdm.org/event/fie_68_1> a crmdig:D7_Digital_Machine_Event ;
-    crm:P2_has_type <https://www.srdm.org/type/fie_68_23>,
-        <https://www.srdm.org/type/fie_68_3> ;
-    crm:P4_has_time-span <https://www.srdm.org/time_span/fie_68_2> .
+<https://example.org/event/fie_68_1> a crmdig:D7_Digital_Machine_Event ;
+    crm:P2_has_type <https://example.org/type/fie_68_23>,
+        <https://example.org/type/fie_68_3> ;
+    crm:P4_has_time-span <https://example.org/time_span/fie_68_2> .
 
-<https://www.srdm.org/time_span/fie_66_2> a crm:E52_Time-Span ;
+<https://example.org/time_span/fie_66_2> a crm:E52_Time-Span ;
     crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
     crm:P82b_end_of_the_end ""^^xsd:dateTime .
 
-<https://www.srdm.org/time_span/fie_68_2> a crm:E52_Time-Span ;
+<https://example.org/time_span/fie_68_2> a crm:E52_Time-Span ;
     crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
     crm:P82b_end_of_the_end ""^^xsd:dateTime .
 
-<https://www.srdm.org/type/fie_66_3> a crm:E55_Type ;
+<https://example.org/type/fie_66_3> a crm:E55_Type ;
     rdfs:label "Creation" .
 
-<https://www.srdm.org/type/fie_68_23> a crm:E55_Type ;
+<https://example.org/type/fie_68_23> a crm:E55_Type ;
     rdfs:label "Modification" .
 
-<https://www.srdm.org/type/fie_68_3> a crm:E55_Type ;
+<https://example.org/type/fie_68_3> a crm:E55_Type ;
     rdfs:label "Modification" .
 
