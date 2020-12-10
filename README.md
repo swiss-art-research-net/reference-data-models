@@ -19,8 +19,6 @@ The Semantic Reference Data Model are produced by the Swiss Art Research Infrast
 + [Events](https://docs.swissartresearch.net/et/event/)
 + [Bibliographic Entity](https://docs.swissartresearch.net/et/bibliographic_item)
 
-
 ## Contributions and issues
 
 The SRDM are not a fixed entity, but they can be updated with new **fields**. Please open an issue here on Github to request new **fields**, or to indicate problems with the current ones.  
-
