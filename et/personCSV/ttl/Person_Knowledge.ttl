@@ -1,8 +1,8 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix sari: <http://w3id.org/sari#> .
 
-<https://example.org/actor/E21> a crm:E21_Person ;
-    sari:SRP1_used_language <https://example.org/language/fie_97_1> .
+<https://swissartresearch.net/actor/E21> a crm:E21_Person ;
+    sari:SRP1_used_language <https://swissartresearch.net/language/fie_97_1> .
 
-<https://example.org/language/fie_97_1> a crm:E56_Language .
+<https://swissartresearch.net/language/fie_97_1> a crm:E56_Language .
 

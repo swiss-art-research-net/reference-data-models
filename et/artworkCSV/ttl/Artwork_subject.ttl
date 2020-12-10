@@ -1,10 +1,10 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 
-<https://example.org/physical_object/E22> a crm:E22_Human-Made_Object ;
-    crm:P2_has_type <https://example.org/type/artwork> ;
-    crm:P62_depicts <https://example.org/entity/fie_100_1> .
+<https://swissartresearch.net/physical_object/E22> a crm:E22_Human-Made_Object ;
+    crm:P2_has_type <https://swissartresearch.net/type/artwork> ;
+    crm:P62_depicts <https://swissartresearch.net/entity/fie_100_1> .
 
-<https://example.org/entity/fie_100_1> a crm:E1_CRM_Entity .
+<https://swissartresearch.net/entity/fie_100_1> a crm:E1_CRM_Entity .
 
-<https://example.org/type/artwork> a crm:E55_type .
+<https://swissartresearch.net/type/artwork> a crm:E55_type .
 

@@ -1,10 +1,10 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 
-<https://example.org/actor/E74> a crm:E74_Group ;
-    crm:P107_has_current_or_former_member <https://example.org/actor/fie_33_1> ;
-    crm:P107i_is_current_or_former_member_of <https://example.org/actor/fie_34_1> .
+<https://swissartresearch.net/actor/E74> a crm:E74_Group ;
+    crm:P107_has_current_or_former_member <https://swissartresearch.net/actor/fie_33_1> ;
+    crm:P107i_is_current_or_former_member_of <https://swissartresearch.net/actor/fie_34_1> .
 
-<https://example.org/actor/fie_33_1> a crm:E39_Actor .
+<https://swissartresearch.net/actor/fie_33_1> a crm:E39_Actor .
 
-<https://example.org/actor/fie_34_1> a crm:E74_Group .
+<https://swissartresearch.net/actor/fie_34_1> a crm:E74_Group .
 

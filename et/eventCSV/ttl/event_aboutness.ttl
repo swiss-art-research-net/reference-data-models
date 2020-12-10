@@ -1,10 +1,10 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 
-<https://example.org/event/E7> a crm:E7_Activity ;
-    <http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of > <https://example.org/conceptual_object/fie_99_1> ;
-    crm:P17_was_motivated_by <https://example.org/type/fie_98_1> .
+<https://swissartresearch.net/event/E7> a crm:E7_Activity ;
+    <http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of > <https://swissartresearch.net/conceptual_object/fie_99_1> ;
+    crm:P17_was_motivated_by <https://swissartresearch.net/type/fie_98_1> .
 
-<https://example.org/conceptual_object/fie_99_1> a crm:E33_Linguistic_Object .
+<https://swissartresearch.net/conceptual_object/fie_99_1> a crm:E33_Linguistic_Object .
 
-<https://example.org/type/fie_98_1> a crm:E55_Type .
+<https://swissartresearch.net/type/fie_98_1> a crm:E55_Type .
 

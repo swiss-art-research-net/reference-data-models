@@ -2,33 +2,33 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://example.org/physical_object/E22> a crm:E22_Human-Made_Object ;
-    crm:P2_has_type <https://example.org/type/artwork> ;
-    crm:P53_has_former_or_current_location <https://example.org/place/fie_177_1>,
-        <https://example.org/place/fie_199_1> .
+<https://swissartresearch.net/physical_object/E22> a crm:E22_Human-Made_Object ;
+    crm:P2_has_type <https://swissartresearch.net/type/artwork> ;
+    crm:P53_has_former_or_current_location <https://swissartresearch.net/place/fie_177_1>,
+        <https://swissartresearch.net/place/fie_199_1> .
 
-<https://example.org/actor/fie_199_2> a crm:E74_Group ;
-    crm:P2_has_type <https://example.org/type/fie_199_4> .
+<https://swissartresearch.net/actor/fie_199_2> a crm:E74_Group ;
+    crm:P2_has_type <https://swissartresearch.net/type/fie_199_4> .
 
-<https://example.org/name/fie_177_2> a crm:E41_Appellation ;
-    crm:P2_has_type <https://example.org/type/fie_177_3> .
+<https://swissartresearch.net/name/fie_177_2> a crm:E41_Appellation ;
+    crm:P2_has_type <https://swissartresearch.net/type/fie_177_3> .
 
-<https://example.org/place/fie_177_1> a crm:E53_Place ;
+<https://swissartresearch.net/place/fie_177_1> a crm:E53_Place ;
     crm:P168_place_is_defined_by ""^^geo:wkt ;
-    crm:P1_is_identified_by <https://example.org/name/fie_177_2> .
+    crm:P1_is_identified_by <https://swissartresearch.net/name/fie_177_2> .
 
-<https://example.org/place/fie_199_1> a crm:E53_Place ;
-    crm:P2_has_type <https://example.org/type/fie_199_3> ;
-    crm:P74i_is_current_or_former_residence_of <https://example.org/actor/fie_199_2> .
+<https://swissartresearch.net/place/fie_199_1> a crm:E53_Place ;
+    crm:P2_has_type <https://swissartresearch.net/type/fie_199_3> ;
+    crm:P74i_is_current_or_former_residence_of <https://swissartresearch.net/actor/fie_199_2> .
 
-<https://example.org/type/artwork> a crm:E55_type .
+<https://swissartresearch.net/type/artwork> a crm:E55_type .
 
-<https://example.org/type/fie_177_3> a crm:E55_Type ;
+<https://swissartresearch.net/type/fie_177_3> a crm:E55_Type ;
     rdfs:label "Address" .
 
-<https://example.org/type/fie_199_3> a crm:E55_Type ;
+<https://swissartresearch.net/type/fie_199_3> a crm:E55_Type ;
     rdfs:label "Institutional Location" .
 
-<https://example.org/type/fie_199_4> a crm:E55_Type ;
+<https://swissartresearch.net/type/fie_199_4> a crm:E55_Type ;
     rdfs:label "Institution" .
 

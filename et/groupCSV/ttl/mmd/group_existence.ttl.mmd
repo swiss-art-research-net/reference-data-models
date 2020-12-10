@@ -13,14 +13,14 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-0["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 1[xsd:dateTime]:::Literal
-0["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_being| 2[xsd:dateTime]:::Literal
-3["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_being| 4[xsd:dateTime]:::Literal
-10["crm:E68_Dissolution"]:::Temporal_Entity -->|crm:P7_took_place_at| 7["crm:E53_Place"]:::Place
-5["crm:E74_Group"]:::Actor -->|crm:P99i_was_dissolved_by| 10["crm:E68_Dissolution"]:::Temporal_Entity
-13["crm:E66_Formation"]:::Temporal_Entity -->|crm:P151_was_formed_from| 14["crm:E39_Actor"]:::Actor
-5["crm:E74_Group"]:::Actor -->|crm:P95i_was_formed_by| 13["crm:E66_Formation"]:::Temporal_Entity
-10["crm:E68_Dissolution"]:::Temporal_Entity -->|crm:P4_has_time-span| 0["crm:E52_Time-Span"]:::Time-Span
-13["crm:E66_Formation"]:::Temporal_Entity -->|crm:P7_took_place_at| 11["crm:E53_Place"]:::Place
-13["crm:E66_Formation"]:::Temporal_Entity -->|crm:P4_has_time-span| 3["crm:E52_Time-Span"]:::Time-Span
-3["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 19[xsd:dateTime]:::Literal
+2["crm:E66_Formation"]:::Temporal_Entity -->|crm:P4_has_time-span| 3["crm:E52_Time-Span"]:::Time-Span
+4["crm:E68_Dissolution"]:::Temporal_Entity -->|crm:P4_has_time-span| 5["crm:E52_Time-Span"]:::Time-Span
+4["crm:E68_Dissolution"]:::Temporal_Entity -->|crm:P7_took_place_at| 6["crm:E53_Place"]:::Place
+0["crm:E74_Group"]:::Actor -->|crm:P95i_was_formed_by| 2["crm:E66_Formation"]:::Temporal_Entity
+3["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 8[xsd:dateTime]:::Literal
+5["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_being| 9[xsd:dateTime]:::Literal
+2["crm:E66_Formation"]:::Temporal_Entity -->|crm:P151_was_formed_from| 10["crm:E39_Actor"]:::Actor
+2["crm:E66_Formation"]:::Temporal_Entity -->|crm:P7_took_place_at| 13["crm:E53_Place"]:::Place
+3["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_being| 14[xsd:dateTime]:::Literal
+0["crm:E74_Group"]:::Actor -->|crm:P99i_was_dissolved_by| 4["crm:E68_Dissolution"]:::Temporal_Entity
+5["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 17[xsd:dateTime]:::Literal

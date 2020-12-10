@@ -1,30 +1,30 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://example.org/actor/E74> a crm:E74_Group ;
-    crm:P95i_was_formed_by <https://example.org/event/fie_79_1> ;
-    crm:P99i_was_dissolved_by <https://example.org/event/fie_83_1> .
+<https://swissartresearch.net/actor/E74> a crm:E74_Group ;
+    crm:P95i_was_formed_by <https://swissartresearch.net/event/fie_79_1> ;
+    crm:P99i_was_dissolved_by <https://swissartresearch.net/event/fie_83_1> .
 
-<https://example.org/actor/fie_82_1> a crm:E39_Actor .
+<https://swissartresearch.net/actor/fie_82_1> a crm:E39_Actor .
 
-<https://example.org/event/fie_79_1> a crm:E66_Formation ;
-    crm:P151_was_formed_from <https://example.org/actor/fie_82_1> ;
-    crm:P4_has_time-span <https://example.org/time_span/fie_79_2> ;
-    crm:P7_took_place_at <https://example.org/place/fie_81_1> .
+<https://swissartresearch.net/event/fie_79_1> a crm:E66_Formation ;
+    crm:P151_was_formed_from <https://swissartresearch.net/actor/fie_82_1> ;
+    crm:P4_has_time-span <https://swissartresearch.net/time_span/fie_79_2> ;
+    crm:P7_took_place_at <https://swissartresearch.net/place/fie_81_1> .
 
-<https://example.org/event/fie_83_1> a crm:E68_Dissolution ;
-    crm:P4_has_time-span <https://example.org/time_span/fie_83_2> ;
-    crm:P7_took_place_at <https://example.org/place/fie_85_1> .
+<https://swissartresearch.net/event/fie_83_1> a crm:E68_Dissolution ;
+    crm:P4_has_time-span <https://swissartresearch.net/time_span/fie_83_2> ;
+    crm:P7_took_place_at <https://swissartresearch.net/place/fie_85_1> .
 
-<https://example.org/place/fie_81_1> a crm:E53_Place .
+<https://swissartresearch.net/place/fie_81_1> a crm:E53_Place .
 
-<https://example.org/place/fie_85_1> a crm:E53_Place .
+<https://swissartresearch.net/place/fie_85_1> a crm:E53_Place .
 
-<https://example.org/time_span/fie_79_2> a crm:E52_Time-Span ;
+<https://swissartresearch.net/time_span/fie_79_2> a crm:E52_Time-Span ;
     crm:P82a_begin_of_the_being ""^^xsd:dateTime ;
     crm:P82b_end_of_the_end ""^^xsd:dateTime .
 
-<https://example.org/time_span/fie_83_2> a crm:E52_Time-Span ;
+<https://swissartresearch.net/time_span/fie_83_2> a crm:E52_Time-Span ;
     crm:P82a_begin_of_the_being ""^^xsd:dateTime ;
     crm:P82b_end_of_the_end ""^^xsd:dateTime .
 

@@ -2,25 +2,25 @@
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://example.org/conceptual_object/D1> a crmdig:D1_Digital_Object ;
-    crmdig:L11i_was_output_of <https://example.org/event/fie_66_1> .
+<https://swissartresearch.net/conceptual_object/D1> a crmdig:D1_Digital_Object ;
+    crmdig:L11i_was_output_of <https://swissartresearch.net/event/fie_66_1> .
 
-<https://example.org/actor/fie_143_2> a crm:E39_Actor .
+<https://swissartresearch.net/actor/fie_143_2> a crm:E39_Actor .
 
-<https://example.org/actor/fie_144_2> a crm:E39_Actor .
+<https://swissartresearch.net/actor/fie_144_2> a crm:E39_Actor .
 
-<https://example.org/event/fie_66_1> a crmdig:D7_Digital_Machine_Event ;
-    crm:P01i_is_domain_of <https://example.org/property/fie_143_1>,
-        <https://example.org/property/fie_144_1> ;
-    crm:P2_has_type <https://example.org/type/fie_66_2> .
+<https://swissartresearch.net/event/fie_66_1> a crmdig:D7_Digital_Machine_Event ;
+    crm:P01i_is_domain_of <https://swissartresearch.net/property/fie_143_1>,
+        <https://swissartresearch.net/property/fie_144_1> ;
+    crm:P2_has_type <https://swissartresearch.net/type/fie_66_2> .
 
-<https://example.org/property/fie_143_1> a crm:PC14_carried_out_by ;
-    crm:P02_has_range <https://example.org/actor/fie_143_2> .
+<https://swissartresearch.net/property/fie_143_1> a crm:PC14_carried_out_by ;
+    crm:P02_has_range <https://swissartresearch.net/actor/fie_143_2> .
 
-<https://example.org/property/fie_144_1> a crm:PC14_carried_out_by ;
-    crm:P02_has_range <https://example.org/actor/fie_144_2> .
+<https://swissartresearch.net/property/fie_144_1> a crm:PC14_carried_out_by ;
+    crm:P02_has_range <https://swissartresearch.net/actor/fie_144_2> .
 
-<https://example.org/type/fie_66_2> a crm:E55_Type ;
+<https://swissartresearch.net/type/fie_66_2> a crm:E55_Type ;
     rdfs:label "Creation",
         "Modification" .
 

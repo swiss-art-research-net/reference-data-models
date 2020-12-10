@@ -1,27 +1,27 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://example.org/actor/E21> a crm:E21_Person ;
-    crm:P100i_died_in <https://example.org/event/fie_76_1> ;
-    crm:P98i_was_born <https://example.org/event/fie_73_1> .
+<https://swissartresearch.net/actor/E21> a crm:E21_Person ;
+    crm:P100i_died_in <https://swissartresearch.net/event/fie_76_1> ;
+    crm:P98i_was_born <https://swissartresearch.net/event/fie_73_1> .
 
-<https://example.org/event/fie_73_1> a crm:E67_Birth ;
-    crm:P4_has_time-span <https://example.org/time_span/fie_73_2> ;
-    crm:P7_took_place_at <https://example.org/place/fie_75_1> .
+<https://swissartresearch.net/event/fie_73_1> a crm:E67_Birth ;
+    crm:P4_has_time-span <https://swissartresearch.net/time_span/fie_73_2> ;
+    crm:P7_took_place_at <https://swissartresearch.net/place/fie_75_1> .
 
-<https://example.org/event/fie_76_1> a crm:E69_Death ;
-    crm:P4_has_time-span <https://example.org/time_span/fie_76_2> ;
-    crm:P7_took_place_at <https://example.org/place/fie_78_1> .
+<https://swissartresearch.net/event/fie_76_1> a crm:E69_Death ;
+    crm:P4_has_time-span <https://swissartresearch.net/time_span/fie_76_2> ;
+    crm:P7_took_place_at <https://swissartresearch.net/place/fie_78_1> .
 
-<https://example.org/place/fie_75_1> a crm:E53_Place .
+<https://swissartresearch.net/place/fie_75_1> a crm:E53_Place .
 
-<https://example.org/place/fie_78_1> a crm:E53_Place .
+<https://swissartresearch.net/place/fie_78_1> a crm:E53_Place .
 
-<https://example.org/time_span/fie_73_2> a crm:E52_Time-Span ;
+<https://swissartresearch.net/time_span/fie_73_2> a crm:E52_Time-Span ;
     crm:P82a_begin_of_the_being ""^^xsd:dateTime ;
     crm:P82b_end_of_the_end ""^^xsd:dateTime .
 
-<https://example.org/time_span/fie_76_2> a crm:E52_Time-Span ;
+<https://swissartresearch.net/time_span/fie_76_2> a crm:E52_Time-Span ;
     crm:P82a_begin_of_the_being ""^^xsd:dateTime ;
     crm:P82b_end_of_the_end ""^^xsd:dateTime .
 

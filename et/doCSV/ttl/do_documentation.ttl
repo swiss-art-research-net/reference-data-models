@@ -1,8 +1,8 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
 
-<https://example.org/conceptual_object/D1> a crmdig:D1_Digital_Object ;
-    crmdig:L54_is_same-as <https://example.org/entity/fie_204_1> .
+<https://swissartresearch.net/conceptual_object/D1> a crmdig:D1_Digital_Object ;
+    crmdig:L54_is_same-as <https://swissartresearch.net/entity/fie_204_1> .
 
-<https://example.org/entity/fie_204_1> a crm:E1_CRM_Entity .
+<https://swissartresearch.net/entity/fie_204_1> a crm:E1_CRM_Entity .
 

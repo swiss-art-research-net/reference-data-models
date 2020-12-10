@@ -1,11 +1,11 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
 
-<https://example.org/conceptual_object/D1> a crmdig:D1_Digital_Object ;
-    crm:P106_is_composed_of <https://example.org/conceptual_object/fie_29_1> ;
-    crm:P106i_forms_part_of <https://example.org/conceptual_object/fie_30_1> .
+<https://swissartresearch.net/conceptual_object/D1> a crmdig:D1_Digital_Object ;
+    crm:P106_is_composed_of <https://swissartresearch.net/conceptual_object/fie_29_1> ;
+    crm:P106i_forms_part_of <https://swissartresearch.net/conceptual_object/fie_30_1> .
 
-<https://example.org/conceptual_object/fie_29_1> a crmdig:D1_Digital_Object .
+<https://swissartresearch.net/conceptual_object/fie_29_1> a crmdig:D1_Digital_Object .
 
-<https://example.org/conceptual_object/fie_30_1> a crmdig:D1_Digital_Object .
+<https://swissartresearch.net/conceptual_object/fie_30_1> a crmdig:D1_Digital_Object .
 

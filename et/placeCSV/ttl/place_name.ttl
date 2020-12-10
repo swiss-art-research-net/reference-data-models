@@ -3,78 +3,78 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://example.org/place/E53> a crm:E53_Place ;
-    crm:P1_is_identified_by <https://example.org/name/fie_10_1>,
-        <https://example.org/name/fie_1_1>,
-        <https://example.org/name/fie_5_1> ;
-    crm:P2_has_type <https://example.org/type/fie_17_1> ;
-    crm:P41i_was_classified_by <https://example.org/event/fie_18_1> .
+<https://swissartresearch.net/place/E53> a crm:E53_Place ;
+    crm:P1_is_identified_by <https://swissartresearch.net/name/fie_10_1>,
+        <https://swissartresearch.net/name/fie_1_1>,
+        <https://swissartresearch.net/name/fie_5_1> ;
+    crm:P2_has_type <https://swissartresearch.net/type/fie_17_1> ;
+    crm:P41i_was_classified_by <https://swissartresearch.net/event/fie_18_1> .
 
 <http://vocab.getty.edu/page/aat/300404670> a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
 <http://www.srdm.org/type/fie_2_1> a crm:E55_Type .
 
-<https://example.org/actor/fie_15_2> a crm:E39_Actor .
+<https://swissartresearch.net/actor/fie_15_2> a crm:E39_Actor .
 
-<https://example.org/actor/fie_3_2> a crm:E39_Actor .
+<https://swissartresearch.net/actor/fie_3_2> a crm:E39_Actor .
 
-<https://example.org/conceptual_object/fie_16_1> a crm:E73_Information_Object .
+<https://swissartresearch.net/conceptual_object/fie_16_1> a crm:E73_Information_Object .
 
-<https://example.org/conceptual_object/fie_4_1> a crm:E73_Information_Object .
+<https://swissartresearch.net/conceptual_object/fie_4_1> a crm:E73_Information_Object .
 
-<https://example.org/event/fie_13_1> a frbroo:F52_Name_Use_Activity ;
-    crm:P4_has_time-span <https://example.org/time_span/fie_13_2> .
+<https://swissartresearch.net/event/fie_13_1> a frbroo:F52_Name_Use_Activity ;
+    crm:P4_has_time-span <https://swissartresearch.net/time_span/fie_13_2> .
 
-<https://example.org/event/fie_15_1> a crm:E13_Attribute_Assignment ;
-    crm:P14_carried_out_by <https://example.org/actor/fie_15_2> ;
-    crm:P16_used_specific_object <https://example.org/conceptual_object/fie_16_1> .
+<https://swissartresearch.net/event/fie_15_1> a crm:E13_Attribute_Assignment ;
+    crm:P14_carried_out_by <https://swissartresearch.net/actor/fie_15_2> ;
+    crm:P16_used_specific_object <https://swissartresearch.net/conceptual_object/fie_16_1> .
 
-<https://example.org/event/fie_18_1> a crm:E17_Type_Assignment ;
-    crm:P42_assigned <https://example.org/type/fie_17_1> ;
-    crm:P4_has_time-span <https://example.org/time_span/fie_18_2> .
+<https://swissartresearch.net/event/fie_18_1> a crm:E17_Type_Assignment ;
+    crm:P42_assigned <https://swissartresearch.net/type/fie_17_1> ;
+    crm:P4_has_time-span <https://swissartresearch.net/time_span/fie_18_2> .
 
-<https://example.org/event/fie_3_1> a crm:E15_Identifier_Assignment ;
-    crm:P14_carried_out_by <https://example.org/actor/fie_3_2> ;
-    crm:P16_used_specific_object <https://example.org/conceptual_object/fie_4_1> .
+<https://swissartresearch.net/event/fie_3_1> a crm:E15_Identifier_Assignment ;
+    crm:P14_carried_out_by <https://swissartresearch.net/actor/fie_3_2> ;
+    crm:P16_used_specific_object <https://swissartresearch.net/conceptual_object/fie_4_1> .
 
-<https://example.org/name/fie_10_1> a crm:E33_E41_Linguistic_Appellation ;
-    frbroo:R64i_was_name_used_by <https://example.org/event/fie_13_1> ;
-    crm:P141i_was_assigned_by <https://example.org/event/fie_15_1> ;
+<https://swissartresearch.net/name/fie_10_1> a crm:E33_E41_Linguistic_Appellation ;
+    frbroo:R64i_was_name_used_by <https://swissartresearch.net/event/fie_13_1> ;
+    crm:P141i_was_assigned_by <https://swissartresearch.net/event/fie_15_1> ;
     crm:P190_has_symbolic_content "content" ;
-    crm:P2_has_type <https://example.org/type/fie_11_1> ;
-    crm:P72_has_language <https://example.org/name/fie_12_1> .
+    crm:P2_has_type <https://swissartresearch.net/type/fie_11_1> ;
+    crm:P72_has_language <https://swissartresearch.net/name/fie_12_1> .
 
-<https://example.org/name/fie_12_1> a crm:E56_Language .
+<https://swissartresearch.net/name/fie_12_1> a crm:E56_Language .
 
-<https://example.org/name/fie_1_1> a crm:E42_Identifier ;
+<https://swissartresearch.net/name/fie_1_1> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content "content" ;
     crm:P2_has_type <http://www.srdm.org/type/fie_2_1> ;
-    crm:P37i_was_assigned_by <https://example.org/event/fie_3_1> .
+    crm:P37i_was_assigned_by <https://swissartresearch.net/event/fie_3_1> .
 
-<https://example.org/name/fie_5_1> a crm:E33_E41_Linguistic_Appellation ;
-    crm:P106_is_composed_of <https://example.org/name/fie_7_1> ;
+<https://swissartresearch.net/name/fie_5_1> a crm:E33_E41_Linguistic_Appellation ;
+    crm:P106_is_composed_of <https://swissartresearch.net/name/fie_7_1> ;
     crm:P190_has_symbolic_content "content" ;
     crm:P2_has_type <http://vocab.getty.edu/page/aat/300404670> ;
-    crm:P72_has_language <https://example.org/name/fie_6_1> .
+    crm:P72_has_language <https://swissartresearch.net/name/fie_6_1> .
 
-<https://example.org/name/fie_6_1> a crm:E56_Language .
+<https://swissartresearch.net/name/fie_6_1> a crm:E56_Language .
 
-<https://example.org/name/fie_7_1> a crm:E33_E41_Linguistic_Appellation ;
+<https://swissartresearch.net/name/fie_7_1> a crm:E33_E41_Linguistic_Appellation ;
     rdfs:label "content" ;
-    crm:P2_has_type <https://example.org/type/fie_8_1> .
+    crm:P2_has_type <https://swissartresearch.net/type/fie_8_1> .
 
-<https://example.org/time_span/fie_13_2> a crm:E52_Time-Span ;
+<https://swissartresearch.net/time_span/fie_13_2> a crm:E52_Time-Span ;
     crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
     crm:P82b_end_of_the_end ""^^xsd:dateTime .
 
-<https://example.org/time_span/fie_18_2> a crm:E52_Time-Span ;
+<https://swissartresearch.net/time_span/fie_18_2> a crm:E52_Time-Span ;
     crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
     crm:P82b_end_of_the_end ""^^xsd:dateTime .
 
-<https://example.org/type/fie_11_1> a crm:E55_Type .
+<https://swissartresearch.net/type/fie_11_1> a crm:E55_Type .
 
-<https://example.org/type/fie_8_1> a crm:E55_Type .
+<https://swissartresearch.net/type/fie_8_1> a crm:E55_Type .
 
-<https://example.org/type/fie_17_1> a crm:E55_Type .
+<https://swissartresearch.net/type/fie_17_1> a crm:E55_Type .
 
