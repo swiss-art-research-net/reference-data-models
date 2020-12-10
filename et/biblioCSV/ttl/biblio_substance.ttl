@@ -1,15 +1,15 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
 
-<https://swissartresearch.net/conceptual_object/F24> a frbroo:F24_Publication_Expression ;
-    crm:P43_has_dimension <https://swissartresearch.net/dimension/fie_94_1> .
+<https://example.org/conceptual_object/F24> a frbroo:F24_Publication_Expression ;
+    crm:P43_has_dimension <https://example.org/dimension/fie_94_1> .
 
-<https://swissartresearch.net/conceptual_object/fie_94_2> a crm:E73_Information_Object ;
+<https://example.org/conceptual_object/fie_94_2> a crm:E73_Information_Object ;
     crm:P190_has_symbolic_content "content" ;
-    crm:P2_has_type <https://swissartresearch.net/type/fie_94_3> .
+    crm:P2_has_type <https://example.org/type/fie_94_3> .
 
-<https://swissartresearch.net/dimension/fie_94_1> a crm:E54_Dimension ;
-    crm:P129i_is_subject_of <https://swissartresearch.net/conceptual_object/fie_94_2> .
+<https://example.org/dimension/fie_94_1> a crm:E54_Dimension ;
+    crm:P129i_is_subject_of <https://example.org/conceptual_object/fie_94_2> .
 
-<https://swissartresearch.net/type/fie_94_3> a crm:E55_Type .
+<https://example.org/type/fie_94_3> a crm:E55_Type .
 

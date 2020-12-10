@@ -1,10 +1,10 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 
-<https://swissartresearch.net/actor/E21> a crm:E21_Person ;
-    crm:P14i_performed <https://swissartresearch.net/event/fie_166_1> .
+<https://example.org/actor/E21> a crm:E21_Person ;
+    crm:P14i_performed <https://example.org/event/fie_166_1> .
 
-<https://swissartresearch.net/event/fie_166_1> a crm:E12_Production ;
-    crm:P108_has_produced <https://swissartresearch.net/physical_object/fie_166_2> .
+<https://example.org/event/fie_166_1> a crm:E12_Production ;
+    crm:P108_has_produced <https://example.org/physical_object/fie_166_2> .
 
-<https://swissartresearch.net/physical_object/fie_166_2> a crm:E22_Human-Made_Object .
+<https://example.org/physical_object/fie_166_2> a crm:E22_Human-Made_Object .
 

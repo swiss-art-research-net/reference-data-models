@@ -1,33 +1,33 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://swissartresearch.net/physical_object/E22> a crm:E22_Human-Made_Object ;
-    crm:P108i_was_produced_by <https://swissartresearch.net/event/fie_58_1> ;
-    crm:P140i_was_attributed_by <https://swissartresearch.net/event/fie_139_1> ;
-    crm:P2_has_type <https://swissartresearch.net/type/builtwork> ;
-    crm:P52_has_current_owner <https://swissartresearch.net/actor/fie_137_1> .
+<https://example.org/physical_object/E22> a crm:E22_Human-Made_Object ;
+    crm:P108i_was_produced_by <https://example.org/event/fie_58_1> ;
+    crm:P140i_was_attributed_by <https://example.org/event/fie_139_1> ;
+    crm:P2_has_type <https://example.org/type/builtwork> ;
+    crm:P52_has_current_owner <https://example.org/actor/fie_137_1> .
 
-<https://swissartresearch.net/actor/fie_135_2> a crm:E39_Actor .
+<https://example.org/actor/fie_135_2> a crm:E39_Actor .
 
-<https://swissartresearch.net/actor/fie_137_1> a crm:E39_Actor .
+<https://example.org/actor/fie_137_1> a crm:E39_Actor .
 
-<https://swissartresearch.net/event/fie_139_1> a crm:E13_Attribute_Assignment ;
-    crm:P141_assigned <https://swissartresearch.net/event/fie_139_2> ;
-    crm:P2_has_type <https://swissartresearch.net/event/fie_139_3> .
+<https://example.org/event/fie_139_1> a crm:E13_Attribute_Assignment ;
+    crm:P141_assigned <https://example.org/event/fie_139_2> ;
+    crm:P2_has_type <https://example.org/event/fie_139_3> .
 
-<https://swissartresearch.net/event/fie_139_2> a crm:E74_Group .
+<https://example.org/event/fie_139_2> a crm:E74_Group .
 
-<https://swissartresearch.net/event/fie_139_3> a crm:E55_Type ;
+<https://example.org/event/fie_139_3> a crm:E55_Type ;
     rdfs:label "influence" .
 
-<https://swissartresearch.net/event/fie_58_1> a crm:E12_Production ;
-    crm:P01i_is_domain_of <https://swissartresearch.net/property/fie_135_1> .
+<https://example.org/event/fie_58_1> a crm:E12_Production ;
+    crm:P01i_is_domain_of <https://example.org/property/fie_135_1> .
 
-<https://swissartresearch.net/property/fie_135_1> a crm:PC14_carried_out_by ;
-    crm:P02_has_range <https://swissartresearch.net/actor/fie_135_2> ;
-    crm:P14.1_in_the_role_of <https://swissartresearch.net/type/fie_136_1> .
+<https://example.org/property/fie_135_1> a crm:PC14_carried_out_by ;
+    crm:P02_has_range <https://example.org/actor/fie_135_2> ;
+    crm:P14.1_in_the_role_of <https://example.org/type/fie_136_1> .
 
-<https://swissartresearch.net/type/builtwork> a crm:E55_type .
+<https://example.org/type/builtwork> a crm:E55_type .
 
-<https://swissartresearch.net/type/fie_136_1> a crm:E55_Type .
+<https://example.org/type/fie_136_1> a crm:E55_Type .
 

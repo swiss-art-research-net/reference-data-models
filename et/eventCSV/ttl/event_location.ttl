@@ -1,15 +1,15 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 
-<https://swissartresearch.net/event/E7> a crm:E7_Activity ;
-    crm:P7_took_place_at <https://swissartresearch.net/place/fie_174_1> .
+<https://example.org/event/E7> a crm:E7_Activity ;
+    crm:P7_took_place_at <https://example.org/place/fie_174_1> .
 
-<https://swissartresearch.net/name/fie_174_2> a crm:E41_Appellation .
+<https://example.org/name/fie_174_2> a crm:E41_Appellation .
 
-<https://swissartresearch.net/place/fie_174_1> a crm:E53_Place ;
+<https://example.org/place/fie_174_1> a crm:E53_Place ;
     crm:P168_place_is_defined_by ""^^geo:wkt ;
-    crm:P1_is_identified_by <https://swissartresearch.net/name/fie_174_2> ;
-    crm:P2_has_type <https://swissartresearch.net/type/fie_175_1> .
+    crm:P1_is_identified_by <https://example.org/name/fie_174_2> ;
+    crm:P2_has_type <https://example.org/type/fie_175_1> .
 
-<https://swissartresearch.net/type/fie_175_1> a crm:E55_Type .
+<https://example.org/type/fie_175_1> a crm:E55_Type .
 

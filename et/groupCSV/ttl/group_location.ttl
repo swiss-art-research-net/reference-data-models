@@ -2,19 +2,19 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://swissartresearch.net/actor/E74> a crm:E74_Group ;
-    crm:P74_has_current_or_former_residence <https://swissartresearch.net/place/fie_183_1> .
+<https://example.org/actor/E74> a crm:E74_Group ;
+    crm:P74_has_current_or_former_residence <https://example.org/place/fie_183_1> .
 
-<https://swissartresearch.net/name/fie_183_2> a crm:E41_Appellation ;
+<https://example.org/name/fie_183_2> a crm:E41_Appellation ;
     rdfs:label "content" ;
-    crm:P2_has_type <https://swissartresearch.net/type/fie_184_1> .
+    crm:P2_has_type <https://example.org/type/fie_184_1> .
 
-<https://swissartresearch.net/place/fie_183_1> a crm:E53_Place ;
+<https://example.org/place/fie_183_1> a crm:E53_Place ;
     crm:P168_place_is_defined_by ""^^geo:wkt ;
-    crm:P1_is_identified_by <https://swissartresearch.net/name/fie_183_2> ;
-    crm:P2_has_type <https://swissartresearch.net/type/fie_186_1> .
+    crm:P1_is_identified_by <https://example.org/name/fie_183_2> ;
+    crm:P2_has_type <https://example.org/type/fie_186_1> .
 
-<https://swissartresearch.net/type/fie_184_1> a crm:E55_Type .
+<https://example.org/type/fie_184_1> a crm:E55_Type .
 
-<https://swissartresearch.net/type/fie_186_1> a crm:E55_Type .
+<https://example.org/type/fie_186_1> a crm:E55_Type .
 
