@@ -13,21 +13,21 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-0["crm:E74_Group"]:::Actor -->|crm:P107i_is_current_or_former_member_of| 1["crm:E74_Group"]:::Actor
 2["crm:PC144_joined_with"]:::PC_Classes -->|crm:P02_has_range| 3["crm:E85_Joining"]:::Temporal_Entity
-5["crm:E86_Leaving"]:::Temporal_Entity -->|crm:P145_separated| 6["crm:E21_Person"]:::Actor
-1["crm:E74_Group"]:::Actor -->|crm:P2_has_type| 7["crm:E55_Type"]:::Type
-0["crm:E74_Group"]:::Actor -->|crm:P01i_is_domain_of| 2["crm:PC144_joined_with"]:::PC_Classes
+4["crm:E74_Group"]:::Actor -->|crm:P01i_is_domain_of| 2["crm:PC144_joined_with"]:::PC_Classes
+4["crm:E74_Group"]:::Actor -->|crm:P146i_lost_member_by| 5["crm:E86_Leaving"]:::Temporal_Entity
+6["crm:E74_Group"]:::Actor -->|crm:P2_has_type| 7["crm:E55_Type"]:::Type
 8["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 9[xsd:dateTime]:::Literal
-10["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 11[xsd:dateTime]:::Literal
-6["crm:E21_Person"]:::Actor -->|crm:P4_has_time-span| 10["crm:E52_Time-Span"]:::Time-Span
-0["crm:E74_Group"]:::Actor -->|crm:P146i_lost_member_by| 5["crm:E86_Leaving"]:::Temporal_Entity
-10["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 16[xsd:dateTime]:::Literal
-2["crm:PC144_joined_with"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 20["crm:E55_Type"]:::Type
-17["crm:E66_Formation"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 25["crm:PC14_carried_out_by"]:::PC_Classes
+11["crm:E21_Person"]:::Actor -->|crm:P4_has_time-span| 8["crm:E52_Time-Span"]:::Time-Span
+2["crm:PC144_joined_with"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 14["crm:E55_Type"]:::Type
+3["crm:E85_Joining"]:::Temporal_Entity -->|crm:P143_joined| 11["crm:E21_Person"]:::Actor
+4["crm:E74_Group"]:::Actor -->|crm:P95i_was_formed_by| 16["crm:E66_Formation"]:::Temporal_Entity
+5["crm:E86_Leaving"]:::Temporal_Entity -->|crm:P145_separated| 11["crm:E21_Person"]:::Actor
+16["crm:E66_Formation"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 18["crm:PC14_carried_out_by"]:::PC_Classes
 8["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 26[xsd:dateTime]:::Literal
-3["crm:E85_Joining"]:::Temporal_Entity -->|crm:P4_has_time-span| 8["crm:E52_Time-Span"]:::Time-Span
-0["crm:E74_Group"]:::Actor -->|crm:P95i_was_formed_by| 17["crm:E66_Formation"]:::Temporal_Entity
-25["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 12["crm:E55_Type"]:::Type
-3["crm:E85_Joining"]:::Temporal_Entity -->|crm:P143_joined| 6["crm:E21_Person"]:::Actor
-25["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 33["crm:E39_Actor"]:::Actor
+21["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 29[xsd:dateTime]:::Literal
+18["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 0["crm:E39_Actor"]:::Actor
+3["crm:E85_Joining"]:::Temporal_Entity -->|crm:P4_has_time-span| 21["crm:E52_Time-Span"]:::Time-Span
+4["crm:E74_Group"]:::Actor -->|crm:P107i_is_current_or_former_member_of| 6["crm:E74_Group"]:::Actor
+18["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 12["crm:E55_Type"]:::Type
+21["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 34[xsd:dateTime]:::Literal
