@@ -1436,7 +1436,7 @@
 <td align="left">artwork_114_past_ownership_period_statement_-_latest_date_of_taking_of_possession</td>
 <td align="left">Past Ownership Period Statement - Latest Date of taking of Possession</td>
 <td align="left">This field is used to indicate the latest date for an ownership period of the documented artwork.</td>
-<td align="left">&rarr; P24i &rarr; E8[113-1] &rarr; P4 &rarr; E52[113_2] &rarr; P82b &rarr; xsd:dateTime</td>
+<td align="left">&rarr; P24i &rarr; E8[113_1] &rarr; P4 &rarr; E52[113_2] &rarr; P82b &rarr; xsd:dateTime</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 <tr>
@@ -1591,7 +1591,7 @@
 <td align="left">artwork_199_location_-_institution</td>
 <td align="left">Location - Institution</td>
 <td align="left">This field is used to document the institution at which the documented artwork is presently located.</td>
-<td align="left">&rarr; P53 &rarr; E53[199_1] &rarr; P74i &rarr; E74[192_1]<br><br> &rarr; P53 &rarr; E53[199_1] &rarr; P74i &rarr; E74[192_1] &rarr; P2 &rarr; E55["Institution"][192_3]<br><br> &rarr; P53 &rarr; E53[199_1] &rarr; P2 &rarr; E55 "Institutional Location"[192_4]</td>
+<td align="left">&rarr; P53 &rarr; E53[177_1] &rarr; P74i &rarr; E74[192_1]<br><br> &rarr; P53 &rarr; E53[177_1] &rarr; P74i &rarr; E74[192_1] &rarr; P2 &rarr; E55["Institution"][192_3]<br><br> &rarr; P53 &rarr; E53[177_1] &rarr; P2 &rarr; E55 "Institutional Location"[192_4]</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 <tr>
@@ -1617,8 +1617,7 @@
 
 <span class="nv">&lt;https://example.org/physical_object/E22&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E22_Human-Made_Object</span> <span class="p">;</span>
     <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://example.org/type/artwork&gt;</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P53_has_former_or_current_location</span> <span class="nv">&lt;https://example.org/place/fie_177_1&gt;</span><span class="p">,</span>
-        <span class="nv">&lt;https://example.org/place/fie_199_1&gt;</span> <span class="p">.</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P53_has_former_or_current_location</span> <span class="nv">&lt;https://example.org/place/fie_177_1&gt;</span> <span class="p">.</span>
 
 <span class="nv">&lt;https://example.org/actor/fie_199_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E74_Group</span> <span class="p">;</span>
     <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://example.org/type/fie_199_4&gt;</span> <span class="p">.</span>
@@ -1628,9 +1627,7 @@
 
 <span class="nv">&lt;https://example.org/place/fie_177_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E53_Place</span> <span class="p">;</span>
     <span class="nn">crm</span><span class="p">:</span><span class="nt">P168_place_is_defined_by</span> <span class="s">&quot;&quot;</span><span class="p">^^</span><span class="nn">geo</span><span class="p">:</span><span class="nt">wkt</span> <span class="p">;</span>
-    <span class="nn">crm</span><span class="p">:</span><span class="nt">P1_is_identified_by</span> <span class="nv">&lt;https://example.org/name/fie_177_2&gt;</span> <span class="p">.</span>
-
-<span class="nv">&lt;https://example.org/place/fie_199_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E53_Place</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P1_is_identified_by</span> <span class="nv">&lt;https://example.org/name/fie_177_2&gt;</span> <span class="p">;</span>
     <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://example.org/type/fie_199_3&gt;</span> <span class="p">;</span>
     <span class="nn">crm</span><span class="p">:</span><span class="nt">P74i_is_current_or_former_residence_of</span> <span class="nv">&lt;https://example.org/actor/fie_199_2&gt;</span> <span class="p">.</span>
 
@@ -1720,7 +1717,7 @@
 <td align="left">artwork_196_citation</td>
 <td align="left">Citation</td>
 <td align="left">This field is used to indicate bibliographic records that stand as reference documentation for the documented artwork.</td>
-<td align="left">&rarr; P129i &rarr; E33[196_1] &rarr; rdf:value &rarr; rdfs:Literal<br><br>&rarr; P129i &rarr; E73[196_1] &rarr; P2 &rarr; E55 "Citation"</td>
+<td align="left">&rarr; P129i &rarr; E33[196_1] &rarr; rdf:value &rarr; rdfs:Literal<br><br>&rarr; P129i &rarr; E33[196_1] &rarr; P2 &rarr; E55 "Citation"</td>
 <td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 <tr>
