@@ -21,10 +21,10 @@
 <https://example.org/place/fie_85_1> a crm:E53_Place .
 
 <https://example.org/time_span/fie_79_2> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_being ""^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
     crm:P82b_end_of_the_end ""^^xsd:dateTime .
 
 <https://example.org/time_span/fie_83_2> a crm:E52_Time-Span ;
-    crm:P82a_begin_of_the_being ""^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin ""^^xsd:dateTime ;
     crm:P82b_end_of_the_end ""^^xsd:dateTime .
 

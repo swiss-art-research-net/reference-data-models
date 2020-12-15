@@ -9,7 +9,7 @@
         <https://example.org/name/fie_5_1> ;
     crm:P2_has_type <https://example.org/type/fie_17_1> .
 
-<http://vocab.getty.edu/page/aat/300404670> a crm:E55_Type ;
+<http://vocab.getty.edu/aat/300404670> a crm:E55_Type ;
     rdfs:label "preferred terms" .
 
 <https://example.org/actor/fie_15_2> a crm:E39_Actor .
@@ -48,7 +48,7 @@
 <https://example.org/name/fie_5_1> a crm:E33_E41_Linguistic_Appellation ;
     crm:P106_is_composed_of <https://example.org/name/fie_7_1> ;
     crm:P190_has_symbolic_content "content" ;
-    crm:P2_has_type <http://vocab.getty.edu/page/aat/300404670> ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300404670> ;
     crm:P72_has_language <https://example.org/name/fie_6_1> .
 
 <https://example.org/name/fie_6_1> a crm:E56_Language .
