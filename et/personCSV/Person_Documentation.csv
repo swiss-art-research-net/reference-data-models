@@ -1,6 +1,7 @@
-identifier,Model Specific Name,Description,CRM Path,used by
-person_195_image,Image,This field is used to record a digital image which is representative of the documented object.,--> P138i --> E36/D9[195_1],Swiss Art Research Infrastructure
-person_196_citation,Citation,This field is used to record a citation to reference documentation for the documented object.,"--> P129i --> E33[196_1] --> rdf:value --> rdfs:Literal<br><br>--> P129i --> E33[196_1] --> P2 --> E55 ""Citation"" ",Swiss Art Research Infrastructure
-person_197_citation_source,Citation Source,This field is used to record the source used for generating the citation for the documented object.,--> P129i --> E33[196_1] --> P106i --> E33[from BibliograPhy Entity Type][197_1],Swiss Art Research Infrastructure
+identifier,Model Specific Name,Model Specific Description,CRM Path,used by
+person_195_image,Image,This field is used to record a digital image which is representative of the documented person.,--> P138i --> E36/D9[195_1],Swiss Art Research Infrastructure
+person_196_citation,Citation,This field is used to record a citation to reference documentation for the documented person.,"--> P129i --> E33[196_1] --> rdf:value --> rdfs:Literal<br><br>--> P129i --> E33[196_1] --> P2 --> E55 ""Citation"" ",Swiss Art Research Infrastructure
+person_197_citation_source,Citation Source,This field is used to record the source used for generating the citation for the documented person.,--> P129i --> E33[196_1] --> P106i --> E33[from BibliograPhy Entity Type][197_1],Swiss Art Research Infrastructure
 person_198_biography,Biography,This field is used to record a short biographical free text about the documented person.,"--> P67i --> E73[198_1] --> P190 --> rdfs:Literal<br><br> --> P67i --> E73[198_1] --> P2 --> E55 ""Biography""<br><br> --> P67i --> E73[198_1] --> P72 --> E56[198_2]",Swiss Art Research Infrastructure
-person_204_same_as,Same As,The field is used to record the sameness between the entity described and an external authority,--> L54 --> E1[204_1],Swiss Art Research Infrastructure
+person_204_same_as,Same As,"The field is used to record the sameness between the entity described and an external authority
+",--> L54 --> E1[204_1],Swiss Art Research Infrastructure

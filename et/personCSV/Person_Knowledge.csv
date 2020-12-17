@@ -1,2 +1,2 @@
-identifier,Model Specific Name,Description,CRM Path,used by
+identifier,Model Specific Name,Model Specific Description,CRM Path,used by
 person_97_languages,Languages,This field is used to record language(s) known by the documented person.,--> SRP1_used_language --> E56[97_1],Swiss Art Research Infrastructure
