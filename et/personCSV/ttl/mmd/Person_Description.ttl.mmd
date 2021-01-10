@@ -13,13 +13,13 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-2["crm:E52_Time-span"]:::Default -->|crm:P81b_end_of_the_end| 3[rdfs:Literal]:::Literal
-6["crm:E65_Creation"]:::Temporal_Entity -->|crm:P4_has_time-span| 2["crm:E52_Time-span"]:::Default
-4["crm:E21_Person"]:::Actor -->|crm:P129i_is_subject_of| 0["crm:E33_Linguistic_Object"]:::Conceptual_Object
-0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P94i_was_created_by| 6["crm:E65_Creation"]:::Temporal_Entity
-2["crm:E52_Time-span"]:::Default -->|crm:P81a_begin_of_the_begin| 10[rdfs:Literal]:::Literal
-6["crm:E65_Creation"]:::Temporal_Entity -->|crm:P14_carried_out_by| 12["crm:E39_Actor"]:::Actor
-6["crm:E65_Creation"]:::Temporal_Entity -->|crm:P63_used_specific_object| 13["crm:E73_Information_Object"]:::Conceptual_Object
-0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 14[rdfs:Literal]:::Literal
-0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P72_has_language| 7["crm:E56_Language"]:::Type
-0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P2_has_type| 16["crm:E55_Type"]:::Type
+0["crm:E65_Creation"]:::Temporal_Entity -->|crm:P14_carried_out_by| 2["crm:E39_Actor"]:::Actor
+0["crm:E65_Creation"]:::Temporal_Entity -->|crm:P63_used_specific_object| 3["crm:E73_Information_Object"]:::Conceptual_Object
+4["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P94i_was_created_by| 0["crm:E65_Creation"]:::Temporal_Entity
+0["crm:E65_Creation"]:::Temporal_Entity -->|crm:P4_has_time-span| 8["crm:E52_Time-span"]:::Default
+6["crm:E21_Person"]:::Actor -->|crm:P129i_is_subject_of| 4["crm:E33_Linguistic_Object"]:::Conceptual_Object
+8["crm:E52_Time-span"]:::Default -->|crm:P81b_end_of_the_end| 11[rdfs:Literal]:::Literal
+4["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 14[rdfs:Literal]:::Literal
+4["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P2_has_type| 12["crm:E55_Type"]:::Type
+8["crm:E52_Time-span"]:::Default -->|crm:P81a_begin_of_the_begin| 15[rdfs:Literal]:::Literal
+4["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P72_has_language| 16["crm:E56_Language"]:::Type
