@@ -13,14 +13,14 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-4["crm:E21_Person"]:::Actor -->|crm:P129i_is_subject_of| 5["crm:E73_Information_Object"]:::Conceptual_Object
-5["crm:E73_Information_Object"]:::Conceptual_Object -->|crm:P72_has_language| 6["crm:E56_Language"]:::Type
-4["crm:E21_Person"]:::Actor -->|crm:P129i_is_subject_of| 7["crm:E33_Linguistic_Object"]:::Conceptual_Object
-7["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P106i_forms_part_of| 8["crm:E33_Linguistic_Object"]:::Conceptual_Object
-5["crm:E73_Information_Object"]:::Conceptual_Object -->|crm:P2_has_type| 9["crm:E55_Type"]:::Type
-4["crm:E21_Person"]:::Actor -->|crmdig:L54_is_same-as| 10["crm:E1_CRM_Entity"]:::CRM_Entity
-4["crm:E21_Person"]:::Actor -->|crm:P138i_has_representation| 0["crmdig:D9_Data_Object<br>crm:E36_Visual_Item"]:::Multi
-9["crm:E55_Type"]:::Type -->|crm:P190_has_symbolic_content| 13[rdfs:Literal]:::Literal
-7["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P2_has_type| 2["crm:E55_Type"]:::Type
-7["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 20[rdfs:Literal]:::Literal
-5["crm:E73_Information_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 22[rdfs:Literal]:::Literal
+2["crm:E21_Person"]:::Actor -->|crmdig:L54_is_same-as| 3["crm:E1_CRM_Entity"]:::CRM_Entity
+2["crm:E21_Person"]:::Actor -->|crm:P138i_has_representation| 0["crmdig:D9_Data_Object<br>crm:E36_Visual_Item"]:::Multi
+6["crm:E73_Information_Object"]:::Conceptual_Object -->|crm:P2_has_type| 7["crm:E55_Type"]:::Type
+6["crm:E73_Information_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 8[rdfs:Literal]:::Literal
+6["crm:E73_Information_Object"]:::Conceptual_Object -->|crm:P72_has_language| 9["crm:E56_Language"]:::Type
+4["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P106i_forms_part_of| 11["crm:E33_Linguistic_Object"]:::Conceptual_Object
+7["crm:E55_Type"]:::Type -->|crm:P190_has_symbolic_content| 16[rdfs:Literal]:::Literal
+4["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 18[rdfs:Literal]:::Literal
+2["crm:E21_Person"]:::Actor -->|crm:P129i_is_subject_of| 6["crm:E73_Information_Object"]:::Conceptual_Object
+4["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P2_has_type| 14["crm:E55_Type"]:::Type
+2["crm:E21_Person"]:::Actor -->|crm:P129i_is_subject_of| 4["crm:E33_Linguistic_Object"]:::Conceptual_Object
