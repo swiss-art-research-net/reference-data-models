@@ -13,13 +13,13 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-2["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P2_has_type| 3["crm:E55_Type"]:::Type
-0["crm:E53_Place"]:::Place -->|crm:P129i_is_subject_of| 2["crm:E33_Linguistic_Object"]:::Conceptual_Object
-2["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P94i_was_created_by| 4["crm:E65_Creation"]:::Temporal_Entity
-4["crm:E65_Creation"]:::Temporal_Entity -->|crm:P4_has_time-span| 5["crm:E52_Time-span"]:::Default
-2["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P72_has_language| 7["crm:E56_Language"]:::Type
-4["crm:E65_Creation"]:::Temporal_Entity -->|crm:P14_carried_out_by| 8["crm:E39_Actor"]:::Actor
-2["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 9[rdfs:Literal]:::Literal
-5["crm:E52_Time-span"]:::Default -->|crm:P81a_begin_of_the_begin| 11[rdfs:Literal]:::Literal
-5["crm:E52_Time-span"]:::Default -->|crm:P81b_end_of_the_end| 16[rdfs:Literal]:::Literal
-4["crm:E65_Creation"]:::Temporal_Entity -->|crm:P63_used_specific_object| 12["crm:E73_Information_Object"]:::Conceptual_Object
+0["crm:E53_Place"]:::Place -->|crm:P129i_is_subject_of| 1["crm:E33_Linguistic_Object"]:::Conceptual_Object
+1["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 4[rdfs:Literal]:::Literal
+1["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P72_has_language| 5["crm:E56_Language"]:::Type
+2["crm:E52_Time-span"]:::Default -->|crm:P81b_end_of_the_end| 14[rdfs:Literal]:::Literal
+1["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P94i_was_created_by| 15["crm:E65_Creation"]:::Temporal_Entity
+1["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P2_has_type| 10["crm:E55_Type"]:::Type
+2["crm:E52_Time-span"]:::Default -->|crm:P81a_begin_of_the_begin| 17[rdfs:Literal]:::Literal
+15["crm:E65_Creation"]:::Temporal_Entity -->|crm:P63_used_specific_object| 8["crm:E73_Information_Object"]:::Conceptual_Object
+15["crm:E65_Creation"]:::Temporal_Entity -->|crm:P4_has_time-span| 2["crm:E52_Time-span"]:::Default
+15["crm:E65_Creation"]:::Temporal_Entity -->|crm:P14_carried_out_by| 12["crm:E39_Actor"]:::Actor
