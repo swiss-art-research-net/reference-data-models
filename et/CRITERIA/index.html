@@ -16,7 +16,7 @@
     
     
       
-        <title>CRITERIA - Semantic Reference Data Models</title>
+        <title>Index - Semantic Reference Data Models</title>
       
     
     
@@ -134,7 +134,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              CRITERIA
+              Index
             
           </span>
 
@@ -565,14 +565,15 @@
               
                 
                 
-                <h1 id="criteria">CRITERIA<a class="headerlink" href="#criteria" title="Permanent link">&para;</a></h1>
-<p><strong>C</strong>idoc c<strong>R</strong>m <strong>I</strong>n <strong>T</strong>riples m<strong>ER</strong>maid d<strong>I</strong>agr<strong>A</strong>ms (CRITERIA) is a Python tool that converts RDF files (based on <a href="http://www.cidoc-crm.org/">CIDOC CRM model</a>) into <a href="https://mermaid-js.github.io/mermaid/#/">Mermaid</a> markdown to generate (flowchart) diagrams.</p>
+                <p><a href="https://github.com/chin-rcip/criteria#criteria-2"><em>Le français suit</em></a></p>
+<h1 id="criteria">CRITERIA<a class="headerlink" href="#criteria" title="Permanent link">&para;</a></h1>
+<p><strong>C</strong>idoc c<strong>R</strong>m <strong>I</strong>n <strong>T</strong>riples m<strong>ER</strong>maid d<strong>I</strong>agr<strong>A</strong>ms (CRITERIA) is a Python tool that converts RDF files (based on the <a href="http://www.cidoc-crm.org/">CIDOC CRM model</a>) into <a href="https://mermaid-js.github.io/mermaid/#/">Mermaid</a> markdown to generate (flowchart) diagrams.</p>
 <p>The tool can generate two types of diagrams using the same RDF file (which must always contain instances):
 * One renders all <strong>instances</strong>, e.g. URIs, dateTime, Literal values
 * The other renders only classes, i.e. the <strong>ontology</strong> of the pattern.</p>
 <p>The markdown is intended to be incorporated into an HTML page; however, a PNG version can be downloaded from <a href="https://mermaid-js.github.io/mermaid-live-editor">Mermaid Live Editor</a> by simply pasting the entire markdown file into the code box. </p>
-<p><strong>UPDATE</strong> A <a href="http://chinrcip.pythonanywhere.com/">live demo</a> of CRITERIA is now available!</p>
-<p>Recommended browsers for Mermaid Live Editor &amp; Live demo:
+<p>If you do not want to use the script directly, a <a href="http://chinrcip.pythonanywhere.com/">Live Demonstrator</a> of CRITERIA is available.</p>
+<p>Recommended browsers for Mermaid Live Editor &amp; Live Demontrator:
 * <strong>Mac</strong>: Safari, Chrome, Firefox
 * <strong>Windows</strong>: Firefox</p>
 <p>Below is an example using CHIN's Birth/Death of People pattern:</p>
@@ -591,31 +592,33 @@ It will run in console; see <a href="#usage">Usage</a> for further instructions.
 <p>The following programming language versions of are necessary to run this tool.
 - Python 3.7.0
 - <a href="https://rdflib.readthedocs.io/en/stable/gettingstarted.html">rdflib 5.0.0</a>
-- <strong>UPDATE</strong>: <a href="https://github.com/RDFLib/rdflib-jsonld">rdflib-jsonld 0.5.0</a></p>
+- <a href="https://github.com/RDFLib/rdflib-jsonld">rdflib-jsonld 0.5.0</a></p>
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
 <h3 id="criteria_1">criteria<a class="headerlink" href="#criteria_1" title="Permanent link">&para;</a></h3>
 <p>The main python script is <strong><code>criteria.py</code></strong>, which requires <strong>three</strong> arguments.
 |Argument|Description|
 |--|--|
 |Type | Type of the diagram; the values must be either <strong><code>instance</code></strong> or <strong><code>ontology</code></strong>|
-|rdf|  RDF input including the full or relative path to the input file (e.g. <code>./rdf/BirthDeath_Fortin.ttl</code>).<br>&gt;&gt;<strong>UPDATE</strong>:<br>- The tool can now process <strong>other input formats</strong> besides <strong><code>Turtle</code></strong>, such as <strong><code>NTriples</code></strong>, <strong><code>RDF/XML</code></strong>, <strong><code>Trig</code></strong>, <strong><code>JSON-LD</code></strong>, etc.<br>- RDF files is NO LONGER needed to be  stored in the folder <code>/rdf</code>. User can now provide their own <strong>input path</strong>, <code>/User/username/path_to_directory/input.ttl</code>.|
-|mmd|  Mermaid output including the full or relative path to the output file (e.g. <code>./mmd/BirthDeath_Fortin.mmd</code>).<br>&gt;&gt;<strong>UPDATE</strong>: User can now provide their own <strong>output path</strong>, <code>/User/username/path_to_directory/output.mmd</code>.|</p>
+|rdf|  RDF input including the full or relative path to the input file (e.g. <code>./rdf/BirthDeath_Fortin.ttl</code>).<br><br>- The tool can process <strong>several input formats</strong> such as <strong><code>Turtle</code></strong>, <strong><code>NTriples</code></strong>, <strong><code>RDF/XML</code></strong>, <strong><code>Trig</code></strong>, <strong><code>JSON-LD</code></strong>, etc.<br>- RDF files do not need to be  stored in the folder <code>/rdf</code>. User can provide their own <strong>input path</strong>, <code>/User/username/path_to_directory/input.ttl</code>.|
+|mmd|  Mermaid output including the full or relative path to the output file (e.g. <code>./mmd/BirthDeath_Fortin.mmd</code>).<br>User can provide their own <strong>output path</strong>, <code>/User/username/path_to_directory/output.mmd</code>.|</p>
 <p>For example, to generate a diagram rendering instances using the <code>BirthDeath_Fortin.ttl</code> file in <code>./rdf</code> folder and the mermaid output to be stored in folder <code>./mmd</code>, the command is as follows:
 <div class="highlight"><pre><span></span><code>$  python criteria.py instance ./rdf/BirthDeath_Fortin.ttl ./mmd/BirthDeath_Fortin.mmd
 </code></pre></div></p>
 <h3 id="rdf_1">rdf<a class="headerlink" href="#rdf_1" title="Permanent link">&para;</a></h3>
 <p>This folder contains RDF files used for testing.</p>
 <blockquote>
-<p><strong>UPDATE</strong>:
-- The tool can now process <strong>prefixes defined by users</strong>.
-- RDF files are no longer needed be stored in the <strong><code>/rdf</code></strong> folder.</p>
+<ul>
+<li>The tool can process <strong>prefixes defined by users</strong>.</li>
+<li>RDF files do not need be stored in the <strong><code>/rdf</code></strong> folder.</li>
+</ul>
 </blockquote>
 <h3 id="mmd">mmd<a class="headerlink" href="#mmd" title="Permanent link">&para;</a></h3>
 <p>This folder contains mermaid outputs generated during testing. </p>
 <blockquote>
-<p><strong>UPDATE</strong>:
-- Output files are no longer stored in the <strong><code>/mmd</code></strong> folder by default. User can now provide their own output path.</p>
-<p><strong>Note</strong>: While processing the triples, the script would grab all of them randomly, meaning user would not have much control about the order of statements in the .mmd. However, it also means that running the script over the same RDF file would generate slightly different Mermaid files (i.e. different order of statements), meaning different graphs (i.e. different positions of the nodes). However, the top node's position will remain the same.</p>
+<ul>
+<li>Output files are no longer stored in the <strong><code>/mmd</code></strong> folder by default. User can now provide their own output path.</li>
+</ul>
+<p><strong>Note</strong>: While processing the triples, the script would grab all of them randomly, meaning user would not have much control about the order of statements in the .mmd. It also means that running the script over the same RDF file would generate slightly different Mermaid files (i.e. different order of statements), meaning different graphs (i.e. different positions of the nodes). However, the top node's position will remain the same.</p>
 </blockquote>
 <h3 id="src">src<a class="headerlink" href="#src" title="Permanent link">&para;</a></h3>
 <p>The <strong><code>/src</code></strong> folder contains resources used by the main script.</p>
@@ -660,6 +663,103 @@ For example, if your <code>.ttl</code> uses <code>E24_Physical_Human-Made_Thing<
 </blockquote>
 <h2 id="contact-us">Contact us<a class="headerlink" href="#contact-us" title="Permanent link">&para;</a></h2>
 <p>For questions or comments regarding CRITERIA, please consult the <a href="https://github.com/chin-rcip/CRITERIA/issues">Issues</a> section (and open an Issue if it is relevant) or contact us by email at the following address: <a href="mailto:pch.RCIP-CHIN.pch@canada.ca">pch.RCIP-CHIN.pch@canada.ca</a></p>
+<h1 id="criteria_2">CRITERIA<a class="headerlink" href="#criteria_2" title="Permanent link">&para;</a></h1>
+<p>CRITERIA (acronyme anglais de <strong>C</strong>idoc c<strong>R</strong>m <strong>I</strong>n <strong>T</strong>riples m<strong>ER</strong>maid d<strong>I</strong>agr<strong>A</strong>ms) est un outil Python permettant de convertir des fichiers RDF (basés sur le <a href="http://www.cidoc-crm.org/">modèle CIDOC CRM</a>) en format <a href="https://mermaid-js.github.io/mermaid/#/">Mermaid</a> markdown pour générer des diagrammes.</p>
+<p>Cet outil peut générer deux types de diagrammes en utilisant un seul fichier RDF (qui doit toujours contenir des instances) :
+* Le premier type de diagramme représente toutes les <strong>instances</strong>, p. ex. des URI, des dates et des valeurs littérales. 
+* Le second type de diagramme représente les classes, c.-à-d. l'<strong>ontologie</strong> du patron conceptuel.</p>
+<p>Le markdown est prévu pour être intégré à une page HTML; une version PNG peut néanmoins être téléchargée depuis un <a href="https://mermaid-js.github.io/mermaid-live-editor">éditeur Mermaid</a> en copiant l'intégralité du fichier markdown dans la boîte de code. </p>
+<p>Pour ceux qui ne souhaitent pas utiliser directement le script, un <a href="http://chinrcip.pythonanywhere.com/">démonstrateur en ligne</a> de CRITERIA est disponible.</p>
+<p>Navigateurs recommandés pour l'éditeur Mermaid et le Démonstrateur en ligne :
+* <strong>Mac</strong>: Safari, Chrome, Firefox
+* <strong>Windows</strong>: Firefox</p>
+<p>L'exemple ci-dessous illustre le patron conceptuel du Réseau canadien d'information sur le patrimoine (RCIP) pour les naissances/décès (l'exemple n'est disponible qu'en anglais à l'heure actuelle): </p>
+<h5 id="rdf_2">RDF<a class="headerlink" href="#rdf_2" title="Permanent link">&para;</a></h5>
+<ul>
+<li><a href="/rdf/BirthDeath_Fortin.ttl">BirthDeath_Fortin.ttl</a></li>
+</ul>
+<h5 id="diagramme-des-instances">Diagramme des instances<a class="headerlink" href="#diagramme-des-instances" title="Permanent link">&para;</a></h5>
+<p><img alt="Birth/Death of People pattern with instances" src="/docs/images/BirthDeath_Fortin.png" /></p>
+<h5 id="representation-de-lontologie">Représentation de l'ontologie<a class="headerlink" href="#representation-de-lontologie" title="Permanent link">&para;</a></h5>
+<p><img alt="Ontology of Birth/Death of People pattern " src="/docs/images/BirthDeathOnto.png" /></p>
+<h2 id="installation_1">Installation<a class="headerlink" href="#installation_1" title="Permanent link">&para;</a></h2>
+<p>L'outil peut être installé en clônant ce répertoire ou en le téléchargeant en format .zip. 
+Le fichier s'exécutera dans la console; voir <a href="#utilisation">Utilisation</a> pour plus de détails sur la procédure à suivre.</p>
+<h3 id="exigences-techniques">Exigences techniques<a class="headerlink" href="#exigences-techniques" title="Permanent link">&para;</a></h3>
+<p>Les versions des langages de programmation suivantes sont nécessaires à l'exécution de l'outil :
+- Python 3.7.0
+- <a href="https://rdflib.readthedocs.io/en/stable/gettingstarted.html">rdflib 5.0.0</a>
+- <a href="https://github.com/RDFLib/rdflib-jsonld">rdflib-jsonld 0.5.0</a></p>
+<h2 id="utilisation">Utilisation<a class="headerlink" href="#utilisation" title="Permanent link">&para;</a></h2>
+<h3 id="criteria_3">criteria<a class="headerlink" href="#criteria_3" title="Permanent link">&para;</a></h3>
+<p>Le principal script python est <strong><code>criteria.py</code></strong>; il exige <strong>trois</strong> arguments:
+|Argument|Description|
+|--|--|
+|Type | Type du diagramme; les valeurs doivent être <strong><code>instance</code></strong> ou <strong><code>ontology</code></strong>|
+|rdf|  Entrée RDF, incluant le chemin complet ou relatif au fichier d'entrée (p. ex. <code>./rdf/BirthDeath_Fortin.ttl</code>).<br><br>- L'outil peut exécuter <strong>plusieurs formats</strong> tels que <strong><code>Turtle</code></strong>, <strong><code>NTriples</code></strong>, <strong><code>RDF/XML</code></strong>, <strong><code>Trig</code></strong>, <strong><code>JSON-LD</code></strong>, etc.<br>- Les fichiers RDF ne doivent pas nécessairement être enregistrés dans le dossier <code>/rdf</code>. L'utilisateur peut utiliser un <strong>chemin d'entrée</strong> qui lui est particulier : <code>/User/username/path_to_directory/input.ttl</code>.|
+|mmd|  Les données converties en Mermaid, incluant le chemin complet ou relatif au fichier extrant (p. ex. <code>./mmd/BirthDeath_Fortin.mmd</code>).<br>L'utilisateur peut soumettre son propre <strong>chemin extrant</strong> : <code>/User/username/path_to_directory/output.mmd</code>.|</p>
+<p>Par exemple, pour générer un diagramme représentant les instances du fichier <code>BirthDeath_Fortin.ttl</code> se trouvant dans le dossier <code>./rdf</code> avec pour extrant un fichier mermaid <code>./mmd</code>, il faut exécuter la commande suivante :
+<div class="highlight"><pre><span></span><code>$  python criteria.py instance ./rdf/BirthDeath_Fortin.ttl ./mmd/BirthDeath_Fortin.mmd
+</code></pre></div></p>
+<h3 id="rdf_3">rdf<a class="headerlink" href="#rdf_3" title="Permanent link">&para;</a></h3>
+<p>Ce dossier contient les fichiers RDF utilisés à des fins de tests.</p>
+<blockquote>
+<ul>
+<li>L'outil peut utiliser des <strong>préfixes définis par l'utilisateur</strong>.</li>
+<li>Il n'est pas nécessaire de stocker les fichiers RDF dans le dossier <strong><code>/rdf</code></strong>.</li>
+</ul>
+</blockquote>
+<h3 id="mmd_1">mmd<a class="headerlink" href="#mmd_1" title="Permanent link">&para;</a></h3>
+<p>Ce dossier contient les extrants mermaid générés par les tests. This folder contains mermaid outputs generated during testing. </p>
+<blockquote>
+<ul>
+<li>Les fichiers RDF extrants ne sont pas stockés dans le dossier <strong><code>/mmd</code></strong> par défaut. L'utilisateur peut soumettre son propre chemin.</li>
+</ul>
+<p><strong>Note</strong>: Pendant le traitement des triplets, le script les analysera de manière aléatoire, ce qui veut dire que l'utilisateur a très peu de contrôle sur l'ordre des énoncés dans le .mmd. De plus, le fait de lancer le script sur un même fichier RDF pourrait générer un fichier Mermaid un peu différent (soit un ordre différent des énoncés), donc aussi des diagrammes différents (soit une disposition différente des noeuds sémantiques). Cependant, la position du noeud sémantique initial restera le même.</p>
+</blockquote>
+<h3 id="src_1">src<a class="headerlink" href="#src_1" title="Permanent link">&para;</a></h3>
+<p>Le dossier <strong><code>/src</code></strong> contient les ressources utilisées par le script principal.</p>
+<h4 id="templates_1">/templates<a class="headerlink" href="#templates_1" title="Permanent link">&para;</a></h4>
+<p>Le dossier <strong><code>templates</code></strong> contient les gabarits utilisés pour générer les fichiers extrants <code>.mmd</code>. Les gabarits ont des classes  de style pré-définies : l'une pour visualiser les instances (<code>instance.mmd</code>) et l'autre pour visualiser l'ontologie (<code>ontology.mmd</code>). Le style par défaut est basé sur le thème CIDOC CRM (tel que l'a proposé George Bruseker).</p>
+<p>Par exemple :
+<div class="highlight"><pre><span></span><code>graph TD
+classDef Literal fill:#f2f2f2,stroke:#000000;
+classDef CRM_Entity fill:#FFFFFF,stroke:#000000;
+classDef CRM_Entity_URI fill:#FFFFFF,stroke:#000000;
+classDef Temporal_Entity fill:#00C9E6, stroke:#000000;
+classDef Temporal_Entity_URI fill:#99f1ff,stroke:#000000;
+</code></pre></div></p>
+<blockquote>
+<p>:warning: À l'heure actuelle, il est possible d'éditer <em>UNIQUEMENT les couleurs</em> dans les fichiers, veuillez ne <strong>PAS changer le <em>nom des fichiers</em> ou le <em>nom des classes</em> !</strong></p>
+</blockquote>
+<h4 id="ontologies_1">/ontologies<a class="headerlink" href="#ontologies_1" title="Permanent link">&para;</a></h4>
+<p>Le dossier <strong><code>ontologies</code></strong> contient les fichiers d'ontologie utilisés par le script. À l'heure actuelle, ce dossier contient les fichiers <code>.rdfs</code> de <a href="http://www.cidoc-crm.org/Version/version-6.2.1">CIDOC CRM (v6.2.1)</a>, <a href="http://www.cidoc-crm.org/frbroo/ModelVersion/frbroo-v.-2.4">FRBRoo (v2.4)</a>, <a href="http://www.cidoc-crm.org/Version/version-6.2">CRMpc (v1.1)</a>, et CRMdig (v3.2.2) (depuis l'application <a href="https://isl.ics.forth.gr/3M/">3M de FORTH</a>).</p>
+<blockquote>
+<p>:warning: il est crucial que les classes <code>.rdfs</code> <strong>soient alignées</strong> avec les classes utilisées dans le <code>.ttl</code>
+Par exemple, si le fichier <code>.ttl</code> utilise <code>E24_Physical_Human-Made_Thing</code> mais que l'ontologie utilise <code>E24_Physical_Man-Made_Thing</code>, le fichier d'ontologie devra être édité en conséquence.</p>
+</blockquote>
+<h4 id="source_1">source<a class="headerlink" href="#source_1" title="Permanent link">&para;</a></h4>
+<p><strong><code>source.py</code></strong> est l'endroit où conserver les objets python qui doivent être importés par le script. Il contient actuellement :
+- <code>classes</code>: une liste d'objets stockant les principales classes CIDOC CRM auxquelles seront appliqués les codes de couleur.
+- <code>onto</code>: un objet-dictionnaire stockant les noms d'ontologies utilisées par le script (c.-à-d. les fichiers <code>.rdfs</code> dans le dossier <code>/ontologies</code>).</p>
+<blockquote>
+<p>:warning: si vous remplacez le fichier <code>.rdfs</code> du dossier <code>/ontologies</code> par un fichier mis à jour ou si vous le renommez, les <strong>valeurs</strong> dans le dictionnaire <code>onto</code> doivent être mises à jour en conséquence.</p>
+</blockquote>
+<h2 id="licence">Licence<a class="headerlink" href="#licence" title="Permanent link">&para;</a></h2>
+<p>CRITERIA est disponible sous licence <a href="https://github.com/chin-rcip/CRITERIA/blob/master/LICENSE">MIT License</a>. Pour rencontrer les critères d'attribution de cette licence, vous devez désigner le détenteur des droits en utilisant la formule suivante :</p>
+<blockquote>
+<p>Copyright &copy; 2020 Canadian Heritage Information Network, Canadian Heritage, Government of Canada - Réseau Canadien d'information sur le patrimoine, Patrimoine canadien, Gouvernement du Canada</p>
+</blockquote>
+<h2 id="utilisateurs-de-criteria">Utilisateurs de CRITERIA<a class="headerlink" href="#utilisateurs-de-criteria" title="Permanent link">&para;</a></h2>
+<p>Le RCIP aimerait souligner les projets et institutions utilisant CRITERIA et grâce à qui l'outil peut être amélioré. Si vous utilisez CRITERIA et que votre projet n'est pas mentionné ci-dessous, n'hésitez pas à <a href="#contactez-nous">nous contacter</a>.</p>
+<p>Projet: <a href="http://docs.swissartresearch.net/">Reference Data Models</a></p>
+<p>Organisation: <a href="http://swissartresearch.net/">Swiss Art Research Infrastructure, University of Zurich</a></p>
+<p>Description (<a href="https://docs.swissartresearch.net/">Source</a>):</p>
+<blockquote>
+<p>The Semantic Reference Data Models project aims to create a series of re-usable templates of semantic pattern for facilitating the integration and querying of cultural heritage data sources. Each template is a collection of semantic patterns and it is grounded on the analysis of selected sources determined to be of relevance an entity. The developed semantic patterns are mapped to the CIDOC-CRM ontology to ensure compatibility across the heritage domain. The patterns can be used to provide reference implementations for institutions and projects not familiar with CIDOC-CRM, to create usable guidelines to generate input interfaces for born-CRM semantic data and to guide mapping processes from extant sources into the CRM conformant reference model using tools such as 3M.</p>
+</blockquote>
+<h2 id="contactez-nous">Contactez-nous<a class="headerlink" href="#contactez-nous" title="Permanent link">&para;</a></h2>
+<p>Pour toute question ou commentaire au sujet de  CRITERIA, veuillez consulter la section <a href="https://github.com/chin-rcip/CRITERIA/issues">Issues</a> (et ouvrir une Issue si c'est pertinent) ou contactez-nous par courriel à l'adresse suivante: <a href="mailto:pch.RCIP-CHIN.pch@canada.ca">pch.RCIP-CHIN.pch@canada.ca</a></p>
                 
                   
                     
@@ -668,7 +768,7 @@ For example, if your <code>.ttl</code> uses <code>E24_Physical_Human-Made_Thing<
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 17, 2020</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 11, 2021</span>
     
   </small>
 </div>
