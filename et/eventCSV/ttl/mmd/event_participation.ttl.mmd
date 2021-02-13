@@ -13,11 +13,11 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-0["crm:E65_Creation"]:::Temporal_Entity -->|crm:P94_has_created| 1["crm:E73_Information_Object"]:::Conceptual_Object
-2["crm:E7_Activity"]:::Temporal_Entity -->|crm:P17_was_motivated_by| 0["crm:E65_Creation"]:::Temporal_Entity
-2["crm:E7_Activity"]:::Temporal_Entity -->|crm:P33_used_specific_technique| 5["crm:E29_Design_or_Procedure"]:::Conceptual_Object
-6["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 7["crm:E55_Type"]:::Type
-6["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 8["crm:E39_Actor"]:::Actor
-2["crm:E7_Activity"]:::Temporal_Entity -->|crm:P16_used_specific_object| 9["crm:E73_Information_Object"]:::Conceptual_Object
-2["crm:E7_Activity"]:::Temporal_Entity -->|crm:P16_used_specific_object| 10["crm:E18_Physical_Thing"]:::Physical_Thing
-2["crm:E7_Activity"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 6["crm:PC14_carried_out_by"]:::PC_Classes
+0["crm:E7_Activity"]:::Temporal_Entity -->|crm:P33_used_specific_technique| 1["crm:E29_Design_or_Procedure"]:::Conceptual_Object
+2["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 3["crm:E39_Actor"]:::Actor
+2["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 7["crm:E55_Type"]:::Type
+0["crm:E7_Activity"]:::Temporal_Entity -->|crm:P16_used_specific_object| 5["crm:E18_Physical_Thing"]:::Physical_Thing
+0["crm:E7_Activity"]:::Temporal_Entity -->|crm:P16_used_specific_object| 10["crm:E73_Information_Object"]:::Conceptual_Object
+0["crm:E7_Activity"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 2["crm:PC14_carried_out_by"]:::PC_Classes
+15["crm:E65_Creation"]:::Temporal_Entity -->|crm:P94_has_created| 13["crm:E73_Information_Object"]:::Conceptual_Object
+0["crm:E7_Activity"]:::Temporal_Entity -->|crm:P17_was_motivated_by| 15["crm:E65_Creation"]:::Temporal_Entity

@@ -13,16 +13,16 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-0["crm:E12_Production"]:::Temporal_Entity -->|crm:P7_took_place_at| 4["crm:E53_Place"]:::Place
-5["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 6["crm:E55_type"]:::Default
-7["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 8[xsd:dateTime]:::Literal
-5["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P108i_was_produced_by| 0["crm:E12_Production"]:::Temporal_Entity
-9["crm:E6_Destruction"]:::Temporal_Entity -->|crm:P7_took_place_at| 10["crm:E53_Place"]:::Place
-7["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 11[xsd:dateTime]:::Literal
-9["crm:E6_Destruction"]:::Temporal_Entity -->|crm:P10_falls_within| 12["crm:E4_Period"]:::Temporal_Entity
-0["crm:E12_Production"]:::Temporal_Entity -->|crm:P4_has_time-span| 7["crm:E52_Time-Span"]:::Time-Span
-9["crm:E6_Destruction"]:::Temporal_Entity -->|crm:P4_has_time-span| 15["crm:E52_Time-Span"]:::Time-Span
-15["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 17[xsd:dateTime]:::Literal
-0["crm:E12_Production"]:::Temporal_Entity -->|crm:P10_falls_within| 2["crm:E4_Period"]:::Temporal_Entity
-15["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 20[xsd:dateTime]:::Literal
-5["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P13i_was_destroyed_by| 9["crm:E6_Destruction"]:::Temporal_Entity
+0["crm:E6_Destruction"]:::Temporal_Entity -->|crm:P4_has_time-span| 1["crm:E52_Time-Span"]:::Time-Span
+2["crm:E12_Production"]:::Temporal_Entity -->|crm:P7_took_place_at| 3["crm:E53_Place"]:::Place
+0["crm:E6_Destruction"]:::Temporal_Entity -->|crm:P10_falls_within| 4["crm:E4_Period"]:::Temporal_Entity
+2["crm:E12_Production"]:::Temporal_Entity -->|crm:P4_has_time-span| 5["crm:E52_Time-Span"]:::Time-Span
+6["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P13i_was_destroyed_by| 0["crm:E6_Destruction"]:::Temporal_Entity
+2["crm:E12_Production"]:::Temporal_Entity -->|crm:P10_falls_within| 10["crm:E4_Period"]:::Temporal_Entity
+0["crm:E6_Destruction"]:::Temporal_Entity -->|crm:P7_took_place_at| 11["crm:E53_Place"]:::Place
+5["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 14[xsd:dateTime]:::Literal
+6["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 8["crm:E55_type"]:::Default
+1["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 17[xsd:dateTime]:::Literal
+1["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 20[xsd:dateTime]:::Literal
+6["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P108i_was_produced_by| 2["crm:E12_Production"]:::Temporal_Entity
+5["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 22[xsd:dateTime]:::Literal
