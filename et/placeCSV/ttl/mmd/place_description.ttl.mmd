@@ -14,12 +14,12 @@ classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
 0["crm:E53_Place"]:::Place -->|crm:P129i_is_subject_of| 1["crm:E33_Linguistic_Object"]:::Conceptual_Object
-1["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P2_has_type| 4["crm:E55_Type"]:::Type
+5["crm:E65_Creation"]:::Temporal_Entity -->|crm:P63_used_specific_object| 6["crm:E73_Information_Object"]:::Conceptual_Object
+1["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P2_has_type| 9["crm:E55_Type"]:::Type
+1["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P72_has_language| 7["crm:E56_Language"]:::Type
 1["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P94i_was_created_by| 5["crm:E65_Creation"]:::Temporal_Entity
-1["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 8[rdfs:Literal]:::Literal
-5["crm:E65_Creation"]:::Temporal_Entity -->|crm:P14_carried_out_by| 12["crm:E39_Actor"]:::Actor
-5["crm:E65_Creation"]:::Temporal_Entity -->|crm:P4_has_time-span| 6["crm:E52_Time-span"]:::Default
-5["crm:E65_Creation"]:::Temporal_Entity -->|crm:P63_used_specific_object| 14["crm:E73_Information_Object"]:::Conceptual_Object
-1["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P72_has_language| 10["crm:E56_Language"]:::Type
-6["crm:E52_Time-span"]:::Default -->|crm:P81b_end_of_the_end| 16[rdfs:Literal]:::Literal
-6["crm:E52_Time-span"]:::Default -->|crm:P81a_begin_of_the_begin| 17[rdfs:Literal]:::Literal
+2["crm:E52_Time-span"]:::Default -->|crm:P81b_end_of_the_end| 11[rdfs:Literal]:::Literal
+5["crm:E65_Creation"]:::Temporal_Entity -->|crm:P4_has_time-span| 2["crm:E52_Time-span"]:::Default
+2["crm:E52_Time-span"]:::Default -->|crm:P81a_begin_of_the_begin| 14[rdfs:Literal]:::Literal
+1["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 15[rdfs:Literal]:::Literal
+5["crm:E65_Creation"]:::Temporal_Entity -->|crm:P14_carried_out_by| 16["crm:E39_Actor"]:::Actor
