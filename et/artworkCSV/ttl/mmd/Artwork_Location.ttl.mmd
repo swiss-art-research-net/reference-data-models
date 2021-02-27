@@ -13,11 +13,11 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-2["crm:E53_Place"]:::Place -->|crm:P2_has_type| 0["crm:E55_Type"]:::Type
-3["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 4["crm:E55_type"]:::Default
-5["crm:E41_Appellation"]:::Appellation -->|crm:P2_has_type| 6["crm:E55_Type"]:::Type
-3["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P53_has_former_or_current_location| 2["crm:E53_Place"]:::Place
-8["crm:E74_Group"]:::Actor -->|crm:P2_has_type| 10["crm:E55_Type"]:::Type
-2["crm:E53_Place"]:::Place -->|crm:P168_place_is_defined_by| 14[rdfs:Literal]:::Literal
-2["crm:E53_Place"]:::Place -->|crm:P1_is_identified_by| 5["crm:E41_Appellation"]:::Appellation
-2["crm:E53_Place"]:::Place -->|crm:P74i_is_current_or_former_residence_of| 8["crm:E74_Group"]:::Actor
+4["crm:E53_Place"]:::Place -->|crm:P168_place_is_defined_by| 5[rdfs:Literal]:::Literal
+4["crm:E53_Place"]:::Place -->|crm:P74i_is_current_or_former_residence_of| 2["crm:E74_Group"]:::Actor
+17["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P53_has_former_or_current_location| 4["crm:E53_Place"]:::Place
+2["crm:E74_Group"]:::Actor -->|crm:P2_has_type| 7["crm:E55_Type"]:::Type
+17["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 9["crm:E55_type"]:::Default
+13["crm:E41_Appellation"]:::Appellation -->|crm:P2_has_type| 11["crm:E55_Type"]:::Type
+4["crm:E53_Place"]:::Place -->|crm:P2_has_type| 0["crm:E55_Type"]:::Type
+4["crm:E53_Place"]:::Place -->|crm:P1_is_identified_by| 13["crm:E41_Appellation"]:::Appellation

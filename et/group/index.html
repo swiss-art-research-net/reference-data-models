@@ -12,7 +12,7 @@
       
       
       <link rel="shortcut icon" href="../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.2">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.3">
     
     
       
@@ -791,20 +791,186 @@
 <table>
 <thead>
 <tr>
-<th>{"error":{"type":"INVALID_REQUEST"</th>
-<th>message:"An error has occurred. Please refresh the page."}}</th>
+<th align="left">identifier</th>
+<th align="left">Model Specific Name</th>
+<th align="left">Model Specific Description</th>
+<th align="left">CRM Path</th>
+<th align="left">used by</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td></td>
-<td></td>
+<td align="left">group_1_identifier</td>
+<td align="left">Identifier</td>
+<td align="left">This field is used to indicate an identifier attributed to the documented group.</td>
+<td align="left">&rarr; P1 &rarr; E42[1_1] &rarr; P190 &rarr; rdfs:Literal</td>
+<td align="left">Swiss Art Research Infrastructure</td>
+</tr>
+<tr>
+<td align="left">group_2_identifier_type</td>
+<td align="left">Identifier Type</td>
+<td align="left">This field is used to indicate the type of an identifier attributed to the documented group.</td>
+<td align="left">&rarr; P1 &rarr; E42[1_1] &rarr; P2 &rarr; E55[2_1]</td>
+<td align="left">Swiss Art Research Infrastructure</td>
+</tr>
+<tr>
+<td align="left">group_3_identifier_provider</td>
+<td align="left">Identifier Provider</td>
+<td align="left">This field is used to indicate the provider of the identifier attributed to the documented group.</td>
+<td align="left">&rarr; P1 &rarr; E42[1_1] &rarr; P37i &rarr; E15[3_1] &rarr; P14 &rarr; E39[3_2]</td>
+<td align="left">Swiss Art Research Infrastructure</td>
+</tr>
+<tr>
+<td align="left">group_4_identifier_source</td>
+<td align="left">Identifier Source</td>
+<td align="left">This field is used to indicate the source based on which the identifier was attributed to the object.</td>
+<td align="left">&rarr; P1 &rarr; E42[1_1] &rarr; P37i &rarr; E15[3_1] &rarr; P16 &rarr; E73[4_1]</td>
+<td align="left">Swiss Art Research Infrastructure</td>
+</tr>
+<tr>
+<td align="left">group_5_name</td>
+<td align="left">Name</td>
+<td align="left">This field is used to indicate the main name attributed to the documented group. No part break down of name is here implied. The full name of a group is expected here where available.</td>
+<td align="left">&rarr; P1 &rarr; E33_E41[5_1] &rarr; P190 &rarr; rdfs:Literal<br><br> &rarr; P1 &rarr; E33_E41[5_1] &rarr; P2 &rarr; E55[5_2]{'preferred terms'}</td>
+<td align="left">Swiss Art Research Infrastructure</td>
+</tr>
+<tr>
+<td align="left">group_6_name_language</td>
+<td align="left">Name Language</td>
+<td align="left">This field is used to indicate the language of the name attributed to the documented entity.</td>
+<td align="left">&rarr; P1 &rarr; E33_E41[5_1] &rarr; P72 &rarr; E56[6_1]</td>
+<td align="left">Swiss Art Research Infrastructure</td>
+</tr>
+<tr>
+<td align="left">group_17_type</td>
+<td align="left">Group Type</td>
+<td align="left">This field is used to indicate a general type assigned to the documented group.</td>
+<td align="left">&rarr; P2 &rarr; E55[17_1]</td>
+<td align="left">Swiss Art Research Infrastructure</td>
+</tr>
+<tr>
+<td align="left">group_17_type</td>
+<td align="left">Legal Status</td>
+<td align="left">This field is used to indicate the legal status of the documented group.</td>
+<td align="left">&rarr; P2 &rarr; E55[17_1]</td>
+<td align="left">Swiss Art Research Infrastructure</td>
+</tr>
+<tr>
+<td align="left">group_10_alternative_name</td>
+<td align="left">Alternative Name</td>
+<td align="left">This field is used to indicate additional names under which the documented group is known. This can be linked to the additional name type and earliest and latest date of use of that name.</td>
+<td align="left">&rarr; P1 &rarr; E33_E41[10_1]  &rarr; P190 &rarr; rdfs:Literal</td>
+<td align="left">Swiss Art Research Infrastructure</td>
+</tr>
+<tr>
+<td align="left">group_11_alternative_name_type</td>
+<td align="left">Alternative Name Type</td>
+<td align="left">This field is used to indicate the type of alternate name that is attributed to the documented group.</td>
+<td align="left">&rarr; P1 &rarr; E33_E41[10_1] &rarr; P2 &rarr; E55[11_1]</td>
+<td align="left">Swiss Art Research Infrastructure</td>
+</tr>
+<tr>
+<td align="left">group_12_alternative_name_language</td>
+<td align="left">Alternative Name Language</td>
+<td align="left">This field is used to indicate the language of the alternate name attributed to the documented group.</td>
+<td align="left">&rarr; P1 &rarr; E33_E41[10_1] &rarr; P72 &rarr; E56[12_1]</td>
+<td align="left">Swiss Art Research Infrastructure</td>
+</tr>
+<tr>
+<td align="left">group_13_alternative_name_use_period_-_earliest</td>
+<td align="left">Alternative Name Use Period - Earliest</td>
+<td align="left">This field is used to indicate the earliest known date for use of this name for the documented group.</td>
+<td align="left">&rarr; P1 &rarr; E33_E41[10_1] &rarr; R64i &rarr; F52[13_1] &rarr; P4 &rarr; E52[13_2] &rarr; P82a &rarr; xsd:dateTime</td>
+<td align="left">Swiss Art Research Infrastructure</td>
+</tr>
+<tr>
+<td align="left">group_14_alternative_name_use_period_-_latest</td>
+<td align="left">Alternative Name Use Period - Latest</td>
+<td align="left">This field is used to indicate the latest known date for use of this name for the documented group.</td>
+<td align="left">&rarr; P1 &rarr; E33_E41[10_1] &rarr; R64i &rarr; F52[13_1] &rarr; P4 &rarr; E52[13_2] &rarr; P82b &rarr; xsd:dateTime</td>
+<td align="left">Swiss Art Research Infrastructure</td>
+</tr>
+<tr>
+<td align="left">group_15_alternative_name_-_attributed_by</td>
+<td align="left">Alternative Name - Attributed by</td>
+<td align="left">This field is used to record the group or individual attributing the alternative name to the documented group.</td>
+<td align="left">&rarr; P1 &rarr; E33_E41[10_1] &rarr; P141i &rarr; E13[15_1] &rarr; P14 &rarr; E39[15_2]</td>
+<td align="left">Swiss Art Research Infrastructure</td>
+</tr>
+<tr>
+<td align="left">group_16_alternative_name_-_source</td>
+<td align="left">Alternative Name - Source</td>
+<td align="left">This field is used to record the source on the basis of which the organization attributing the alternative name use based their attribution.</td>
+<td align="left">&rarr; P1 &rarr; E33_E41[10_1] &rarr; P141i &rarr; E13[15_1] &rarr; P16 &rarr; E73[16_1]</td>
+<td align="left">Swiss Art Research Infrastructure</td>
 </tr>
 </tbody>
 </table>
 <p>The model provides means for tracking identifiers, present and past name use, type and legal status.</p>
-<p><div class="lightgallery"><a data-sub-html="" href="groupCSV/ttl/mmd/png/group_name.png"><img alt="" src="groupCSV/ttl/mmd/png/group_name.png" /></a></div></p>
-<details class="example"><summary>Turtle Encoding</summary><div class="highlight"><pre><span></span><code>
+<p><div class="lightgallery"><a data-sub-html="" href="../groupCSV/ttl/mmd/png/group_name.png"><img alt="" src="../groupCSV/ttl/mmd/png/group_name.png" /></a></div></p>
+<details class="example"><summary>Turtle Encoding</summary><div class="highlight"><pre><span></span><code><span class="k">@prefix</span><span class="w"> </span><span class="nn">crm:</span><span class="w"> </span><span class="nv">&lt;http://www.cidoc-crm.org/cidoc-crm/&gt;</span><span class="w"> </span><span class="p">.</span>
+<span class="k">@prefix</span><span class="w"> </span><span class="nn">frbroo:</span><span class="w"> </span><span class="nv">&lt;http://iflastandards.info/ns/fr/frbr/frbroo/&gt;</span><span class="w"> </span><span class="p">.</span>
+<span class="k">@prefix</span><span class="w"> </span><span class="nn">rdfs:</span><span class="w"> </span><span class="nv">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span><span class="w"> </span><span class="p">.</span>
+<span class="k">@prefix</span><span class="w"> </span><span class="nn">xsd:</span><span class="w"> </span><span class="nv">&lt;http://www.w3.org/2001/XMLSchema#&gt;</span><span class="w"> </span><span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/actor/E74&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E74_Group</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P1_is_identified_by</span> <span class="nv">&lt;https://example.org/name/fie_10_1&gt;</span><span class="p">,</span>
+        <span class="nv">&lt;https://example.org/name/fie_1_1&gt;</span><span class="p">,</span>
+        <span class="nv">&lt;https://example.org/name/fie_5_1&gt;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://example.org/type/fie_17_1&gt;</span> <span class="p">.</span>
+
+<span class="nv">&lt;http://vocab.getty.edu/aat/300404670&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">;</span>
+    <span class="nn">rdfs</span><span class="p">:</span><span class="nt">label</span> <span class="s">&quot;preferred terms&quot;</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/actor/fie_15_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E39_Actor</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/actor/fie_3_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E39_Actor</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/conceptual_object/fie_16_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E73_Information_Object</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/conceptual_object/fie_4_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E73_Information_Object</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/event/fie_13_1&gt;</span> <span class="kt">a</span> <span class="nn">frbroo</span><span class="p">:</span><span class="nt">F52_Name_Use_Activity</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P4_has_time-span</span> <span class="nv">&lt;https://example.org/time_span/fie_13_2&gt;</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/event/fie_15_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E13_Attribute_Assignment</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P14_carried_out_by</span> <span class="nv">&lt;https://example.org/actor/fie_15_2&gt;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P16_used_specific_object</span> <span class="nv">&lt;https://example.org/conceptual_object/fie_16_1&gt;</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/event/fie_3_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E15_Identifier_Assignment</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P14_carried_out_by</span> <span class="nv">&lt;https://example.org/actor/fie_3_2&gt;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P16_used_specific_object</span> <span class="nv">&lt;https://example.org/conceptual_object/fie_4_1&gt;</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/name/fie_10_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E33_E41_Linguistic_Appellation</span> <span class="p">;</span>
+    <span class="nn">frbroo</span><span class="p">:</span><span class="nt">R64i_was_name_used_by</span> <span class="nv">&lt;https://example.org/event/fie_13_1&gt;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P141i_was_assigned_by</span> <span class="nv">&lt;https://example.org/event/fie_15_1&gt;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P190_has_symbolic_content</span> <span class="s">&quot;content&quot;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://example.org/type/fie_11_1&gt;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P72_has_language</span> <span class="nv">&lt;https://example.org/name/fie_12_1&gt;</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/name/fie_12_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E56_Language</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/name/fie_1_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E42_Identifier</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P190_has_symbolic_content</span> <span class="s">&quot;content&quot;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;https://example.org/type/fie_2_1&gt;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P37i_was_assigned_by</span> <span class="nv">&lt;https://example.org/event/fie_3_1&gt;</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/name/fie_5_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E33_E41_Linguistic_Appellation</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P190_has_symbolic_content</span> <span class="s">&quot;content&quot;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P2_has_type</span> <span class="nv">&lt;http://vocab.getty.edu/aat/300404670&gt;</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P72_has_language</span> <span class="nv">&lt;https://example.org/name/fie_6_1&gt;</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/name/fie_6_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E56_Language</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/time_span/fie_13_2&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E52_Time-Span</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P82a_begin_of_the_begin</span> <span class="s">&quot;&quot;</span><span class="p">^^</span><span class="nn">xsd</span><span class="p">:</span><span class="nt">dateTime</span> <span class="p">;</span>
+    <span class="nn">crm</span><span class="p">:</span><span class="nt">P82b_end_of_the_end</span> <span class="s">&quot;&quot;</span><span class="p">^^</span><span class="nn">xsd</span><span class="p">:</span><span class="nt">dateTime</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/type/fie_11_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/type/fie_17_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">.</span>
+
+<span class="nv">&lt;https://example.org/type/fie_2_1&gt;</span> <span class="kt">a</span> <span class="nn">crm</span><span class="p">:</span><span class="nt">E55_Type</span> <span class="p">.</span>
 </code></pre></div>
 </details>
 <h3 id="existence">Existence<a class="headerlink" href="#existence" title="Permanent link">&para;</a></h3>
@@ -1560,11 +1726,11 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.f5903571.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
     
     
     
-      <script src="../../assets/javascripts/bundle.3981fc68.min.js"></script>
+      <script src="../../assets/javascripts/bundle.ca5457b8.min.js"></script>
       
         <script src="../../js/lightgallery.min.js"></script>
       
