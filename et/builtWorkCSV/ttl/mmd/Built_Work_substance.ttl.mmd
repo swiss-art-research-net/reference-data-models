@@ -13,13 +13,13 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-0["crm:E54_Dimension"]:::CRM_Entity -->|crm:P2_has_type| 1["crm:E55_Type"]:::Type
-0["crm:E54_Dimension"]:::CRM_Entity -->|crm:P90_has_value| 2[rdfs:Literal]:::Literal
-5["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P39i_was_measured_by| 6["crm:E16_Measurement"]:::Temporal_Entity
-6["crm:E16_Measurement"]:::Temporal_Entity -->|crm:P40_observed_dimension| 0["crm:E54_Dimension"]:::CRM_Entity
-5["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:108i_was_produced_by| 3["crm:E12_Production"]:::Temporal_Entity
-6["crm:E16_Measurement"]:::Temporal_Entity -->|crm:P14_carried_out_by| 12["crm:E39_Actor"]:::Actor
-5["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P45_consists_of| 13["crm:E57_Material"]:::Type
-0["crm:E54_Dimension"]:::CRM_Entity -->|crm:P91_has_unit| 16["crm:E58_Measurement_unit"]:::Default
-5["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 17["crm:E55_type"]:::Default
-3["crm:E12_Production"]:::Temporal_Entity -->|crm:P32_used_general_technique| 8["crm:E55_Type"]:::Type
+6["crm:E54_Dimension"]:::CRM_Entity -->|crm:P2_has_type| 0["crm:E55_Type"]:::Type
+6["crm:E54_Dimension"]:::CRM_Entity -->|crm:P90_has_value| 9[rdfs:Literal]:::Literal
+4["crm:E12_Production"]:::Temporal_Entity -->|crm:P32_used_general_technique| 15["crm:E55_Type"]:::Type
+18["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:108i_was_produced_by| 4["crm:E12_Production"]:::Temporal_Entity
+18["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 7["crm:E55_type"]:::Default
+18["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P45_consists_of| 2["crm:E57_Material"]:::Type
+18["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P39i_was_measured_by| 13["crm:E16_Measurement"]:::Temporal_Entity
+13["crm:E16_Measurement"]:::Temporal_Entity -->|crm:P40_observed_dimension| 6["crm:E54_Dimension"]:::CRM_Entity
+6["crm:E54_Dimension"]:::CRM_Entity -->|crm:P91_has_unit| 16["crm:E58_Measurement_unit"]:::Default
+13["crm:E16_Measurement"]:::Temporal_Entity -->|crm:P14_carried_out_by| 10["crm:E39_Actor"]:::Actor
