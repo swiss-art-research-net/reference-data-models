@@ -13,13 +13,13 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-0["crm:E65_Creation"]:::Temporal_Entity -->|crm:P4_has_time-span| 1["crm:E52_Time-span"]:::Default
-0["crm:E65_Creation"]:::Temporal_Entity -->|crm:P63_used_specific_object| 2["crm:E73_Information_Object"]:::Conceptual_Object
-8["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 9[rdfs:Literal]:::Literal
-1["crm:E52_Time-span"]:::Default -->|crm:P81b_end_of_the_end| 10[rdfs:Literal]:::Literal
-8["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P2_has_type| 5["crm:E55_Type"]:::Type
-8["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P72_has_language| 12["crm:E56_Language"]:::Type
-1["crm:E52_Time-span"]:::Default -->|crm:P81a_begin_of_the_begin| 13[rdfs:Literal]:::Literal
-8["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P94i_was_created_by| 0["crm:E65_Creation"]:::Temporal_Entity
-0["crm:E65_Creation"]:::Temporal_Entity -->|crm:P14_carried_out_by| 15["crm:E39_Actor"]:::Actor
-3["crm:E74_Group"]:::Actor -->|crm:P129i_is_subject_of| 8["crm:E33_Linguistic_Object"]:::Conceptual_Object
+0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P2_has_type| 1["crm:E55_Type"]:::Type
+4["crm:E52_Time-span"]:::Default -->|crm:P81b_end_of_the_end| 5[rdfs:Literal]:::Literal
+4["crm:E52_Time-span"]:::Default -->|crm:P81a_begin_of_the_begin| 6[rdfs:Literal]:::Literal
+7["crm:E74_Group"]:::Actor -->|crm:P129i_is_subject_of| 0["crm:E33_Linguistic_Object"]:::Conceptual_Object
+11["crm:E65_Creation"]:::Temporal_Entity -->|crm:P14_carried_out_by| 9["crm:E39_Actor"]:::Actor
+11["crm:E65_Creation"]:::Temporal_Entity -->|crm:P4_has_time-span| 4["crm:E52_Time-span"]:::Default
+0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P94i_was_created_by| 11["crm:E65_Creation"]:::Temporal_Entity
+0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P72_has_language| 14["crm:E56_Language"]:::Type
+0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 17[rdfs:Literal]:::Literal
+11["crm:E65_Creation"]:::Temporal_Entity -->|crm:P63_used_specific_object| 12["crm:E73_Information_Object"]:::Conceptual_Object
