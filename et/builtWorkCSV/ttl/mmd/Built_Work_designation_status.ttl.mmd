@@ -13,9 +13,9 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 8["crm:E55_type"]:::Default
-2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P41i_was_classified_by| 9["crm:E17_Type_Assignment"]:::Temporal_Entity
-9["crm:E17_Type_Assignment"]:::Temporal_Entity -->|crm:P14_carried_out_by| 6["crm:E39_Actor"]:::Actor
-9["crm:E17_Type_Assignment"]:::Temporal_Entity -->|crm:P129i_is_subject_of| 0["crm:E73_Information_Object"]:::Conceptual_Object
-9["crm:E17_Type_Assignment"]:::Temporal_Entity -->|crm:P42_assigned| 12["crm:E55_Type"]:::Type
-9["crm:E17_Type_Assignment"]:::Temporal_Entity -->|crm:P141_assigned| 4["crm:E42_Identifier"]:::Appellation
+0["crm:E17_Type_Assignment"]:::Temporal_Entity -->|crm:P129i_is_subject_of| 1["crm:E73_Information_Object"]:::Conceptual_Object
+0["crm:E17_Type_Assignment"]:::Temporal_Entity -->|crm:P141_assigned| 2["crm:E42_Identifier"]:::Appellation
+0["crm:E17_Type_Assignment"]:::Temporal_Entity -->|crm:P42_assigned| 4["crm:E55_Type"]:::Type
+7["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P41i_was_classified_by| 0["crm:E17_Type_Assignment"]:::Temporal_Entity
+0["crm:E17_Type_Assignment"]:::Temporal_Entity -->|crm:P14_carried_out_by| 11["crm:E39_Actor"]:::Actor
+7["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 9["crm:E55_type"]:::Default
