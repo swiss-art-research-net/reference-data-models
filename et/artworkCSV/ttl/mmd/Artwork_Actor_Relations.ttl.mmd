@@ -13,13 +13,13 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 3["crm:E55_type"]:::Default
-4["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 5["crm:E55_Type"]:::Type
-2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P52_has_current_owner| 6["crm:E39_Actor"]:::Actor
-12["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P2_has_type| 8["crm:E55_Type"]:::Type
-2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P140i_was_attributed_by| 12["crm:E13_Attribute_Assignment"]:::Temporal_Entity
-4["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 17["crm:E39_Actor"]:::Actor
-2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P50_current_keeper| 0["crm:E39_Actor"]:::Actor
-2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P108i_was_produced_by| 20["crm:E12_Production"]:::Temporal_Entity
-12["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P141_assigned| 18["crm:E74_Group"]:::Actor
-20["crm:E12_Production"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 4["crm:PC14_carried_out_by"]:::PC_Classes
+8["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 9["crm:E55_Type"]:::Type
+0["crm:E12_Production"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 8["crm:PC14_carried_out_by"]:::PC_Classes
+2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 15["crm:E55_type"]:::Default
+2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P52_has_current_owner| 4["crm:E39_Actor"]:::Actor
+2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P108i_was_produced_by| 0["crm:E12_Production"]:::Temporal_Entity
+2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P140i_was_attributed_by| 20["crm:E13_Attribute_Assignment"]:::Temporal_Entity
+8["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 13["crm:E39_Actor"]:::Actor
+2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P50_current_keeper| 18["crm:E39_Actor"]:::Actor
+20["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P141_assigned| 11["crm:E74_Group"]:::Actor
+20["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P2_has_type| 6["crm:E55_Type"]:::Type
