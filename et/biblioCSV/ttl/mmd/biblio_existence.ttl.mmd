@@ -13,8 +13,8 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-2["frbroo:F24_Publication_Expression"]:::Conceptual_Object -->|frbroo:R24i_was_created_through| 3["frbroo:F30_Publication_Event"]:::Temporal_Entity
-3["frbroo:F30_Publication_Event"]:::Temporal_Entity -->|crm:P4_has_time-span| 0["crm:E52_Time-Span"]:::Time-Span
-0["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 4[xsd:dateTime]:::Literal
-0["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 7[xsd:dateTime]:::Literal
-3["frbroo:F30_Publication_Event"]:::Temporal_Entity -->|crm:P7_took_place_at| 8["crm:E53_Place"]:::Place
+2["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 4[xsd:dateTime]:::Literal
+2["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 5[xsd:dateTime]:::Literal
+0["frbroo:F30_Publication_Event"]:::Temporal_Entity -->|crm:P4_has_time-span| 2["crm:E52_Time-Span"]:::Time-Span
+6["frbroo:F24_Publication_Expression"]:::Conceptual_Object -->|frbroo:R24i_was_created_through| 0["frbroo:F30_Publication_Event"]:::Temporal_Entity
+0["frbroo:F30_Publication_Event"]:::Temporal_Entity -->|crm:P7_took_place_at| 8["crm:E53_Place"]:::Place
