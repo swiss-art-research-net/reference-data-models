@@ -14,10 +14,10 @@ classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
 0["crm:E16_Measurement"]:::Temporal_Entity -->|crm:P40_observed_dimension| 1["crm:E54_Dimension"]:::CRM_Entity
-1["crm:E54_Dimension"]:::CRM_Entity -->|crm:P2_has_type| 2["crm:E55_Type"]:::Type
-3["crmdig:D7_Digital_Machine_Event"]:::Temporal_Entity -->|crm:P33_used_specific_technique| 4["crm:E29_Design_or_Procedure"]:::Conceptual_Object
-6["crmdig:D1_Digital_Object"]:::Conceptual_Object -->|crm:P39i_was_measured_by| 0["crm:E16_Measurement"]:::Temporal_Entity
-1["crm:E54_Dimension"]:::CRM_Entity -->|crm:P90_has_value| 7[rdfs:Literal]:::Literal
-6["crmdig:D1_Digital_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 8[rdfs:Literal]:::Literal
-1["crm:E54_Dimension"]:::CRM_Entity -->|crm:P91_has_unit| 10["crm:E58_Measurement_unit"]:::Default
-6["crmdig:D1_Digital_Object"]:::Conceptual_Object -->|crmdig:L11i_was_output_of| 3["crmdig:D7_Digital_Machine_Event"]:::Temporal_Entity
+1["crm:E54_Dimension"]:::CRM_Entity -->|crm:P90_has_value| 2[rdfs:Literal]:::Literal
+1["crm:E54_Dimension"]:::CRM_Entity -->|crm:P2_has_type| 3["crm:E55_Type"]:::Type
+1["crm:E54_Dimension"]:::CRM_Entity -->|crm:P91_has_unit| 4["crm:E58_Measurement_unit"]:::Default
+8["crmdig:D1_Digital_Object"]:::Conceptual_Object -->|crmdig:L11i_was_output_of| 9["crmdig:D7_Digital_Machine_Event"]:::Temporal_Entity
+8["crmdig:D1_Digital_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 10[rdfs:Literal]:::Literal
+8["crmdig:D1_Digital_Object"]:::Conceptual_Object -->|crm:P39i_was_measured_by| 0["crm:E16_Measurement"]:::Temporal_Entity
+9["crmdig:D7_Digital_Machine_Event"]:::Temporal_Entity -->|crm:P33_used_specific_technique| 6["crm:E29_Design_or_Procedure"]:::Conceptual_Object
