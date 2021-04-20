@@ -13,11 +13,11 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 1[rdfs:Literal]:::Literal
-2["crm:E52_Time-span"]:::Default -->|crm:P81a_begin_of_the_begin| 9[rdfs:Literal]:::Literal
-2["crm:E52_Time-span"]:::Default -->|crm:P81b_end_of_the_end| 12[rdfs:Literal]:::Literal
-0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P94i_was_created_by| 10["crm:E65_Creation"]:::Temporal_Entity
-10["crm:E65_Creation"]:::Temporal_Entity -->|crm:P14_carried_out_by| 6["crm:E39_Actor"]:::Actor
-10["crm:E65_Creation"]:::Temporal_Entity -->|crm:P4_has_time-span| 2["crm:E52_Time-span"]:::Default
-0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P2_has_type| 4["crm:E55_Type"]:::Type
-13["crm:E7_Activity"]:::Temporal_Entity -->|crm:P129i_is_subject_of| 0["crm:E33_Linguistic_Object"]:::Conceptual_Object
+0["crm:E7_Activity"]:::Temporal_Entity -->|crm:P129i_is_subject_of| 1["crm:E33_Linguistic_Object"]:::Conceptual_Object
+1["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 2[rdfs:Literal]:::Literal
+4["crm:E52_Time-span"]:::Default -->|crm:P81b_end_of_the_end| 5[rdfs:Literal]:::Literal
+6["crm:E65_Creation"]:::Temporal_Entity -->|crm:P4_has_time-span| 4["crm:E52_Time-span"]:::Default
+4["crm:E52_Time-span"]:::Default -->|crm:P81a_begin_of_the_begin| 9[rdfs:Literal]:::Literal
+1["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P2_has_type| 10["crm:E55_Type"]:::Type
+1["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P94i_was_created_by| 6["crm:E65_Creation"]:::Temporal_Entity
+6["crm:E65_Creation"]:::Temporal_Entity -->|crm:P14_carried_out_by| 13["crm:E39_Actor"]:::Actor
