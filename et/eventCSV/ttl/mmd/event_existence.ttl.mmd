@@ -14,15 +14,15 @@ classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
 0["crm:E7_Activity"]:::Temporal_Entity -->|crm:P4_has_time-span| 1["crm:E52_Time-Span"]:::Time-Span
-1["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 5[xsd:dateTime]:::Literal
-6["crm:E54_Dimension"]:::CRM_Entity -->|crm:P91_has_unit| 7["crm:E58_Measurement_Unit"]:::Type
-1["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 10[xsd:dateTime]:::Literal
-11["crm:E54_Dimension"]:::CRM_Entity -->|crm:P90_has_value| 13[rdfs:Literal]:::Literal
-11["crm:E54_Dimension"]:::CRM_Entity -->|crm:P91_has_unit| 14["crm:E58_Measurement_Unit"]:::Type
-1["crm:E52_Time-Span"]:::Time-Span -->|crm:P81b_begin_of_the_end| 15[xsd:dateTime]:::Literal
-1["crm:E52_Time-Span"]:::Time-Span -->|crm:P84_had_at_most_duration| 6["crm:E54_Dimension"]:::CRM_Entity
-0["crm:E7_Activity"]:::Temporal_Entity -->|crm:P20i_was_purpose_of| 2["crm:E5_Event"]:::Temporal_Entity
-1["crm:E52_Time-Span"]:::Time-Span -->|crm:P129i_is_subject_of| 17["crm:E33_Linguistic_Object"]:::Conceptual_Object
-1["crm:E52_Time-Span"]:::Time-Span -->|crm:P81a_end_of_the_begin| 20[xsd:dateTime]:::Literal
-1["crm:E52_Time-Span"]:::Time-Span -->|crm:P83_had_at_least_duration| 11["crm:E54_Dimension"]:::CRM_Entity
-6["crm:E54_Dimension"]:::CRM_Entity -->|crm:P90_has_value| 21[rdfs:Literal]:::Literal
+2["crm:E54_Dimension"]:::CRM_Entity -->|crm:P90_has_value| 3[rdfs:Literal]:::Literal
+1["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 6[xsd:dateTime]:::Literal
+1["crm:E52_Time-Span"]:::Time-Span -->|crm:P81b_begin_of_the_end| 8[xsd:dateTime]:::Literal
+2["crm:E54_Dimension"]:::CRM_Entity -->|crm:P91_has_unit| 12["crm:E58_Measurement_Unit"]:::Type
+1["crm:E52_Time-Span"]:::Time-Span -->|crm:P83_had_at_least_duration| 13["crm:E54_Dimension"]:::CRM_Entity
+1["crm:E52_Time-Span"]:::Time-Span -->|crm:P129i_is_subject_of| 15["crm:E33_Linguistic_Object"]:::Conceptual_Object
+13["crm:E54_Dimension"]:::CRM_Entity -->|crm:P91_has_unit| 9["crm:E58_Measurement_Unit"]:::Type
+1["crm:E52_Time-Span"]:::Time-Span -->|crm:P81a_end_of_the_begin| 17[xsd:dateTime]:::Literal
+0["crm:E7_Activity"]:::Temporal_Entity -->|crm:P20i_was_purpose_of| 4["crm:E5_Event"]:::Temporal_Entity
+13["crm:E54_Dimension"]:::CRM_Entity -->|crm:P90_has_value| 18[rdfs:Literal]:::Literal
+1["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 20[xsd:dateTime]:::Literal
+1["crm:E52_Time-Span"]:::Time-Span -->|crm:P84_had_at_most_duration| 2["crm:E54_Dimension"]:::CRM_Entity
