@@ -13,19 +13,19 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-0["crm:E21_Person"]:::Actor -->|crm:P14i_performed| 1["frbroo:F51_Pursuit"]:::Temporal_Entity
 2["frbroo:F51_Pursuit"]:::Temporal_Entity -->|crm:P2_has_type| 3["crm:E55_Type"]:::Type
-0["crm:E21_Person"]:::Actor -->|crm:P14i_performed| 6["frbroo:F51_Pursuit"]:::Temporal_Entity
-2["frbroo:F51_Pursuit"]:::Temporal_Entity -->|crm:P4_has_time-span| 11["crm:E52_Time-Span"]:::Time-Span
-15["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 16[xsd:dateTime]:::Literal
-6["frbroo:F51_Pursuit"]:::Temporal_Entity -->|crm:P7_took_place_at| 4["crm:E53_Place"]:::Place
-0["crm:E21_Person"]:::Actor -->|crm:P14i_performed| 2["frbroo:F51_Pursuit"]:::Temporal_Entity
-1["frbroo:F51_Pursuit"]:::Temporal_Entity -->|crm:P2_has_type| 18["crm:E55_Type"]:::Type
-1["frbroo:F51_Pursuit"]:::Temporal_Entity -->|frbroo:R59_had_typical_subject| 7["crm:E55_Type"]:::Type
-11["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 23[xsd:dateTime]:::Literal
-11["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 24[xsd:dateTime]:::Literal
-6["frbroo:F51_Pursuit"]:::Temporal_Entity -->|frbroo:R59_had_typical_subject| 25["crm:E55_Type"]:::Type
-6["frbroo:F51_Pursuit"]:::Temporal_Entity -->|crm:P4_has_time-span| 15["crm:E52_Time-Span"]:::Time-Span
-2["frbroo:F51_Pursuit"]:::Temporal_Entity -->|crm:P7_took_place_at| 28["crm:E53_Place"]:::Place
-15["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 29[xsd:dateTime]:::Literal
-6["frbroo:F51_Pursuit"]:::Temporal_Entity -->|crm:P2_has_type| 9["crm:E55_Type"]:::Type
+4["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 5[xsd:dateTime]:::Literal
+6["frbroo:F51_Pursuit"]:::Temporal_Entity -->|crm:P2_has_type| 7["crm:E55_Type"]:::Type
+8["crm:E21_Person"]:::Actor -->|crm:P14i_performed| 9["frbroo:F51_Pursuit"]:::Temporal_Entity
+13["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 14[xsd:dateTime]:::Literal
+2["frbroo:F51_Pursuit"]:::Temporal_Entity -->|frbroo:R59_had_typical_subject| 15["crm:E55_Type"]:::Type
+8["crm:E21_Person"]:::Actor -->|crm:P14i_performed| 2["frbroo:F51_Pursuit"]:::Temporal_Entity
+6["frbroo:F51_Pursuit"]:::Temporal_Entity -->|frbroo:R59_had_typical_subject| 0["crm:E55_Type"]:::Type
+9["frbroo:F51_Pursuit"]:::Temporal_Entity -->|crm:P4_has_time-span| 13["crm:E52_Time-Span"]:::Time-Span
+13["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 23[xsd:dateTime]:::Literal
+9["frbroo:F51_Pursuit"]:::Temporal_Entity -->|crm:P7_took_place_at| 25["crm:E53_Place"]:::Place
+8["crm:E21_Person"]:::Actor -->|crm:P14i_performed| 6["frbroo:F51_Pursuit"]:::Temporal_Entity
+2["frbroo:F51_Pursuit"]:::Temporal_Entity -->|crm:P4_has_time-span| 4["crm:E52_Time-Span"]:::Time-Span
+2["frbroo:F51_Pursuit"]:::Temporal_Entity -->|crm:P7_took_place_at| 20["crm:E53_Place"]:::Place
+4["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 31[xsd:dateTime]:::Literal
+9["frbroo:F51_Pursuit"]:::Temporal_Entity -->|crm:P2_has_type| 11["crm:E55_Type"]:::Type
