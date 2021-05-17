@@ -13,13 +13,13 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-2["crm:E65_Creation"]:::Temporal_Entity -->|crm:P63_used_specific_object| 3["crm:E73_Information_Object"]:::Conceptual_Object
-0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P2_has_type| 4["crm:E55_Type"]:::Type
-0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 6[rdfs:Literal]:::Literal
-0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P72_has_language| 7["crm:E56_Language"]:::Type
-8["frbroo:F24_Publication_Expression"]:::Conceptual_Object -->|crm:P129i_is_subject_of| 0["crm:E33_Linguistic_Object"]:::Conceptual_Object
-9["crm:E52_Time-span"]:::Default -->|crm:P81b_end_of_the_end| 10[rdfs:Literal]:::Literal
-2["crm:E65_Creation"]:::Temporal_Entity -->|crm:P4_has_time-span| 9["crm:E52_Time-span"]:::Default
-9["crm:E52_Time-span"]:::Default -->|crm:P81a_begin_of_the_begin| 16[rdfs:Literal]:::Literal
-0["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P94i_was_created_by| 2["crm:E65_Creation"]:::Temporal_Entity
-2["crm:E65_Creation"]:::Temporal_Entity -->|crm:P14_carried_out_by| 13["crm:E39_Actor"]:::Actor
+2["crm:E52_Time-span"]:::Default -->|crm:P81a_begin_of_the_begin| 3[rdfs:Literal]:::Literal
+7["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P94i_was_created_by| 8["crm:E65_Creation"]:::Temporal_Entity
+8["crm:E65_Creation"]:::Temporal_Entity -->|crm:P4_has_time-span| 2["crm:E52_Time-span"]:::Default
+7["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P190_has_symbolic_content| 9[rdfs:Literal]:::Literal
+2["crm:E52_Time-span"]:::Default -->|crm:P81b_end_of_the_end| 10[rdfs:Literal]:::Literal
+8["crm:E65_Creation"]:::Temporal_Entity -->|crm:P14_carried_out_by| 0["crm:E39_Actor"]:::Actor
+8["crm:E65_Creation"]:::Temporal_Entity -->|crm:P63_used_specific_object| 11["crm:E73_Information_Object"]:::Conceptual_Object
+7["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P72_has_language| 15["crm:E56_Language"]:::Type
+7["crm:E33_Linguistic_Object"]:::Conceptual_Object -->|crm:P2_has_type| 12["crm:E55_Type"]:::Type
+5["frbroo:F24_Publication_Expression"]:::Conceptual_Object -->|crm:P129i_is_subject_of| 7["crm:E33_Linguistic_Object"]:::Conceptual_Object
