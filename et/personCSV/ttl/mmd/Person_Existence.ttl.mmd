@@ -13,13 +13,13 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-2["crm:E69_Death"]:::Temporal_Entity -->|crm:P7_took_place_at| 3["crm:E53_Place"]:::Place
-4["crm:E21_Person"]:::Actor -->|crm:P100i_died_in| 2["crm:E69_Death"]:::Temporal_Entity
-7["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 9[xsd:dateTime]:::Literal
-10["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 11[xsd:dateTime]:::Literal
-2["crm:E69_Death"]:::Temporal_Entity -->|crm:P4_has_time-span| 7["crm:E52_Time-Span"]:::Time-Span
-10["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 13[xsd:dateTime]:::Literal
-0["crm:E67_Birth"]:::Temporal_Entity -->|crm:P7_took_place_at| 14["crm:E53_Place"]:::Place
-4["crm:E21_Person"]:::Actor -->|crm:P98i_was_born| 0["crm:E67_Birth"]:::Temporal_Entity
-7["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 17[xsd:dateTime]:::Literal
-0["crm:E67_Birth"]:::Temporal_Entity -->|crm:P4_has_time-span| 10["crm:E52_Time-Span"]:::Time-Span
+0["crm:E21_Person"]:::Actor -->|crm:P100i_died_in| 1["crm:E69_Death"]:::Temporal_Entity
+2["crm:E67_Birth"]:::Temporal_Entity -->|crm:P4_has_time-span| 4["crm:E52_Time-Span"]:::Time-Span
+4["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 5[xsd:dateTime]:::Literal
+0["crm:E21_Person"]:::Actor -->|crm:P98i_was_born| 2["crm:E67_Birth"]:::Temporal_Entity
+6["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 7[xsd:dateTime]:::Literal
+1["crm:E69_Death"]:::Temporal_Entity -->|crm:P7_took_place_at| 8["crm:E53_Place"]:::Place
+4["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 9[xsd:dateTime]:::Literal
+2["crm:E67_Birth"]:::Temporal_Entity -->|crm:P7_took_place_at| 13["crm:E53_Place"]:::Place
+1["crm:E69_Death"]:::Temporal_Entity -->|crm:P4_has_time-span| 6["crm:E52_Time-Span"]:::Time-Span
+6["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 14[xsd:dateTime]:::Literal
