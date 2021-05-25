@@ -13,8 +13,8 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-6["crm:E53_Place"]:::Place -->|crm:P168_place_is_defined_by| 7[rdfs:Literal]:::Literal
-6["crm:E53_Place"]:::Place -->|crm:P1_is_identified_by| 0["crm:E41_Appellation"]:::Appellation
-6["crm:E53_Place"]:::Place -->|crm:P2_has_type| 10["crm:E55_Type"]:::Type
-2["crm:E74_Group"]:::Actor -->|crm:P74_has_current_or_former_residence| 6["crm:E53_Place"]:::Place
-0["crm:E41_Appellation"]:::Appellation -->|crm:P2_has_type| 4["crm:E55_Type"]:::Type
+0["crm:E74_Group"]:::Actor -->|crm:P74_has_current_or_former_residence| 1["crm:E53_Place"]:::Place
+1["crm:E53_Place"]:::Place -->|crm:P1_is_identified_by| 2["crm:E41_Appellation"]:::Appellation
+1["crm:E53_Place"]:::Place -->|crm:P2_has_type| 5["crm:E55_Type"]:::Type
+2["crm:E41_Appellation"]:::Appellation -->|crm:P2_has_type| 7["crm:E55_Type"]:::Type
+1["crm:E53_Place"]:::Place -->|crm:P168_place_is_defined_by| 11[rdfs:Literal]:::Literal

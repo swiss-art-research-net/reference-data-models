@@ -13,13 +13,13 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-0["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P140i_was_attributed_by| 1["crm:E13_Attribute_Assignment"]:::Temporal_Entity
-0["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P50_current_keeper| 3["crm:E39_Actor"]:::Actor
-7["crm:E12_Production"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 5["crm:PC14_carried_out_by"]:::PC_Classes
-0["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P52_has_current_owner| 11["crm:E39_Actor"]:::Actor
-5["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 12["crm:E55_Type"]:::Type
-1["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P2_has_type| 13["crm:E55_Type"]:::Type
-5["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 9["crm:E39_Actor"]:::Actor
-0["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 15["crm:E55_type"]:::Default
-1["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P141_assigned| 21["crm:E74_Group"]:::Actor
-0["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P108i_was_produced_by| 7["crm:E12_Production"]:::Temporal_Entity
+14["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 15["crm:E39_Actor"]:::Actor
+17["crm:E12_Production"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 14["crm:PC14_carried_out_by"]:::PC_Classes
+6["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P140i_was_attributed_by| 19["crm:E13_Attribute_Assignment"]:::Temporal_Entity
+14["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 12["crm:E55_Type"]:::Type
+6["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 10["crm:E55_type"]:::Default
+19["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P141_assigned| 8["crm:E74_Group"]:::Actor
+19["crm:E13_Attribute_Assignment"]:::Temporal_Entity -->|crm:P2_has_type| 0["crm:E55_Type"]:::Type
+6["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P108i_was_produced_by| 17["crm:E12_Production"]:::Temporal_Entity
+6["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P50_current_keeper| 4["crm:E39_Actor"]:::Actor
+6["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P52_has_current_owner| 2["crm:E39_Actor"]:::Actor
