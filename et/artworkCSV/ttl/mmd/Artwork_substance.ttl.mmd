@@ -13,13 +13,13 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-0["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P39i_was_measured_by| 1["crm:E16_Measurement"]:::Temporal_Entity
-0["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 2["crm:E55_type"]:::Default
-0["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P45_consists_of| 9["crm:E57_Material"]:::Type
-5["crm:E54_Dimension"]:::CRM_Entity -->|crm:P2_has_type| 7["crm:E55_Type"]:::Type
-1["crm:E16_Measurement"]:::Temporal_Entity -->|crm:P14_carried_out_by| 3["crm:E39_Actor"]:::Actor
-5["crm:E54_Dimension"]:::CRM_Entity -->|crm:P91_has_unit| 15["crm:E58_Measurement_unit"]:::Default
-1["crm:E16_Measurement"]:::Temporal_Entity -->|crm:P40_observed_dimension| 5["crm:E54_Dimension"]:::CRM_Entity
-0["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:108i_was_produced_by| 10["crm:E12_Production"]:::Temporal_Entity
-5["crm:E54_Dimension"]:::CRM_Entity -->|crm:P90_has_value| 20[rdfs:Literal]:::Literal
-10["crm:E12_Production"]:::Temporal_Entity -->|crm:P32_used_general_technique| 17["crm:E55_Type"]:::Type
+0["crm:E54_Dimension"]:::CRM_Entity -->|crm:P91_has_unit| 1["crm:E58_Measurement_unit"]:::Default
+2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P39i_was_measured_by| 3["crm:E16_Measurement"]:::Temporal_Entity
+0["crm:E54_Dimension"]:::CRM_Entity -->|crm:P2_has_type| 4["crm:E55_Type"]:::Type
+10["crm:E12_Production"]:::Temporal_Entity -->|crm:P32_used_general_technique| 6["crm:E55_Type"]:::Type
+2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 13["crm:E55_type"]:::Default
+0["crm:E54_Dimension"]:::CRM_Entity -->|crm:P90_has_value| 14[rdfs:Literal]:::Literal
+3["crm:E16_Measurement"]:::Temporal_Entity -->|crm:P14_carried_out_by| 15["crm:E39_Actor"]:::Actor
+3["crm:E16_Measurement"]:::Temporal_Entity -->|crm:P40_observed_dimension| 0["crm:E54_Dimension"]:::CRM_Entity
+2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:108i_was_produced_by| 10["crm:E12_Production"]:::Temporal_Entity
+2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P45_consists_of| 8["crm:E57_Material"]:::Type

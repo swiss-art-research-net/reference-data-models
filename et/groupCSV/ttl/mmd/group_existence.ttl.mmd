@@ -13,14 +13,14 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-0["crm:E66_Formation"]:::Temporal_Entity -->|crm:P4_has_time-span| 1["crm:E52_Time-Span"]:::Time-Span
-1["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 4[xsd:dateTime]:::Literal
-6["crm:E74_Group"]:::Actor -->|crm:P99i_was_dissolved_by| 7["crm:E68_Dissolution"]:::Temporal_Entity
-0["crm:E66_Formation"]:::Temporal_Entity -->|crm:P7_took_place_at| 8["crm:E53_Place"]:::Place
-7["crm:E68_Dissolution"]:::Temporal_Entity -->|crm:P4_has_time-span| 9["crm:E52_Time-Span"]:::Time-Span
-7["crm:E68_Dissolution"]:::Temporal_Entity -->|crm:P7_took_place_at| 2["crm:E53_Place"]:::Place
-9["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 11[xsd:dateTime]:::Literal
-9["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 15[xsd:dateTime]:::Literal
-0["crm:E66_Formation"]:::Temporal_Entity -->|crm:P151_was_formed_from| 13["crm:E39_Actor"]:::Actor
-1["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 19[xsd:dateTime]:::Literal
-6["crm:E74_Group"]:::Actor -->|crm:P95i_was_formed_by| 0["crm:E66_Formation"]:::Temporal_Entity
+0["crm:E74_Group"]:::Actor -->|crm:P95i_was_formed_by| 1["crm:E66_Formation"]:::Temporal_Entity
+0["crm:E74_Group"]:::Actor -->|crm:P99i_was_dissolved_by| 2["crm:E68_Dissolution"]:::Temporal_Entity
+3["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 4[xsd:dateTime]:::Literal
+1["crm:E66_Formation"]:::Temporal_Entity -->|crm:P4_has_time-span| 7["crm:E52_Time-Span"]:::Time-Span
+7["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 8[xsd:dateTime]:::Literal
+2["crm:E68_Dissolution"]:::Temporal_Entity -->|crm:P4_has_time-span| 3["crm:E52_Time-Span"]:::Time-Span
+1["crm:E66_Formation"]:::Temporal_Entity -->|crm:P7_took_place_at| 9["crm:E53_Place"]:::Place
+2["crm:E68_Dissolution"]:::Temporal_Entity -->|crm:P7_took_place_at| 10["crm:E53_Place"]:::Place
+1["crm:E66_Formation"]:::Temporal_Entity -->|crm:P151_was_formed_from| 11["crm:E39_Actor"]:::Actor
+7["crm:E52_Time-Span"]:::Time-Span -->|crm:P82a_begin_of_the_begin| 16[xsd:dateTime]:::Literal
+3["crm:E52_Time-Span"]:::Time-Span -->|crm:P82b_end_of_the_end| 18[xsd:dateTime]:::Literal
