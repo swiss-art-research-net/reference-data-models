@@ -13,10 +13,10 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-0["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 1["crm:E39_Actor"]:::Actor
-3["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 4["crm:E39_Actor"]:::Actor
-5["frbroo:F24_Publication_Expression"]:::Conceptual_Object -->|frbroo:R24i_was_created_through| 6["frbroo:F30_Publication_Event"]:::Temporal_Entity
-3["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 7["crm:E55_Type"]:::Type
-0["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 11["crm:E55_Type"]:::Type
-6["frbroo:F30_Publication_Event"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 3["crm:PC14_carried_out_by"]:::PC_Classes
-6["frbroo:F30_Publication_Event"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 0["crm:PC14_carried_out_by"]:::PC_Classes
+2["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 3["crm:E55_Type"]:::Type
+6["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P14.1_in_the_role_of| 0["crm:E55_Type"]:::Type
+7["frbroo:F30_Publication_Event"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 6["crm:PC14_carried_out_by"]:::PC_Classes
+7["frbroo:F30_Publication_Event"]:::Temporal_Entity -->|crm:P01i_is_domain_of| 2["crm:PC14_carried_out_by"]:::PC_Classes
+6["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 9["crm:E39_Actor"]:::Actor
+2["crm:PC14_carried_out_by"]:::PC_Classes -->|crm:P02_has_range| 14["crm:E39_Actor"]:::Actor
+12["frbroo:F24_Publication_Expression"]:::Conceptual_Object -->|frbroo:R24i_was_created_through| 7["frbroo:F30_Publication_Event"]:::Temporal_Entity
