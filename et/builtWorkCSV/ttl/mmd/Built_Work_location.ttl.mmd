@@ -13,8 +13,8 @@ classDef Actor fill:#f58aad, stroke:#000000;
 classDef PC_Classes fill:#4ce600, stroke:#000000;
 classDef Multi fill:#cccccc,stroke:#000000;
 
-0["crm:E53_Place"]:::Place -->|crm:P168_place_is_defined_by| 1[rdfs:Literal]:::Literal
-2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P53_has_former_or_current_location| 0["crm:E53_Place"]:::Place
-0["crm:E53_Place"]:::Place -->|crm:P1_is_identified_by| 8["crm:E41_Appellation"]:::Appellation
-2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 4["crm:E55_type"]:::Default
-8["crm:E41_Appellation"]:::Appellation -->|crm:P2_has_type| 6["crm:E55_Type"]:::Type
+2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P2_has_type| 3["crm:E55_type"]:::Default
+4["crm:E53_Place"]:::Place -->|crm:P168_place_is_defined_by| 6[rdfs:Literal]:::Literal
+4["crm:E53_Place"]:::Place -->|crm:P1_is_identified_by| 0["crm:E41_Appellation"]:::Appellation
+0["crm:E41_Appellation"]:::Appellation -->|crm:P2_has_type| 7["crm:E55_Type"]:::Type
+2["crm:E22_Human-Made_Object"]:::Physical_Thing -->|crm:P53_has_former_or_current_location| 4["crm:E53_Place"]:::Place
